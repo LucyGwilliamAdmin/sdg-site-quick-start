@@ -11,7 +11,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-1",
@@ -19,7 +19,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-2",
@@ -27,7 +27,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-3-1",
@@ -35,7 +35,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-4-1",
@@ -59,7 +59,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-5-2",
@@ -67,7 +67,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-5-3",
@@ -99,7 +99,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-a-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-a-3",
@@ -147,7 +147,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/2-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-2",
@@ -155,7 +155,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/2-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-3-1",
@@ -203,7 +203,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/2-a-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-a-2",
@@ -243,7 +243,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-1-2",
@@ -251,7 +251,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-2-1",
@@ -259,15 +259,15 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-2-2",
           "title": "Коэффициент неонатальной смертности",
-          "description": "",
+          "description": "Число умерших детей в возрасте 0-27 дней на 1000 родившихся живыми",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-1",
@@ -275,7 +275,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-2",
@@ -283,7 +283,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-3",
@@ -291,7 +291,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-3-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-4",
@@ -299,7 +299,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-3-4",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-5",
@@ -315,7 +315,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-4-2",
@@ -323,7 +323,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-5-1",
@@ -347,7 +347,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-7-1",
@@ -355,7 +355,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-7-2",
@@ -363,7 +363,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-7-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-8-1",
@@ -403,7 +403,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-9-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-a-1",
@@ -443,7 +443,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-c-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-d-1",
@@ -467,7 +467,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/4-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-2-1",
@@ -475,7 +475,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/4-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-2-2",
@@ -483,7 +483,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/4-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-3-1",
@@ -575,7 +575,7 @@
         },
         {
           "id": "5-2-2",
-          "title": "Доля женщин и девочек в возрасте от 15 лет,подвергавшихся сексуальному насилию со стороныкого-либо, кроме интимных партнеров, в последние12 месяцев, в разбивке по возрасту и месту происшествия",
+          "title": "Доля когда-либо имевших партнера женщини девочек в возрасте от 15 лет, подвергавшихся физическому,сексуальному или психологическому насилиюсо стороны нынешнего или бывшего интимногопартнера в последние 12 месяцев, в разбивке по формамнасилия и возрасту",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-2-2",
@@ -587,7 +587,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-3-2",
@@ -611,7 +611,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-5-2",
@@ -619,7 +619,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-6-1",
@@ -659,7 +659,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-b-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-c-1",
@@ -691,7 +691,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/6-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-1",
@@ -699,7 +699,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/6-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-2",
@@ -718,12 +718,28 @@
           "status": "notstarted"
         },
         {
+          "id": "6-4-1-2",
+          "title": "Water loss at transportation",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/ru/6-4-1-2",
+          "status": "complete"
+        },
+        {
           "id": "6-4-2",
           "title": "Уровень нагрузки на водные ресурсы: заборпресной воды в процентном отношении к имеющимсязапасам пресной воды",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/6-4-2",
           "status": "notstarted"
+        },
+        {
+          "id": "6-4-2-1",
+          "title": "Total freshwater withdrawal",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/ru/6-4-2-1",
+          "status": "complete"
         },
         {
           "id": "6-5-1",
@@ -779,7 +795,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/7-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-1-2",
@@ -787,7 +803,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/7-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-2-1",
@@ -795,7 +811,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/7-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "7-3-1",
@@ -804,6 +820,22 @@
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/7-3-1",
           "status": "notstarted"
+        },
+        {
+          "id": "7-3-1-1",
+          "title": "Energy intensity",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/ru/7-3-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "7-3-1-2",
+          "title": "Power intensity",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/ru/7-3-1-2",
+          "status": "complete"
         },
         {
           "id": "7-a-1",
@@ -835,7 +867,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/8-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-2-1",
@@ -843,7 +875,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/8-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-3-1",
@@ -883,7 +915,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/8-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-6-1",
@@ -891,7 +923,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/8-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-7-1",
@@ -899,7 +931,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/8-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-8-1",
@@ -923,7 +955,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/8-9-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-9-2",
@@ -955,7 +987,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/8-10-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-10-2",
@@ -964,6 +996,14 @@
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/8-10-2",
           "status": "notstarted"
+        },
+        {
+          "id": "8-10-2-2",
+          "title": "Financial indicators of insurance companies",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/ru/8-10-2-2",
+          "status": "complete"
         }]
     }
   },
@@ -987,7 +1027,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/9-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-2-1",
@@ -1003,7 +1043,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/9-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-3-1",
@@ -1011,7 +1051,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/9-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-3-2",
@@ -1030,6 +1070,14 @@
           "status": "notstarted"
         },
         {
+          "id": "9-4-1-1",
+          "title": "Pollutants emitted by stationary sources",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/ru/9-4-1-1",
+          "status": "complete"
+        },
+        {
           "id": "9-5-1",
           "title": "Доля расходов на научно-исследовательскиеи опытно-конструкторские работы в ВВП",
           "description": "",
@@ -1043,7 +1091,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/9-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-a-1",
@@ -1067,7 +1115,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/9-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -1079,7 +1127,7 @@
         
         {
           "id": "10-1-1",
-          "title": "Темпы роста расходов домохозяйств или доходовна душу населения среди наименее обеспеченных40 процентов населения и среди населения в целом",
+          "title": "10.1.1 Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/10-1-1",
@@ -1087,7 +1135,7 @@
         },
         {
           "id": "10-2-1",
-          "title": "Доля людей с доходом ниже 50 процентовмедианного дохода в разбивке по полу, возрасту ипризнаку инвалидности",
+          "title": "Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/10-2-1",
@@ -1095,15 +1143,15 @@
         },
         {
           "id": "10-3-1",
-          "title": "Доля людей, сообщивших об испытанныхими лично в последние 12 месяцев проявлениях дискриминацииили преследованиях на основании, дискриминацияна котором запрещена международнымправом прав человека",
+          "title": "Доля людей, сообщивших об испытанных ими лично в последние 12 месяцев проявлениях дискриминации или преследованиях на основании, дискриминация на котором запрещена международным правом прав человека",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/10-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-4-1",
-          "title": "Доля доходов трудящихся в ВВП, в томчисле заработная плата и выплаты по линии социальнойзащиты",
+          "title": "Labour share of GDP, comprising wages and social protection transfers",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/10-4-1",
@@ -1111,7 +1159,7 @@
         },
         {
           "id": "10-5-1",
-          "title": "Показатели финансовой устойчивости",
+          "title": "Financial Soundness Indicators",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/10-5-1",
@@ -1119,7 +1167,7 @@
         },
         {
           "id": "10-6-1",
-          "title": "Доля развивающихся стран в членском составемеждународных организаций и удельный весих голосов",
+          "title": "Proportion of members and voting rights of developing countries in international organizations",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/10-6-1",
@@ -1127,7 +1175,7 @@
         },
         {
           "id": "10-7-1",
-          "title": "Затраты работника на трудоустройство в процентахот его годового дохода в стране назначения",
+          "title": "Recruitment cost borne by employee as a proportion of yearly income earned in country of destination",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/10-7-1",
@@ -1135,7 +1183,7 @@
         },
         {
           "id": "10-7-2",
-          "title": "Число стран, проводящих хорошо продуманнуюмиграционную политику",
+          "title": "Number of countries that have implemented well-managed migration policies",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/10-7-2",
@@ -1143,7 +1191,7 @@
         },
         {
           "id": "10-a-1",
-          "title": "Доля товарных позиций наименее развитыхстран и развивающихся стран, к которым применяютсянулевые тарифы",
+          "title": "Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/10-a-1",
@@ -1151,7 +1199,7 @@
         },
         {
           "id": "10-b-1",
-          "title": "Совокупный объем потоков ресурсов в целяхразвития в разбивке по странам-получателям и странам-донорами видам потоков (например, официальнаяпомощь в целях развития, прямые иностранныеинвестиции и прочие финансовые потоки)",
+          "title": "Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/10-b-1",
@@ -1159,7 +1207,7 @@
         },
         {
           "id": "10-c-1",
-          "title": "Стоимость перевода в процентном отношениик переводимой сумме",
+          "title": "Remittance costs as a proportion of the amount remitted",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/10-c-1",
@@ -1175,7 +1223,7 @@
         
         {
           "id": "11-1-1",
-          "title": "Доля городского населения, проживающего втрущобах, неформальных поселениях или в неудовлетворительныхжилищных условиях",
+          "title": "Proportion of urban population living in slums, informal settlements or inadequate housing",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/11-1-1",
@@ -1183,7 +1231,7 @@
         },
         {
           "id": "11-2-1",
-          "title": "Доля населения, имеющего удобный доступк общественному транспорту, в разбивке по полу,возрасту и признаку инвалидности",
+          "title": "Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/11-2-1",
@@ -1191,7 +1239,7 @@
         },
         {
           "id": "11-3-1",
-          "title": "Соотношение темпов застройки и темпов ростанаселения",
+          "title": "Ratio of land consumption rate to population growth rate",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/11-3-1",
@@ -1199,7 +1247,7 @@
         },
         {
           "id": "11-3-2",
-          "title": "Доля городов, в которых регулярно и на демократическойоснове функционируют структуры,обеспечивающие прямое участие гражданского обществав градостроительном планировании и управлениигородским хозяйством",
+          "title": "Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/11-3-2",
@@ -1207,7 +1255,7 @@
         },
         {
           "id": "11-4-1",
-          "title": "Общая сумма расходов (государственных ичастных) в расчете на душу населения на цели сохраненияи защиты всего культурного и природногонаследия в разбивке по видам наследия (культурное,природное, смешанного характера и признанное объектомвсемирного наследия Центром всемирногонаследия), уровню государственной подведомственности(национальный, региональный и местный/ муниципальный),видам расходов (эксплуатационные расходы/капиталовложения) и видам частного финансирования(пожертвования в натуральной форме,частный некоммерческий сектор и спонсорство)",
+          "title": "Total expenditure (public and private) per capita spent on the preservation, protection and conservation of all cultural and natural heritage, by type of heritage (cultural, natural, mixed and World Heritage Centre designation), level of government (national, regional and local/municipal), type of expenditure (operating expenditure/investment) and type of private funding (donations in kind, private non-profit sector and sponsorship)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/11-4-1",
@@ -1215,23 +1263,23 @@
         },
         {
           "id": "11-5-1",
-          "title": "Число погибших, пропавших без вести и пострадавшихнепосредственно в результате бедствий на 100 000 человек",
+          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population (repeat of and 13.1.1)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/11-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-5-2",
-          "title": "Прямые экономические потери в процентномотношении к общемировому ВВП, ущерб важнейшимобъектам инфраструктуры и число обусловленныхбедствиями сбоев в работе основных служб",
+          "title": "Direct economic loss in relation to global GDP, damage to critical infrastructure and number of disruptions to basic services, attributed to disasters",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/11-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-6-1",
-          "title": "Доля твердых бытовых отходов, которые регулярнособираются и надлежащим образом удаляются,в общей массе городских отходов",
+          "title": "Proportion of urban solid waste regularly collected and with adequate final discharge out of total urban solid waste generated, by cities",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/11-6-1",
@@ -1239,7 +1287,7 @@
         },
         {
           "id": "11-6-2",
-          "title": "Среднегодовой уровень содержания мелкихтвердых частиц (например, класса PM2.5 и PM10) ватмосфере городов (в пересчете на численность населения)",
+          "title": "Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/11-6-2",
@@ -1247,7 +1295,7 @@
         },
         {
           "id": "11-7-1",
-          "title": "Средняя доля застроенной городской территории,относящейся к открытым для всех общественнымместам, с указанием доступности в разбивке пополу, возрасту и признаку инвалидности",
+          "title": "Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/11-7-1",
@@ -1255,7 +1303,7 @@
         },
         {
           "id": "11-7-2",
-          "title": "Доля лиц, подвергшихся физическим илисексуальным домогательствам, в разбивке по полу,возрасту, признаку инвалидности и месту происшествияза последние 12 месяцев",
+          "title": "Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/11-7-2",
@@ -1263,7 +1311,7 @@
         },
         {
           "id": "11-a-1",
-          "title": "Доля населения, живущего в городах, осуществляющихгородские и региональные планы застройки,в которых учитываются прогнозы ростанаселения и потребности в ресурсах, в разбивке поразмерам городов",
+          "title": "Proportion of population living in cities that implement urban and regional development plans integrating population projections and resource needs, by size of city",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/11-a-1",
@@ -1271,7 +1319,7 @@
         },
         {
           "id": "11-b-1",
-          "title": "Число стран, принявших и осуществляющихнациональные стратегии снижения риска бедствий всоответствии с Сендайской рамочной программой поснижению риска бедствий на 2015–2030 годы",
+          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/11-b-1",
@@ -1279,7 +1327,7 @@
         },
         {
           "id": "11-b-2",
-          "title": "Доля местных органов власти, принявших иосуществляющих местные стратегии снижения рискабедствий в соответствии с национальными стратегиямиснижения риска бедствий",
+          "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/11-b-2",
@@ -1287,7 +1335,7 @@
         },
         {
           "id": "11-c-1",
-          "title": "Доля финансовой поддержки наименее развитыхстран, выделяемой на строительство экологичных,прочных и ресурсосберегающих зданий и переоборудование зданий для обеспечения их экологичности,прочности и экономии ресурсов с использованиемместных материалов",
+          "title": "Proportion of financial support to the least developed countries that is allocated to the construction and retrofitting of sustainable, resilient and resource-efficient buildings utilizing local materials",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/11-c-1",
@@ -1303,7 +1351,7 @@
         
         {
           "id": "12-1-1",
-          "title": "Число стран, имеющих национальный пландействий по переходу к рациональным моделям потребленияи производства или включивших рациональноепотребление и производство в качестве приоритетаили задачи в национальную стратегию",
+          "title": "Number of countries with sustainable consumption and production (SCP) national action plans or SCP mainstreamed as a priority or a target into national policies",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/12-1-1",
@@ -1311,7 +1359,7 @@
         },
         {
           "id": "12-2-1",
-          "title": "Совокупные ресурсозатраты и ресурсозатратына душу населения и в процентном отношениик ВВП",
+          "title": "Material footprint, material footprint per capita, and material footprint per GDP",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/12-2-1",
@@ -1319,7 +1367,7 @@
         },
         {
           "id": "12-2-2",
-          "title": "Совокупное внутреннее материальное потреблениеи внутреннее материальное потреблениена душу населения и в процентном отношении кВВП",
+          "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/12-2-2",
@@ -1327,7 +1375,7 @@
         },
         {
           "id": "12-3-1",
-          "title": "Глобальный индекс потерь продовольствия",
+          "title": "Global food loss index",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/12-3-1",
@@ -1335,7 +1383,7 @@
         },
         {
           "id": "12-4-1",
-          "title": "Число сторон международных многостороннихэкологических соглашений по опасным и инымхимических веществам и отходам, выполняющихсвои обязательства и обязанности по передаче информациив соответствии с требованиями каждогосоглашения",
+          "title": "Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/12-4-1",
@@ -1343,7 +1391,7 @@
         },
         {
           "id": "12-4-2",
-          "title": "Образование опасных отходов на душу населенияи доля обрабатываемых опасных отходов в разбивкепо видам обработки",
+          "title": "Hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/12-4-2",
@@ -1351,7 +1399,7 @@
         },
         {
           "id": "12-5-1",
-          "title": "Национальный уровень переработки отходов,масса утилизированных материалов в тоннах",
+          "title": "National recycling rate, tons of material recycled",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/12-5-1",
@@ -1359,7 +1407,7 @@
         },
         {
           "id": "12-6-1",
-          "title": "Число компаний, публикующих отчеты о рациональномиспользовании ресурсов",
+          "title": "Number of companies publishing sustainability reports",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/12-6-1",
@@ -1367,7 +1415,7 @@
         },
         {
           "id": "12-7-1",
-          "title": "Число стран, осуществляющих стратегии ипланы действий по экологизации государственныхзакупок",
+          "title": "Number of countries implementing sustainable public procurement policies and action plans",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/12-7-1",
@@ -1375,7 +1423,7 @@
         },
         {
           "id": "12-8-1",
-          "title": "Статус i) воспитания в духе всемирной гражданственностии ii) пропаганды устойчивого развития(включая просвещение по проблеме измененияклимата) a) в национальной политике в сфере образования;b) в учебных программах; c) в программахподготовки учителей; и d) в системе аттестации учащихся",
+          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development (including climate change education) are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/12-8-1",
@@ -1383,7 +1431,7 @@
         },
         {
           "id": "12-a-1",
-          "title": "Объем помощи развивающимся странам всфере научно-исследовательских и опытно-конструкторскихработ в интересах обеспечения рациональногопотребления и производства и внедрения экологическибезопасных технологий",
+          "title": "Amount of support to developing countries on research and development for sustainable consumption and production and environmentally sound technologies",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/12-a-1",
@@ -1391,7 +1439,7 @@
         },
         {
           "id": "12-b-1",
-          "title": "Число стратегий или директив и осуществляемыхпланов действий в области устойчивого туризмас согласованными инструментами мониторингаи оценки",
+          "title": "Number of sustainable tourism strategies or policies and implemented action plans with agreed monitoring and evaluation tools",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/12-b-1",
@@ -1399,7 +1447,7 @@
         },
         {
           "id": "12-c-1",
-          "title": "Сумма субсидий на ископаемое топливо наединицу ВВП (производство и потребление) и ихдоля в совокупных национальных расходах на ископаемоетопливо",
+          "title": "Amount of fossil-fuel subsidies per unit of GDP (production and consumption) and as a proportion of total national expenditure on fossil fuels",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/12-c-1",
@@ -1415,15 +1463,15 @@
         
         {
           "id": "13-1-1",
-          "title": "Число погибших, пропавших без вести и пострадавшихнепосредственно в результате бедствийна 100 000 человек",
+          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/13-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-1-2",
-          "title": "Число стран, принявших и осуществляющихнациональные стратегии снижения риска бедствий всоответствии с Сендайской рамочной программой поснижению риска бедствий на 2015–2030 годы",
+          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/13-1-2",
@@ -1431,7 +1479,7 @@
         },
         {
           "id": "13-1-3",
-          "title": "Доля местных органов власти, принявших иосуществляющих местные стратегии снижения рискабедствий в соответствии с национальными стратегиямиснижения риска бедствий",
+          "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/13-1-3",
@@ -1439,7 +1487,7 @@
         },
         {
           "id": "13-2-1",
-          "title": "Число стран, сообщивших о создании иливведении в действие комплексной политики/стратегии/плана, повышающих их способность адаптироватьсяк неблагоприятным последствиям измененияклимата и содействующих развитию их потенциалапротиводействия климатическим изменениям иснижению выбросов парниковых газов таким образом,чтобы это не ставило под угрозу производствопродовольствия (включая национальный адаптационныйплан, определяемый на национальном уровневклад, национальную систему информирования населения,подготовку двухгодичного обновленного докладаили другое)",
+          "title": "Number of countries that have communicated the establishment or operationalization of an integrated policy/strategy/plan which increases their ability to adapt to the adverse impacts of climate change, and foster climate resilience and low greenhouse gas emissions development in a manner that does not threaten food production (including a national adaptation plan, nationally determined contribution, national communication, biennial update report or other)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/13-2-1",
@@ -1447,7 +1495,7 @@
         },
         {
           "id": "13-3-1",
-          "title": "Число стран, включивших вопросы смягченияостроты и ослабления последствий измененияклимата, адаптации к ним и раннего предупрежденияв учебные программы начальной и средней школы ивысших учебных заведений",
+          "title": "Number of countries that have integrated mitigation, adaptation, impact reduction and early warning into primary, secondary and tertiary curricula",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/13-3-1",
@@ -1455,7 +1503,7 @@
         },
         {
           "id": "13-3-2",
-          "title": "Число стран, сообщивших об укрепленииинституциональных, системных и индивидуальныхвозможностей для осуществления мер в областиадаптации к климатическим изменениям, смягченияих последствий и передачи и развития технологии",
+          "title": "Number of countries that have communicated the strengthening of institutional, systemic and individual capacity-building to implement adaptation, mitigation and technology transfer, and development actions",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/13-3-2",
@@ -1463,7 +1511,7 @@
         },
         {
           "id": "13-a-1",
-          "title": "Сумма (в долл. США), мобилизованнаяза год с 2020 по 2025 год в соответствии с обязательствомпо мобилизации 100 млрд. долл. США",
+          "title": "Mobilized amount of United States dollars per year between 2020 and 2025 accountable towards the $100 billion commitment",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/13-a-1",
@@ -1471,7 +1519,7 @@
         },
         {
           "id": "13-b-1",
-          "title": "Число наименее развитых стран и малыхостровных развивающихся государств, которые получаютспециализированную поддержку, в том числеориентированную на женщин, молодежь и местные имаргинализированные общины, и величина такойподдержки, включая финансирование, технологии иукрепление потенциала, предоставляемой для созданиямеханизмов, расширяющих возможности в частипланирования и управления, связанных с изменением климата",
+          "title": "Number of least developed countries and small island developing States that are receiving specialized support, and amount of support, including finance, technology and capacity-building, for mechanisms for raising capacities for effective climate change-related planning and management, including focusing on women, youth and local and marginalized communities",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/13-b-1",
@@ -1487,7 +1535,7 @@
         
         {
           "id": "14-1-1",
-          "title": "Индекс прибрежной эвтрофикации и плотностьплавающего лома пластмасс",
+          "title": "Index of coastal eutrophication and floating plastic debris density",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/14-1-1",
@@ -1495,7 +1543,7 @@
         },
         {
           "id": "14-2-1",
-          "title": "Доля национальных исключительных экономическихзон, в управлении которыми применяютсяэкосистемные подходы",
+          "title": "Proportion of national exclusive economic zones managed using ecosystem-based approaches",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/14-2-1",
@@ -1503,7 +1551,7 @@
         },
         {
           "id": "14-3-1",
-          "title": "Средняя кислотность (pH) морской воды, измеряемаяв согласованной группе репрезентативныхстанций отбора проб",
+          "title": "Average marine acidity (pH) measured at agreed suite of representative sampling stations",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/14-3-1",
@@ -1511,7 +1559,7 @@
         },
         {
           "id": "14-4-1",
-          "title": "Доля рыбных запасов, находящихся в биологическиустойчивых пределах",
+          "title": "Proportion of fish stocks within biologically sustainable levels",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/14-4-1",
@@ -1519,7 +1567,7 @@
         },
         {
           "id": "14-5-1",
-          "title": "Доля охраняемых морских районов",
+          "title": "Coverage of protected areas in relation to marine areas",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/14-5-1",
@@ -1527,7 +1575,7 @@
         },
         {
           "id": "14-6-1",
-          "title": "Достигнутый странами прогресс с точки зрениястепени соблюдения международно-правовыхдокументов по борьбе с незаконным, несообщаемыми нерегулируемым рыбным промыслом",
+          "title": "Progress by countries in the degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/14-6-1",
@@ -1535,7 +1583,7 @@
         },
         {
           "id": "14-7-1",
-          "title": "Экологически рациональный рыбный промыселв процентах от ВВП в малых островных развивающихсягосударствах, в наименее развитых странахи во всех странах",
+          "title": "Sustainable fisheries as a proportion of GDP in small island developing States, least developed countries and all countries",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/14-7-1",
@@ -1543,7 +1591,7 @@
         },
         {
           "id": "14-a-1",
-          "title": "Доля бюджетных ассигнований на научныеисследования в области морских технологий в общемобъеме бюджетных ассигнований на научные исследования",
+          "title": "Proportion of total research budget allocated to research in the field of marine technology",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/14-a-1",
@@ -1551,7 +1599,7 @@
         },
         {
           "id": "14-b-1",
-          "title": "Достигнутый странами прогресс с точки зрениястепени применения нормативно-правовых/ стратегических/институциональныхрамок, обеспечивающихпризнание и защиту прав доступа мелких рыбопромысловыхпредприятий",
+          "title": "Progress by countries in the degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/14-b-1",
@@ -1559,7 +1607,7 @@
         },
         {
           "id": "14-c-1",
-          "title": "Число стран, добившихся прогресса в ратификации,принятии и осуществлении, по линии правовых,стратегических и институциональных рамок,правовых документов по вопросам Мирового океана,направленных на осуществление закрепленных вКонвенции Организации Объединенных Наций поморскому праву норм международного права, касающихсясохранения и рационального использованияМирового океана и его ресурсов",
+          "title": "Number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the United Nation Convention on the Law of the Sea, for the conservation and sustainable use of the oceans and their resources",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/14-c-1",
@@ -1575,23 +1623,31 @@
         
         {
           "id": "15-1-1",
-          "title": "Площадь лесов в процентном отношении кобщей площади суши",
+          "title": "Площадь лесов в процентном отношении к общей площади суши",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/15-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-1-2",
-          "title": "Доля важных с точки зрения биологического разнообразия районов суши и пресноводных районов,находящихся под охраной, в разбивке по видамэкосистем",
+          "title": "Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/15-1-2",
           "status": "notstarted"
         },
         {
+          "id": "15-1-2-1",
+          "title": "Protected areas as a share of the country's surface",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/ru/15-1-2-1",
+          "status": "complete"
+        },
+        {
           "id": "15-2-1",
-          "title": "Прогресс в переходе на неистощительное ведениелесного хозяйства",
+          "title": "Progress towards sustainable forest management",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/15-2-1",
@@ -1599,7 +1655,7 @@
         },
         {
           "id": "15-3-1",
-          "title": "Площадь деградировавших земель в процентномотношении к общей площади суши",
+          "title": "Proportion of land that is degraded over total land area",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/15-3-1",
@@ -1607,7 +1663,7 @@
         },
         {
           "id": "15-4-1",
-          "title": "Доля охраняемых районов среди важных длягорного биоразнообразия участков",
+          "title": "Coverage by protected areas of important sites for mountain biodiversity",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/15-4-1",
@@ -1615,7 +1671,7 @@
         },
         {
           "id": "15-4-2",
-          "title": "Индекс растительного покрова гор",
+          "title": "Mountain Green Cover Index",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/15-4-2",
@@ -1623,7 +1679,7 @@
         },
         {
           "id": "15-5-1",
-          "title": "Индекс Красного списка",
+          "title": "Red List Index",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/15-5-1",
@@ -1631,7 +1687,7 @@
         },
         {
           "id": "15-6-1",
-          "title": "Число стран, принявших комплексы законодательных,административных и директивных мер,обеспечивающих справедливое и недискриминационноераспределение благ",
+          "title": "Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/15-6-1",
@@ -1639,7 +1695,7 @@
         },
         {
           "id": "15-7-1",
-          "title": "Доля диких животных, являющихся объектомбраконьерства или незаконного оборота, средивидов, которыми ведется торговля",
+          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/15-7-1",
@@ -1647,7 +1703,7 @@
         },
         {
           "id": "15-8-1",
-          "title": "Доля стран, принимающих соответствующеенациональное законодательство и выделяющих достаточныересурсы для предотвращения проникновенияили регулирования численности чужеродных инвазивныхвидов",
+          "title": "Proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/15-8-1",
@@ -1655,7 +1711,7 @@
         },
         {
           "id": "15-9-1",
-          "title": "Прогресс в достижении национальных целевыхпоказателей, установленных в соответствии сАйтинской целевой задачей 2 по биоразнообразию врамках Стратегического плана по биоразнообразиюна 2011–2020 годы",
+          "title": "Progress towards national targets established in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011-2020",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/15-9-1",
@@ -1663,7 +1719,7 @@
         },
         {
           "id": "15-a-1",
-          "title": "Объем официальной помощи в целях развитияи государственных средств, выделяемых на сохранениеи рациональное использование биоразнообразияи экосистем",
+          "title": "Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/15-a-1",
@@ -1671,7 +1727,7 @@
         },
         {
           "id": "15-b-1",
-          "title": "Объем официальной помощи в целях развитияи государственных средств, выделяемых на сохранениеи рациональное использование биоразнообразияи экосистем",
+          "title": "Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/15-b-1",
@@ -1679,7 +1735,7 @@
         },
         {
           "id": "15-c-1",
-          "title": "Доля диких животных, являющихся объектомбраконьерства или незаконного оборота, средивидов, которыми ведется торговля",
+          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/15-c-1",
@@ -1695,7 +1751,7 @@
         
         {
           "id": "16-1-1",
-          "title": "Число жертв умышленных убийств на100 000 человек в разбивке по возрастной группе иполу",
+          "title": "Number of victims of intentional homicide per 100,000 population, by sex and age",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-1-1",
@@ -1703,7 +1759,7 @@
         },
         {
           "id": "16-1-2",
-          "title": "Число связанных с конфликтами смертей на100 000 человек (в разбивке по возрастной группе,полу и причине)",
+          "title": "Conflict-related deaths per 100,000 population, by sex, age and cause",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-1-2",
@@ -1711,7 +1767,7 @@
         },
         {
           "id": "16-1-3",
-          "title": "Доля населения, в последние 12 месяцевподвергшегося a) физическому, b) психологическомуи c) сексуальному насилию",
+          "title": "Доля населения, в последние 12 месяцев подвергшегося a) физическому, b) психологическому и c) сексуальному насилию",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-1-3",
@@ -1719,23 +1775,23 @@
         },
         {
           "id": "16-1-4",
-          "title": "Доля людей, чувствующих себя в безопасности,когда они идут одни по улице в своем районе",
+          "title": "Доля людей, чувствующих себя в безопасности, когда они идут одни по улице в своем районе",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-1-4",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-2-1",
-          "title": "Доля детей в возрасте от 1 года до 17 лет, впоследний месяц подвергшихся любому физическомунаказанию и/или психологической агрессии состороны тех, кто обеспечивает уход за ними",
+          "title": "Доля детей в возрасте от 1 года до 17 лет, в последний месяц подвергшихся любому физическому наказанию и/или психологической агрессии со стороны тех, кто обеспечивает уход за ними",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-2-2",
-          "title": "Число жертв торговли людьми на 100 000 человекв разбивке по полу, возрасту и форме эксплуатации",
+          "title": "Number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-2-2",
@@ -1743,7 +1799,7 @@
         },
         {
           "id": "16-2-3",
-          "title": "Доля молодых женщин и мужчин в возрастеот 18 до 24 лет, подвергшихся сексуальному насилиюдо достижения 18 лет",
+          "title": "Proportion of young women and men aged 18-29 years who experienced sexual violence by age 18",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-2-3",
@@ -1751,15 +1807,15 @@
         },
         {
           "id": "16-3-1",
-          "title": "Доля жертв насилия, которые в последние12 месяцев подали соответствующую жалобу в компетентныеорганы или другие официально признанныемеханизмы урегулирования конфликтов",
+          "title": "Доля жертв насилия, которые в последние 12 месяцев подали соответствующую жалобу в компетентные органы или другие официально признанные механизмы урегулирования конфликтов",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-3-2",
-          "title": "Доля лиц, задерживаемых до вынесения приговора,в общей численности лиц, содержащихся под стражей",
+          "title": "Unsentenced detainees as a proportion of overall prison population",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-3-2",
@@ -1767,7 +1823,7 @@
         },
         {
           "id": "16-4-1",
-          "title": "Общий объем входящих и исходящих незаконныхфинансовых потоков (в долларах США в текущихценах)",
+          "title": "Total value of inward and outward illicit financial flows (in current United States dollars)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-4-1",
@@ -1775,7 +1831,7 @@
         },
         {
           "id": "16-4-2",
-          "title": "Доля изъятого, обнаруженного или сданногооружия, незаконное происхождение или обстоятельстваприобретения которого было отслежено илиустановлено компетентным органом в соответствии смеждународными документами",
+          "title": "Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-4-2",
@@ -1783,7 +1839,7 @@
         },
         {
           "id": "16-5-1",
-          "title": "Доля лиц, которые в предыдущие 12 месяцевхотя бы один раз имели контакт с государственнымдолжностным лицом и которые заплатили взятку государственномудолжностному лицу или от которыхэто государственное должностное лицо требоваловзятку",
+          "title": "Proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-5-1",
@@ -1791,7 +1847,7 @@
         },
         {
           "id": "16-5-2",
-          "title": "Доля коммерческих компаний, которые впредыдущие 12 месяцев хотя бы один раз имели контактс государственным должностным лицом и которыезаплатили взятку государственному должностномулицу или от которых это государственное должностноелицо требовало взятку",
+          "title": "Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-5-2",
@@ -1799,7 +1855,7 @@
         },
         {
           "id": "16-6-1",
-          "title": "Первичные расходы правительства в процентномотношении к первоначальному утвержденномубюджету в разбивке по секторам (по кодам бюджетнойклассификации или аналогичным категориям)",
+          "title": "Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-6-1",
@@ -1807,15 +1863,23 @@
         },
         {
           "id": "16-6-2",
-          "title": "Доля населения, удовлетворенного последнимопытом использования государственных услуг",
+          "title": "Proportion of population satisfied with their last experience of public services",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-6-2",
           "status": "notstarted"
         },
         {
+          "id": "16-6-2-1",
+          "title": "Executive branch of the government satisfaction index",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/ru/16-6-2-1",
+          "status": "complete"
+        },
+        {
           "id": "16-7-1",
-          "title": "Доля должностей (в разбивке по возрастнойгруппе, полу, признаку инвалидности и группе населения)в государственных учреждениях (национальныхи местных законодательных собраниях, государственнойслужбе и судебных органах) в сравнении снациональным распределением",
+          "title": "Proportions of positions (by sex, age, persons with disabilities and population groups) in public institutions (national and local legislatures, public service, and judiciary) compared to national distributions",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-7-1",
@@ -1823,7 +1887,7 @@
         },
         {
           "id": "16-7-2",
-          "title": "Доля населения, считающего процесс принятиярешений всеохватывающим и оперативным, вразбивке по полу, возрасту, признаку инвалидности игруппе населения",
+          "title": "Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-7-2",
@@ -1831,7 +1895,7 @@
         },
         {
           "id": "16-8-1",
-          "title": "Доля развивающихся стран в членском составемеждународных организаций и удельный весих голосов",
+          "title": "Proportion of members and voting rights of developing countries in international organizations",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-8-1",
@@ -1839,15 +1903,15 @@
         },
         {
           "id": "16-9-1",
-          "title": "Доля детей в возрасте до пяти лет, рождениекоторых было зарегистрировано в гражданских органах,в разбивке по возрасту",
+          "title": "Доля детей в возрасте до пяти лет, рождение которых было зарегистрировано в гражданских органах, в разбивке по возрасту",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-9-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-a-1",
-          "title": "Наличие независимых национальных правозащитныхинститутов, действующих в соответствиис Парижскими принципами",
+          "title": "Existence of independent national human rights institutions in compliance with the Paris Principles",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-a-1",
@@ -1855,7 +1919,7 @@
         },
         {
           "id": "16-b-1",
-          "title": "Доля людей, сообщивших об испытанныхими лично в последние 12 месяцев проявлениях дискриминацииили преследованиях на основании, дискриминацияна котором запрещена международнымправом прав человека",
+          "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-b-1",
@@ -1863,7 +1927,7 @@
         },
         {
           "id": "16-10-1",
-          "title": "Число подтвержденных случаев убийства,похищения, насильственного исчезновения, произвольногозадержания и пыток журналистов и связанныхс ними представителей средств массовой информации,профсоюзных деятелей и правозащитников впоследние 12 месяцев",
+          "title": "Number of verified cases of killing, kidnapping, enforced disappearance, arbitrary detention and torture of journalists, associated media personnel, trade unionists and human rights advocates in the previous 12 months",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-10-1",
@@ -1871,7 +1935,7 @@
         },
         {
           "id": "16-10-2",
-          "title": "Число стран, в которых приняты и действуютконституционные, законодательные и/или политическиегарантии доступа граждан к информации",
+          "title": "Number of countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/16-10-2",
@@ -1887,7 +1951,7 @@
         
         {
           "id": "17-1-1",
-          "title": "Общий объем государственных доходов впроцентном отношении к ВВП в разбивке по источникам",
+          "title": "Total government revenue as a proportion of GDP, by source",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-1-1",
@@ -1895,15 +1959,15 @@
         },
         {
           "id": "17-1-2",
-          "title": "Доля национального бюджета, финансируемаявнутренними налогами",
+          "title": "Доля национального бюджета, финансируемая внутренними налогами",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-2-1",
-          "title": "Чистый объем официальной помощи в целяхразвития (как суммарной, так и выделяемой наименееразвитым странам) в процентном отношении кваловому национальному доходу доноров — членовКомитета содействия развитию ОЭСР",
+          "title": "Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-2-1",
@@ -1911,15 +1975,23 @@
         },
         {
           "id": "17-3-1",
-          "title": "Прямые иностранные инвестиции (ПИИ),официальная помощь в целях развития и сотрудничествоЮг-Юг в процентном отношении к совокупному национальному бюджету",
+          "title": "Прямые иностранные инвестиции (ПИИ), официальная помощь в целях развития и сотрудничество Юг-Юг в процентном отношении к совокупному национальному бюджету",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-3-1",
           "status": "notstarted"
         },
         {
+          "id": "17-3-1-1",
+          "title": "Foreign direct investment by (a) economic activity and (b) country of origin",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/ru/17-3-1-1",
+          "status": "complete"
+        },
+        {
           "id": "17-3-2",
-          "title": "Объем переводов (в долларах США) в процентномотношении к ВВП",
+          "title": "Volume of remittances (in United States dollars) as a proportion of total GDP",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-3-2",
@@ -1927,7 +1999,7 @@
         },
         {
           "id": "17-4-1",
-          "title": "Расходы на обслуживание долга в процентномотношении к экспорту товаров и услуг",
+          "title": "Debt service as a proportion of exports of goods and services",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-4-1",
@@ -1935,7 +2007,7 @@
         },
         {
           "id": "17-5-1",
-          "title": "Число стран, в которых приняты и действуютрежимы поощрения инвестиций в интересахнаименее развитых стран",
+          "title": "Number of countries that adopt and implement investment promotion regimes for least developed countries",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-5-1",
@@ -1943,7 +2015,7 @@
         },
         {
           "id": "17-6-1",
-          "title": "Число соглашений и программ научногои/или технического сотрудничества между странамив разбивке по видам сотрудничества",
+          "title": "Number of science and/or technology cooperation agreements and programmes between countries, by type of cooperation",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-6-1",
@@ -1951,15 +2023,15 @@
         },
         {
           "id": "17-6-2",
-          "title": "Число стационарных абонентов широкополосногоИнтернета в разбивке по скорости",
+          "title": "Fixed Internet broadband subscriptions per 100 inhabitants, by speed",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-6-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-7-1",
-          "title": "Общая сумма утвержденного финансированиядля развивающихся стран в целях содействияразработке, передаче, распространению и освоениюэкологически безопасных технологий",
+          "title": "Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-7-1",
@@ -1971,11 +2043,11 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-8-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-9-1",
-          "title": "Долларовый объем финансовой и техническойпомощи развивающимся странам(в том числеоказываемой по линии Север — Юг, Юг — Юг и врамках трехстороннего сотрудничества)",
+          "title": "Dollar value of financial and technical assistance (including through North-South, South-South and triangular cooperation) committed to developing countries",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-9-1",
@@ -1983,7 +2055,7 @@
         },
         {
           "id": "17-10-1",
-          "title": "Средневзвешенный мировой уровень тарифов",
+          "title": "Worldwide weighted tariff-average",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-10-1",
@@ -1991,7 +2063,7 @@
         },
         {
           "id": "17-11-1",
-          "title": "Доля развивающихся стран и наименее развитыхстран в мировом экспорте",
+          "title": "Developing countries’ and least developed countries’ share of global exports",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-11-1",
@@ -1999,7 +2071,7 @@
         },
         {
           "id": "17-12-1",
-          "title": "Средний уровень тарифов, применяемых вотношении развивающихся стран, наименее развитыхстран и малых островных развивающихся государств",
+          "title": "Average tariffs faced by developing countries, least developed countries and small island developing States",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-12-1",
@@ -2007,7 +2079,7 @@
         },
         {
           "id": "17-13-1",
-          "title": "Единый набор контрольных макроэкономическихпоказателей",
+          "title": "Macroeconomic Dashboard",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-13-1",
@@ -2015,7 +2087,7 @@
         },
         {
           "id": "17-14-1",
-          "title": "Число стран, в которых созданы механизмыдля повышения согласованности политики в областиустойчивого развития",
+          "title": "Number of countries with mechanisms in place to enhance policy coherence of sustainable development",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-14-1",
@@ -2023,7 +2095,7 @@
         },
         {
           "id": "17-15-1",
-          "title": "Масштабы использования подготовленныхстранами ориентировочных перечней результатов иинструментов планирования участниками процессасотрудничества в целях развития",
+          "title": "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-15-1",
@@ -2031,7 +2103,7 @@
         },
         {
           "id": "17-16-1",
-          "title": "Число стран, сообщающих о прогрессе вделе применения механизмов контроля за эффективностьюразвития с участием многих заинтересованныхсторон, которые служат подспорьем в достижениицелей устойчивого развития",
+          "title": "Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-16-1",
@@ -2039,7 +2111,7 @@
         },
         {
           "id": "17-17-1",
-          "title": "Сумма (в долларах США), выделяемая на a)государственно-частные партнерства и b) партнерстваорганизаций гражданского общества",
+          "title": "Amount of United States dollars committed to public-private and civil society partnerships",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-17-1",
@@ -2047,7 +2119,7 @@
         },
         {
           "id": "17-18-1",
-          "title": "Доля показателей устойчивого развития, разработанныхна национальном уровне с полной дезагрегациейпо соответствующим признакам согласноОсновополагающим принципам официальной статистики",
+          "title": "Proportion of sustainable development indicators produced at the national level with full disaggregation when relevant to the target, in accordance with the Fundamental Principles of Official Statistics",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-18-1",
@@ -2055,7 +2127,7 @@
         },
         {
           "id": "17-18-2",
-          "title": "Число, стран, имеющих национальное статистическоезаконодательство, соответствующее Основополагающимпринципам официальной статистики",
+          "title": "Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-18-2",
@@ -2063,7 +2135,7 @@
         },
         {
           "id": "17-18-3",
-          "title": "Число стран, имеющих полностью финансированныйи осуществляемый национальный статистическийплан, в разбивке по источникам финансирования",
+          "title": "Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-18-3",
@@ -2071,7 +2143,7 @@
         },
         {
           "id": "17-19-1",
-          "title": "Долларовая стоимость всех ресурсов, выделенныхна наращивание потенциала развивающихсястран в области статистики",
+          "title": "Dollar value of all resources made available to strengthen statistical capacity in developing countries",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-19-1",
@@ -2079,7 +2151,7 @@
         },
         {
           "id": "17-19-2",
-          "title": "Доля стран, которые a) провели хотя бы однуперепись населения и жилищного фонда в течениепоследних 10 лет; и b) достигли цели регистрациирождений в 100 процентах случаев и регистрациисмерти в 80 процентах случаев",
+          "title": "Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/17-19-2",
