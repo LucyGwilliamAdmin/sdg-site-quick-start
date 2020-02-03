@@ -3,7 +3,8 @@ layout: post
 title: International work
 author: SDGs team
 category: "International"
-excerpt: 
+excerpt:
+permalink: /international-work
 ---
 The Department for International Development (DfID) has partnered with countries in Africa and Asia and we receive funding from DfID  to support these countries with their SDG reporting. Our aim is to help improve the quality and availability of SDG data for these overseas partners.
 
