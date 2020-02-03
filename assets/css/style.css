@@ -829,8 +829,7 @@ header {
     text-transform: uppercase; }
   .navbar ul.navbar-nav {
     float: right;
-    margin-top: 12px;
-    clear: both; }
+    margin-top: 12px; }
     .navbar ul.navbar-nav li a {
       padding: 2px;
       margin: 2px 15px;
@@ -891,6 +890,8 @@ header {
       height: 34px;
       transition: width 0.4s;
       margin-top: 5px; }
+      .navbar #search input:focus {
+        width: 350px; }
 
 #search-btn {
   height: 34px; }
@@ -1453,7 +1454,16 @@ body.contrast-high .goal-indicators .indicator-cards span.status, body.contrast-
   color: black !important; }
 
 .post-categories {
-  margin: 3px 0; }
+  padding: 0;
+  margin: 6px 10px 0 0;
+  list-style-type: none; }
+  .post-categories li {
+    margin-right: 6px;
+    padding: 4px 6px;
+    display: inline;
+    border-radius: 10px; }
+  .post-categories li a {
+    color: black; }
 
 .post-title {
   margin-top: 0; }
