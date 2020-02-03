@@ -2,10 +2,11 @@
 layout: post
 title: International work translated
 author: SDGs team translated
-category: "International"
 excerpt:
 language: ru
-permalink: /ru/news/international-work
+permalink: /ru/international-work
+categories: 
+ - "International"
 ---
 
 Translated international work post
