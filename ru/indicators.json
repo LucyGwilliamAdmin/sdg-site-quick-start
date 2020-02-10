@@ -7,11 +7,11 @@
         
         {
           "id": "1-1-1",
-          "title": "Доля населения, живущего за международнойчертой бедности, в разбивке по полу, возрасту,статусу занятости и месту проживания (городское/сельское)",
+          "title": "Proportion of population below international poverty line",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-1",
