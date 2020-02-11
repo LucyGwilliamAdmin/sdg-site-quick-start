@@ -122,7 +122,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-quick-start/assets/css/style.css?v=20200211001727">
+        <link rel="stylesheet" href="/sdg-site-quick-start/assets/css/style.css?v=20200211110302">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -130,7 +130,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/sdg-site-quick-start/assets/css/custom.css?v=20200211001727"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/sdg-site-quick-start/assets/css/custom.css?v=20200211110302"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
 <body class="language-ru layout-indicator">
@@ -276,7 +276,7 @@ var translations = {
             <span class="hidden-sm hidden-md hidden-lg">Цель 1: </span>Повсеместная ликвидация нищеты во всех ее формах
           </a>
         </h1>
-        <h2>Показатель 1.1.1: Proportion of population below international poverty line</h2>
+        <h2>Показатель 1.1.1: 1.1.1 Proportion of population below the international poverty line, by sex, age, employment status and geographical location (urban/rural)</h2>
       </div>
     </div>
   </div>
@@ -294,7 +294,7 @@ var translations = {
       
 
       <div id="page-content">
-  
+  <p>“Poverty headcount ratio at $1.90 a day” figures from the World Bank Development Research Group. Underlying data provided by the ONS from the EU-Statistics on Income and Living Conditions survey (EU-SILC). For the main UK data series on low income households see the Households below average income (HBAI) statistics.</p>
 
 </div>
 
@@ -309,10 +309,13 @@ var translations = {
   
 
   
-  <div class="row" id="indicatorData" data-indicatorid='indicator_1-1-1' data-id="1-1-1" data-country=""
-  data-charttitle="Proportion of population below international poverty line" data-measurementunit="" data-datasource="" data-copyright=""
-  data-geographicalarea="" data-footnote="" data-showdata="true" data-graphtype="line"
-  data-geocoderegex="" data-showmap="" data-startvalues="">
+  <div class="row" id="indicatorData" data-indicatorid='indicator_1-1-1' data-id="1-1-1" data-country="UK"
+  data-charttitle="Proportion of population below the international poverty line" data-measurementunit="Percentage (%)" data-datasource="" data-copyright=""
+  data-geographicalarea="UK" data-footnote="As differences in the cost of living across the world evolve, the international poverty line has to be
+periodically updated using new PPP price data to reflect these changes. The last change was in October 
+2015, when the World Bank adopted $1.90 as the international poverty line using the 2011 PPP. Prior to
+that, the 2008 update set the international poverty line at $1.25 using the 2005 PPP." data-showdata="true" data-graphtype="line"
+  data-geocoderegex="" data-showmap="N" data-startvalues="">
 
     
     <div id="indicator-sidebar" class="col-md-3">
@@ -344,7 +347,7 @@ var translations = {
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Proportion of population below international poverty line</caption>
+      <caption>Proportion of population below the international poverty line</caption>
       <thead>
         
       </thead>
@@ -356,8 +359,19 @@ var translations = {
 
   <div id="datatableFooter">
     
+    <p>Источник: World Bank</p>
     
     
+    <p>Географический район: UK</p>
+    
+    
+    <p>Единица измерения: Percentage (%)</p>
+    
+    
+    <p>Сноска: As differences in the cost of living across the world evolve, the international poverty line has to be
+periodically updated using new PPP price data to reflect these changes. The last change was in October 
+2015, when the World Bank adopted $1.90 as the international poverty line using the 2011 PPP. Prior to
+that, the 2008 update set the international poverty line at $1.25 using the 2005 PPP.</p>
     
   </div>
 
@@ -405,7 +419,7 @@ data-event-label="Change to Map tab"
     
     <div id="selectionsChart">
       <div id="chart-canvas">
-        <h3 class="chart-title">Proportion of population below international poverty line</h3>
+        <h3 class="chart-title">Proportion of population below the international poverty line</h3>
         <div id="chart" class="plot-container">
           
 <canvas></canvas>
@@ -502,7 +516,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Показатель доступен </th>
         <td>
           
-            
+            <p>Proportion of population below the international poverty line</p>
 
           
         </td>
@@ -516,7 +530,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Описание показателя </th>
         <td>
           
-            
+            <p>Proportion of population below the international poverty line is defined as the percentage of the population living on less than $1.90 a day at 2011 international prices. The ‘international poverty line’ is currently set at $1.90 a day at 2011 international prices.</p>
 
           
         </td>
@@ -530,7 +544,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Географический охват </th>
         <td>
           
-            
+            <p>UK</p>
 
           
         </td>
@@ -544,7 +558,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Единица измерения </th>
         <td>
           
-            
+            <p>Percentage (%)</p>
 
           
         </td>
@@ -558,7 +572,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Определения </th>
         <td>
           
-            
+            <p>The ‘international poverty line’ is currently set at $1.90 a day at 2011 international prices.</p>
 
           
         </td>
@@ -572,7 +586,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Расчёты </th>
         <td>
           
-            
+            <p>None</p>
 
           
         </td>
@@ -744,7 +758,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Название показателя </th>
         <td>
           
-            
+            <p>1.1.1 Proportion of population below the international poverty line, by sex, age, employment status and geographical location (urban/rural)</p>
 
           
         </td>
@@ -814,7 +828,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Назначенный ООН уровень </th>
         <td>
           
-            
+            <p>Tier I</p>
 
           
         </td>
@@ -828,7 +842,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Депозитарное учреждение ООН  </th>
         <td>
           
-            
+            <p>World Bank (WB), International Labour Organisation (ILO)</p>
 
           
         </td>
@@ -847,6 +861,10 @@ data-event-label="Change to Sources tab"
             
             
 
+            
+              <a href="https://unstats.un.org/sdgs/metadata/?Text=&Goal=1&Target=1.1" target="_blank">
+                United Nations Sustainable Development Goals Metadata (PDF 894 KB) <span class="visuallyhidden">открывается в новой вкладке</span>
+              </a>
             
 
           
@@ -1024,7 +1042,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-site-quick-start/assets/js/sdg.js?v=20200211001727'></script><script>
+<script src='/sdg-site-quick-start/assets/js/sdg.js?v=20200211110302'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
