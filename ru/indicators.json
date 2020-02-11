@@ -7,7 +7,7 @@
         
         {
           "id": "1-1-1",
-          "title": "Proportion of population below the international poverty line, by sex, age, employment status and geographical location (urban/rural)",
+          "title": "Доля населения, живущего за международнойчертой бедности, в разбивке по полу, возрасту,статусу занятости и месту проживания (городское/сельское)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-1-1",
@@ -15,15 +15,15 @@
         },
         {
           "id": "1-2-1",
-          "title": "1.2.1 Proportion of population living below the national poverty line, by sex and age",
-          "description": "The percentage of people who are living in households which are deemed at risk of poverty in the national context. Monitoring national poverty is important for country-specific development agendas. National poverty lines are used to make more accurate estimates of poverty consistent with the country’s specific economic and social circumstances, and are not intended for international comparisons of poverty rates.",
-          "keywords": "Population",
+          "title": "Доля населения страны, живущего за официальнойчертой бедности, в разбивке по полу и возрасту",
+          "description": "",
+          "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-2-1",
           "status": "complete"
         },
         {
           "id": "1-2-2",
-          "title": "Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions",
+          "title": "Доля мужчин, женщин и детей всех возрастов,живущих в нищете во всех ее проявлениях, согласнонациональным определениям",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-2-2",
@@ -31,31 +31,39 @@
         },
         {
           "id": "1-3-1",
-          "title": "1.1.1 Proportion of population below the international poverty line, by sex, age, employment status and geographical location (urban/rural)",
-          "description": "Proportion of population below the international poverty line is defined as the percentage of the population living on less than $1.90 a day at 2011 international prices. The 'international poverty line' is currently set at $1.90 a day at 2011 international prices.",
+          "title": "Доля населения, охватываемого минимальнымуровнем/системами социальной защиты, в разбивкепо полу, с выделением детей, безработных, пожилых,инвалидов, беременных, новорожденных,лиц, получивших трудовое увечье, и бедных и уязвимых",
+          "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-3-1",
           "status": "complete"
         },
         {
           "id": "1-4-1",
-          "title": "Proportion of population living in households with access to basic services",
+          "title": "Доля населения, живущего в домохозяйствахс доступом к базовым услугам",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-4-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-4-2",
-          "title": "Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure",
+          "title": "Доля совокупного взрослого населения, обладающегогарантированными правами землевладения,a) которые подтверждены признанными закономдокументами, и b) считающего свои права на землюгарантированными, в разбивке по полу и по формамземлевладения",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-4-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-1",
+          "title": "Число погибших, пропавших без вести и пострадавшихнепосредственно в результате бедствийна 100 000 человек",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/ru/1-5-1",
           "status": "complete"
         },
         {
           "id": "1-5-2",
-          "title": "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)",
+          "title": "Прямые экономические потери от бедствий впроцентном отношении к мировому валовому внутреннемупродукту (ВВП)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-5-2",
@@ -63,23 +71,31 @@
         },
         {
           "id": "1-5-3",
-          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015-2030",
+          "title": "Число стран, принявших и осуществляющихнациональные стратегии снижения риска бедствий всоответствии с Сендайской рамочной программой поснижению риска бедствий на 2015–2030 годы",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-5-3",
-          "status": "complete"
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-4",
+          "title": "Доля местных органов власти, принявших иосуществляющих местные стратегии снижения рискабедствий в соответствии с национальными стратегиямиснижения риска бедствий",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/ru/1-5-4",
+          "status": "notstarted"
         },
         {
           "id": "1-a-1",
-          "title": "Proportion of domestically generated resources allocated by the government directly to poverty reduction programmes",
+          "title": "Доля ресурсов, выделенных правительствомнепосредственно на программы по сокращению масштабовнищеты",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-a-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-a-2",
-          "title": "Proportion of total government spending on essential services (education, health and social protection)",
+          "title": "Доля расходов на основные услуги (образование,здравоохранение и социальную защиту) в общейсумме государственных расходов",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-a-2",
@@ -87,19 +103,19 @@
         },
         {
           "id": "1-a-3",
-          "title": "Sum of total grants and non-debt-creating inflows directly allocated to poverty reduction programmes as a proportion of GDP",
+          "title": "Суммарный объем субсидий и не образующегозадолженности притока средств, непосредственновыделяемых на программы сокращения масштабовнищеты, в процентном отношении к ВВП",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-a-3",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-b-1",
-          "title": "Proportion of government recurrent and capital spending to sectors that disproportionately benefit women, the poor and vulnerable groups",
+          "title": "Доля текущих и капитальных государственныхрасходов в секторах, которые приносят преимущественнуювыгоду женщинам, бедным и уязвимымгруппам населения",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/1-b-1",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -110,16 +126,24 @@
       "indicators": [
         
         {
+          "id": "2-1-1",
+          "title": "Распространенность недоедания",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/ru/2-1-1",
+          "status": "notstarted"
+        },
+        {
           "id": "2-1-2",
-          "title": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)",
+          "title": "Уровень умеренного или острого отсутствияпродовольственной безопасности населения (по«Шкале восприятия отсутствия продовольственнойбезопасности»)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/2-1-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "2-2-1",
-          "title": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age",
+          "title": "Распространенность задержки роста средидетей в возрасте до пяти лет (среднеквадратичное отклонениеот медианного показателя роста к возрастуребенка в соответствии с нормами роста детей, установленнымиВсемирной организацией здравоохранения(ВОЗ), <-2)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/2-2-1",
@@ -127,7 +151,7 @@
         },
         {
           "id": "2-2-2",
-          "title": "Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)",
+          "title": "Распространенность неполноценного питаниясреди детей в возрасте до пяти лет в разбивке повиду (истощение или ожирение) (среднеквадратичноеотклонение от медианного показателя веса к возрастув соответствии с нормами роста детей, установленнымиВОЗ, >+2 или <-2)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/2-2-2",
@@ -135,47 +159,47 @@
         },
         {
           "id": "2-3-1",
-          "title": "Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",
+          "title": "Объем производства на производственнуюединицу в разбивке по классам размера предприятий фермерского хозяйства/скотоводства/лесного хозяйства",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/2-3-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "2-3-2",
-          "title": "Average income of small-scale food producers, by sex and indigenous status",
+          "title": "Средний доход мелких производителей продовольственнойпродукции в разбивке по полу и статусупринадлежности к коренным народам",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/2-3-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "2-4-1",
-          "title": "Proportion of agricultural area under productive and sustainable agriculture",
+          "title": "Доля площади сельскохозяйственных угодий,на которых применяются продуктивные и неистощительныеметоды ведения сельского хозяйства",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/2-4-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "2-5-1",
-          "title": "Number of plant and animal genetic resources for food and agriculture secured in either medium- or long-term conservation facilities",
+          "title": "Количество генетических ресурсов растительногои зоологического происхождения, предназначенныхдля производства продовольствия и сельскогохозяйства, которые хранятся на специальныхобъектах либо среднесрочного, либо долгосрочногохранения",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/2-5-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "2-5-2",
-          "title": "Proportion of local breeds classified as being at risk, not at risk or at unknown level of risk of extinction",
+          "title": "Доля местных пород, относимых к следующимкатегориям: находящиеся под угрозой исчезновения;не находящиеся под угрозой исчезновения;уровень угрозы исчезновения не известен",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/2-5-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "2-a-1",
-          "title": "The agriculture orientation index for government expenditures",
+          "title": "Индекс ориентированности на сельское хозяйство,определяемый по структуре государственныхрасходов",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/2-a-1",
@@ -183,27 +207,27 @@
         },
         {
           "id": "2-a-2",
-          "title": "Total official flows (official development assistance plus other official flows) to the agriculture sector",
+          "title": "Совокупный приток официальных средств(официальная помощь в целях развития плюс прочиепотоки официальных средств) в сельское хозяйство",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/2-a-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "2-b-1",
-          "title": "Agricultural export subsidies",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/2-b-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "2-c-1",
-          "title": "Indicator of food price anomalies",
+          "title": "Показатель ценовых аномалий на рынке продовольствия",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/2-c-1",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -215,7 +239,7 @@
         
         {
           "id": "3-1-1",
-          "title": "Maternal mortality ratio",
+          "title": "Коэффициент материнской смертности",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-1-1",
@@ -223,7 +247,7 @@
         },
         {
           "id": "3-1-2",
-          "title": "Proportion of births attended by skilled health personnel",
+          "title": "Доля родов, принятых квалифицированнымимедицинскими работниками",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-1-2",
@@ -231,7 +255,7 @@
         },
         {
           "id": "3-2-1",
-          "title": "Underâ€‘5 mortality rate",
+          "title": "Коэффициент смертности детей в возрастедо пяти лет",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-2-1",
@@ -239,15 +263,15 @@
         },
         {
           "id": "3-2-2",
-          "title": "Neonatal mortality rate",
-          "description": "",
+          "title": "Коэффициент неонатальной смертности",
+          "description": "Число умерших детей в возрасте 0-27 дней на 1000 родившихся живыми",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-2-2",
           "status": "complete"
         },
         {
           "id": "3-3-1",
-          "title": "Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations",
+          "title": "Число новых заражений ВИЧ на 1000 неинфицированныхв разбивке по полу, возрасту и принадлежностик основным группам населения",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-3-1",
@@ -255,7 +279,7 @@
         },
         {
           "id": "3-3-2",
-          "title": "Tuberculosis incidence per 100,000 population",
+          "title": "Заболеваемость туберкулезом на 100 000 человек",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-3-2",
@@ -263,7 +287,7 @@
         },
         {
           "id": "3-3-3",
-          "title": "Malaria incidence per 1,000 population",
+          "title": "Заболеваемость малярией на 1000 человек",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-3-3",
@@ -271,7 +295,7 @@
         },
         {
           "id": "3-3-4",
-          "title": "Hepatitis B incidence per 100,000 population",
+          "title": "Заболеваемость гепатитом B на 100 000 человек",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-3-4",
@@ -279,15 +303,15 @@
         },
         {
           "id": "3-3-5",
-          "title": "Number of people requiring interventions against neglected tropical diseases",
+          "title": "Число людей, нуждающихся в лечении от«забытых» тропических болезней",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-3-5",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-4-1",
-          "title": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease",
+          "title": "Смертность от сердечно-сосудистых заболеваний,рака, диабета, хронических респираторных заболеваний",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-4-1",
@@ -295,23 +319,31 @@
         },
         {
           "id": "3-4-2",
-          "title": "Suicide mortality rate",
+          "title": "Смертность от самоубийств",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-4-2",
           "status": "complete"
         },
         {
+          "id": "3-5-1",
+          "title": "Охват лечением расстройств, вызванныхупотреблением психоактивных веществ (медикаментозные,психосоциальные и реабилитационныеуслуги и услуги по последующему уходу)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/ru/3-5-1",
+          "status": "notstarted"
+        },
+        {
           "id": "3-5-2",
-          "title": "Harmful use of alcohol, defined according to the national context as alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol",
+          "title": "Злоупотребление алкоголем (определяемое в соответствии с национальными особенностями употреблениеалкоголя на душу населения в возрасте от15 лет) в литрах чистого спирта в календарный год",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-5-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-6-1",
-          "title": "Death rate due to road traffic injuries",
+          "title": "Смертность в результате дорожно-транспортныхпроисшествий",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-6-1",
@@ -319,7 +351,7 @@
         },
         {
           "id": "3-7-1",
-          "title": "Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods",
+          "title": "Доля женщин репродуктивного возраста (от15 до 49 лет), чьи потребности по планированию семьиудовлетворяются современными методами",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-7-1",
@@ -327,7 +359,7 @@
         },
         {
           "id": "3-7-2",
-          "title": "Adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group",
+          "title": "Показатель рождаемости среди девушек-подростков(в возрасте от 10 до 14 лет; в возрасте от 15до 19 лет) на 1000 женщин в данной возрастнойгруппе",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-7-2",
@@ -335,39 +367,39 @@
         },
         {
           "id": "3-8-1",
-          "title": "Coverage of essential health services (defined as the average coverage of essential services based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, non-communicable diseases and service capa",
+          "title": "Охват основными медико-санитарнымиуслугами (определяемый как средний охват основнымиуслугами по отслеживаемым процедурам, к которымотносятся охрана репродуктивного здоровья,охрана здоровья матери и ребенка, лечение инфекционныхзаболеваний, лечение неинфекционных заболеванийи масштабы и доступность услуг для широкихслоев населения и для находящихся в наиболеенеблагоприятном положении групп населения)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-8-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-8-2",
-          "title": "Proportion of population with large household expenditures on health as a share of total household expenditure or income",
+          "title": "Доля населения с большим удельным весомсемейных расходов на медицинскую помощь в общемобъеме расходов или доходов домохозяйств",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-8-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-9-1",
-          "title": "Mortality rate attributed to household and ambient air pollution",
+          "title": "Смертность от загрязнения воздуха в жилыхпомещениях и атмосферного воздуха",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-9-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-9-2",
-          "title": "Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)",
+          "title": "Смертность от отсутствия безопасной воды,безопасной санитарии и гигиены (от отсутствия безопасныхуслуг в области водоснабжения, санитариии гигиены (ВССГ) для всех)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-9-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-9-3",
-          "title": "Mortality rate attributed to unintentional poisoning",
+          "title": "Смертность от неумышленного отравления",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-9-3",
@@ -375,31 +407,39 @@
         },
         {
           "id": "3-a-1",
-          "title": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older",
+          "title": "Стандартизированная по возрасту распространенностьупотребления табака лицами в возрастеот 15 лет",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-a-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-b-1",
-          "title": "Proportion of the target population covered by all vaccines included in their national programme",
+          "title": "Доля целевой группы населения, охваченнаяиммунизацией всеми вакцинами, включенными внациональные программы",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-b-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "3-b-2",
-          "title": "Total net official development assistance to medical research and basic health sectors",
+          "title": "Общий чистый объем официальной помощив целях развития, направленной на медицинские исследованияи в основные отрасли здравоохранения",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-b-2",
-          "status": "complete"
+          "status": "notstarted"
+        },
+        {
+          "id": "3-b-3",
+          "title": "Доля медицинских учреждений, постояннорасполагающих набором основных необходимых идоступных лекарственных средств",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/ru/3-b-3",
+          "status": "notstarted"
         },
         {
           "id": "3-c-1",
-          "title": "Health worker density and distribution",
+          "title": "Число медицинских работников на душунаселения и их распределение",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-c-1",
@@ -407,11 +447,11 @@
         },
         {
           "id": "3-d-1",
-          "title": "International Health Regulations (IHR) capacity and health emergency preparedness",
+          "title": "Способность соблюдать Международные медико-санитарныеправила (ММСП) и готовность кчрезвычайным ситуациям в области общественногоздравоохранения",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/3-d-1",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -423,7 +463,7 @@
         
         {
           "id": "4-1-1",
-          "title": "Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex",
+          "title": "Доля детей и молодежи, приходящаяся наa) учащихся 2/3 классов; b) выпускников начальнойшколы; и c) выпускников младшей средней школы,которые достигли по меньшей мере минимальногоуровня владения навыками i) чтения и ii) математики",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/4-1-1",
@@ -431,7 +471,7 @@
         },
         {
           "id": "4-2-1",
-          "title": "Proportion of children under 5 years of age who are developmentally on track in health, learning and psychosocial well-being, by sex",
+          "title": "Доля детей в возрасте до пяти лет, которыеразвиваются без отклонений в плане здоровья, обученияи психосоциального благополучия, в разбивке пополу",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/4-2-1",
@@ -439,7 +479,7 @@
         },
         {
           "id": "4-2-2",
-          "title": "Participation rate in organized learning (one year before the official primary entry age), by sex",
+          "title": "Уровень участия в организованных видахобучения (за один год до достижения официальноговозраста поступления в школу) в разбивке по полу",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/4-2-2",
@@ -447,59 +487,67 @@
         },
         {
           "id": "4-3-1",
-          "title": "Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex",
+          "title": "Уровень участия взрослых и молодежи вформальных и неформальных видах обучения и профессиональнойподготовки в последние 12 месяцев вразбивке по полу",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/4-3-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-4-1",
-          "title": "Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill",
+          "title": "Доля молодежи/взрослых, обладающей/ обладающихнавыками в области информационно-коммуникационныхтехнологий, в разбивке по видамнавыков",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/4-4-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-5-1",
-          "title": "Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",
+          "title": "Индексы равенства (женщин и мужчин, городскихи сельских жителей, нижней и верхнейквинтили достатка и других групп, например инвалидов,коренных народов и людей, затронутых конфликтом,в зависимости от наличия данных) по всемкасающимся образования показателям в настоящемперечне, которые могут быть дезагрегированы",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/4-5-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-6-1",
-          "title": "Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex",
+          "title": "Доля населения в данной возрастной группе,достигшая, по меньшей мере, установленного уровняфункциональной a) грамотности и b) математическойграмотности, в разбивке по полу.",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/4-6-1",
-          "status": "complete"
+          "status": "notstarted"
+        },
+        {
+          "id": "4-7-1",
+          "title": "Статус i) воспитания в духе всемирной гражданственностии ii) пропаганды устойчивого развития,включая гендерное равенство и права человека,на всех уровнях в a) национальной политике в сфереобразования; b) учебных программах; c) программахподготовки учителей; и d) системе аттестации учащихся",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/ru/4-7-1",
+          "status": "notstarted"
         },
         {
           "id": "4-a-1",
-          "title": "Proportion of schools with access to (a) electricity; (b) the Internet for pedagogical purposes; (c) computers for pedagogical purposes; (d) adapted infrastructure and materials for students with disabilities; (e) basic drinking water; (f) single-se",
+          "title": "Доля школ, обеспеченных a) электроэнергией;b) доступом к Интернету для учебных целей;c) компьютерами для учебных целей; d) адаптированнойинфраструктурой и материалами для учащихсяинвалидов;e) базовыми источниками питьевой воды;f) раздельными минимально оборудованными туалетами;и g) базовыми средствами для мытья рук (согласноопределениям показателей инициативыВССГ)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/4-a-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-b-1",
-          "title": "Volume of official development assistance flows for scholarships by sector and type of study",
+          "title": "Объем официальной помощи в целях развития,направляемой на выплату стипендий, в разбивкепо отраслям и видам обучения",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/4-b-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-c-1",
-          "title": "Proportion of teachers in: (a) pre-primary; (b) primary; (c) lower secondary; and (d) upper secondary education who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teac",
+          "title": "Доля учителей в a) дошкольных учреждениях;b) начальной школе; c) младшей среднейшколе; и d) старшей средней школе, прошедших доначала или во время работы по меньшей мере минимальнуюорганизованную профессиональную учительскуюподготовку (например, педагогическую) насоответствующем уровне в данной стране",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/4-c-1",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -511,31 +559,31 @@
         
         {
           "id": "5-1-1",
-          "title": "Whether or not legal frameworks are in place to promote, enforce and monitor equality and nonâ€‘discrimination on the basis of sex",
+          "title": "Наличие нормативно-правовой базы для поощренияи обеспечения равенства и недискриминациипо признаку пола и наблюдения за положением вэтой области",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-1-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-2-1",
-          "title": "Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age",
+          "title": "Доля когда-либо имевших партнера женщини девочек в возрасте от 15 лет, подвергавшихся физическому,сексуальному или психологическому насилиюсо стороны нынешнего или бывшего интимногопартнера в последние 12 месяцев, в разбивке по формамнасилия и возрасту",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-2-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-2-2",
-          "title": "Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence",
+          "title": "Доля когда-либо имевших партнера женщини девочек в возрасте от 15 лет, подвергавшихся физическому,сексуальному или психологическому насилиюсо стороны нынешнего или бывшего интимногопартнера в последние 12 месяцев, в разбивке по формамнасилия и возрасту",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-2-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-3-1",
-          "title": "Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18",
+          "title": "Доля женщин в возрасте от 20 до 24 лет,вступивших в брак или союз до 15 лет и до 18 лет",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-3-1",
@@ -543,23 +591,23 @@
         },
         {
           "id": "5-3-2",
-          "title": "Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting, by age",
+          "title": "Доля девочек и женщин в возрасте от 15 до49 лет, подвергшихся калечащим операциям на женскихполовых органах/обрезанию, в разбивке по возрасту",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-3-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-4-1",
-          "title": "Proportion of time spent on unpaid domestic and care work, by sex, age and location",
+          "title": "Доля времени, затрачиваемого на неоплачиваемыйтруд по уходу и работу по дому, в разбивкепо полу, возрасту и месту проживания",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-4-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-5-1",
-          "title": "Proportion of seats held by women in (a) national parliaments and (b) local governments",
+          "title": "Доля мест, занимаемых женщинами вa) национальных парламентах и b) местных органахвласти",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-5-1",
@@ -567,7 +615,7 @@
         },
         {
           "id": "5-5-2",
-          "title": "Proportion of women in managerial positions",
+          "title": "Доля женщин на руководящих должностях",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-5-2",
@@ -575,39 +623,39 @@
         },
         {
           "id": "5-6-1",
-          "title": "Proportion of women aged 15-49 years who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care",
+          "title": "Доля женщин в возрасте от 15 до 49 лет, самостоятельнопринимающих обдуманные решения осексуальных отношениях, применении противозачаточныхсредств и обращении за услугами по охранерепродуктивного здоровья",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-6-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-6-2",
-          "title": "Number of countries with laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education",
+          "title": "Число стран, где действуют законы и нормативныеакты, гарантирующие женщинам и мужчинамв возрасте от 15 лет полный и равный доступ к услугампо охране сексуального и репродуктивного здоровьяи информации и просвещению в этой сфере",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-6-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-a-1",
-          "title": "(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",
+          "title": "a) Доля людей, владеющих сельскохозяйственнойземлей или имеющих гарантированноеправо пользования ею, в общей численности населения,занимающегося сельским хозяйством, в разбивкепо полу; и b) доля женщин, владеющих сельскохозяйственнойземлей или являющихся носителямиправа владения ею, в разбивке по формам землевладения",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-a-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-a-2",
-          "title": "Proportion of countries where the legal framework (including customary law) guarantees womenâ€™s equal rights to land ownership and/or control",
+          "title": "Доля стран, в которых правовая база (в томчисле обычное право) гарантирует женщинам равныеправа на владение и/или распоряжение землей",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-a-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-b-1",
-          "title": "Proportion of individuals who own a mobile telephone, by sex",
+          "title": "Доля людей, имеющих мобильный телефон,в разбивке по полу",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-b-1",
@@ -615,11 +663,11 @@
         },
         {
           "id": "5-c-1",
-          "title": "Proportion of countries with systems to track and make public allocations for gender equality and womenâ€™s empowerment",
+          "title": "Доля стран, обладающих механизмами отслеживаниягосударственных ассигнований на обеспечениегендерного равенства и расширение прав ивозможностей женщин и обнародования данных оних",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/5-c-1",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -631,15 +679,15 @@
         
         {
           "id": "6-1-1",
-          "title": "Proportion of population using safely managed drinking water services",
+          "title": "Доля населения, пользующегося услугамиводоснабжения, организованного с соблюдением требованийбезопасности",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/6-1-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-2-1",
-          "title": "Proportion of population using (a) safely managed sanitation services and (b) a hand-washing facility with soap and water",
+          "title": "Доля населения, использующего a) организованныес соблюдением требований безопасностиуслуги санитарии и b) устройства для мытья рук смылом и водой",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/6-2-1",
@@ -647,7 +695,7 @@
         },
         {
           "id": "6-3-1",
-          "title": "Proportion of wastewater safely treated",
+          "title": "Доля безопасно очищаемых сточных вод",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/6-3-1",
@@ -655,19 +703,19 @@
         },
         {
           "id": "6-3-2",
-          "title": "Proportion of bodies of water with good ambient water quality",
+          "title": "Доля водоемов с хорошим качеством воды",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/6-3-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-4-1",
-          "title": "Change in water-use efficiency over time",
+          "title": "Динамика изменения эффективности водопользования",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/6-4-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-4-1-2",
@@ -679,11 +727,11 @@
         },
         {
           "id": "6-4-2",
-          "title": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources",
+          "title": "Уровень нагрузки на водные ресурсы: заборпресной воды в процентном отношении к имеющимсязапасам пресной воды",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/6-4-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-4-2-1",
@@ -695,43 +743,43 @@
         },
         {
           "id": "6-5-1",
-          "title": "Degree of integrated water resources management implementation (0-100)",
+          "title": "Степень внедрения комплексного управленияводными ресурсами (от 0 до 100)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/6-5-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-5-2",
-          "title": "Proportion of transboundary basin area with an operational arrangement for water cooperation",
+          "title": "Доля трансграничных водных бассейнов,охваченных действующими договоренностями о сотрудничествев области водопользования",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/6-5-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-6-1",
-          "title": "Change in the extent of water-related ecosystems over time",
+          "title": "Динамика изменения площади связанных сводой экосистем",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/6-6-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-a-1",
-          "title": "Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan",
+          "title": "Объем официальной помощи в целях развития,выделенной на водоснабжение и санитарию врамках координируемой государственной программырасходов",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/6-a-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-b-1",
-          "title": "Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management",
+          "title": "Доля местных административных единиц, вкоторых действуют правила и процедуры участияграждан в управлении водными ресурсами и санитарией",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/ru/6-b-1",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
