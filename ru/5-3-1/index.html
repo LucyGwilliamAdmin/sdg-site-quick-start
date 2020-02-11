@@ -122,7 +122,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-quick-start/assets/css/style.css?v=20200210173434">
+        <link rel="stylesheet" href="/sdg-site-quick-start/assets/css/style.css?v=20200211142803">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -130,7 +130,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/sdg-site-quick-start/assets/css/custom.css?v=20200210173434"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/sdg-site-quick-start/assets/css/custom.css?v=20200211142803"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
 <body class="language-ru layout-indicator">
@@ -277,8 +277,7 @@ var translations = {
 женщин и девочек
           </a>
         </h1>
-        <h2>Показатель 5.3.1: Доля женщин в возрасте от 20 до 24 лет,
-вступивших в брак или союз до 15 лет и до 18 лет</h2>
+        <h2>Показатель 5.3.1: Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18</h2>
       </div>
     </div>
   </div>
@@ -312,11 +311,10 @@ var translations = {
   
 
   
-  <div class="row" id="indicatorData" data-indicatorid='indicator_5-3-1' data-id="5-3-1" data-country="Кыргызская Республика"
-  data-charttitle="Доля женщин в возрасте от 20 до 24 лет,
-вступивших в брак или союз до 15 лет и до 18 лет" data-measurementunit="" data-datasource="" data-copyright=""
-  data-geographicalarea="Кыргызская Республика" data-footnote="" data-showdata="true" data-graphtype="bar"
-  data-geocoderegex="" data-showmap="false" data-startvalues="">
+  <div class="row" id="indicatorData" data-indicatorid='indicator_5-3-1' data-id="5-3-1" data-country=""
+  data-charttitle="Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18" data-measurementunit="" data-datasource="" data-copyright=""
+  data-geographicalarea="" data-footnote="" data-showdata="true" data-graphtype="line"
+  data-geocoderegex="" data-showmap="" data-startvalues="">
 
     
     <div id="indicator-sidebar" class="col-md-3">
@@ -348,8 +346,7 @@ var translations = {
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Доля женщин в возрасте от 20 до 24 лет,
-вступивших в брак или союз до 15 лет и до 18 лет</caption>
+      <caption>Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18</caption>
       <thead>
         
       </thead>
@@ -361,8 +358,6 @@ var translations = {
 
   <div id="datatableFooter">
     
-    
-    <p>Географический район: Кыргызская Республика</p>
     
     
     
@@ -412,8 +407,7 @@ data-event-label="Change to Map tab"
     
     <div id="selectionsChart">
       <div id="chart-canvas">
-        <h3 class="chart-title">Доля женщин в возрасте от 20 до 24 лет,
-вступивших в брак или союз до 15 лет и до 18 лет</h3>
+        <h3 class="chart-title">Proportion of women aged 20-24 years who were married or in a union before age 15 and before age 18</h3>
         <div id="chart" class="plot-container">
           
 <canvas></canvas>
@@ -447,27 +441,43 @@ data-event-label="Change to Map tab"
         <!-- Nav tabs -->
         <ul class="nav nav-tabs" role="tablist">
         
+          
+          
+          
+          
+          
           <li role="presentation" class="nav-item active">
+            <a class="nav-link" data-toggle="tab" href="#indicator_information" aria-controls="indicator_information" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to Indicator information tab"
+>Indicator information</a>
+          </li>
+          
+          
+          
+          
+          
+          <li role="presentation" class="nav-item ">
             <a class="nav-link" data-toggle="tab" href="#national" aria-controls="national" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to National Metadata tab"
+data-event-label="Change to indicator.national_metadata tab"
 >Национальные метаданные</a>
           </li>
-          <li role="presentation" class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#global" aria-controls="global" role="tab" data-on="click"
+          
+          
+          
+          
+          
+          <li role="presentation" class="nav-item ">
+            <a class="nav-link" data-toggle="tab" href="#data_reporter" aria-controls="data_reporter" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to Global Metadata tab"
->Глобальные метаданные</a>
+data-event-label="Change to Data reporter info tab"
+>Data reporter info</a>
           </li>
-          <li role="presentation" class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change metadata view"
-data-event-label="Change to Sources tab"
->Источники</a>
-          </li>
+          
         
           
           <li role="presentation" class="nav-item">
@@ -479,267 +489,14 @@ data-event-label="Change to Sources tab"
         <!-- Tab panes -->
         <div class="tab-content">
           
-          <div role="tabpanel" class="tab-pane active" id="national">
-            <!-- National Metadata -->
-            <div > <!-- formerly class="collapsible expanded" -->
-              <!-- <h3 tabindex='0'>National Metadata</h3> -->
+            
+            
+            
+            
+            
+            <div role="tabpanel" class="tab-pane active" id="indicator_information">
               <article>
-                <p>
-                  
-                  
-                  В этой таблице представлены метаданные для фактического показателя, доступного из статистики ближайшей к соответствующему глобальному индикатору ЦУР. Обратите внимание, что даже если глобальный индикатор ЦУР полностью доступен из статистики, по этой таблице следует проконсультироваться для получения информации о национальной методологии и других специфичных метаданных.
-                </p>
-                <table class="table table-hover">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      
-      <tr>
-        <th scope="row">Показатель доступен </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Описание показателя </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Географический охват </th>
-        <td>
-          
-            <p>Кыргызская Республика</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Единица измерения </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Определения </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Расчёты </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Другая информация </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Последний раз данные обновлялись </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-  
-      
-      
-      <tr>
-        <th scope="row"> Последний раз метаданные обновлялись </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
-
-              </article>
-            </div>
-          </div>
-          <div role="tabpanel" class="tab-pane" id="global">
-            <!-- Global Metadata -->
-            <div> <!-- formerly <div class="collapsible expanded"> -->
-              <!-- <h3 tabindex='0'>Global Metadata</h3> -->
-              <article>
-                <p>В этой таблице представлена информация для метаданных показателей ЦУР, определенных Статистической комиссией ООН. Полные глобальные метаданные представлены Статистическим отделом ООН.</p>
+                <p>Below is info about this indicator</p>
                 <table class="table table-hover">
   
   
@@ -750,21 +507,6 @@ data-event-label="Change to Sources tab"
       
       <tr>
         <th scope="row">Название показателя </th>
-        <td>
-          
-            <p>Доля женщин в возрасте от 20 до 24 лет,
-вступивших в брак или союз до 15 лет и до 18 лет</p>
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Номер показателя </th>
         <td>
           
             
@@ -792,10 +534,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Номер задачи </th>
+        <th scope="row">Goal </th>
         <td>
           
-            <p>5.3</p>
+            
 
           
         </td>
@@ -803,10 +545,53 @@ data-event-label="Change to Sources tab"
         
       
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+              </article>
+            </div>
+            
+            
+            
+            
+            
+            <div role="tabpanel" class="tab-pane " id="national">
+              <article>
+                <p>В этой таблице представлены метаданные для фактического показателя, доступного из статистики ближайшей к соответствующему глобальному индикатору ЦУР. Обратите внимание, что даже если глобальный индикатор ЦУР полностью доступен из статистики, по этой таблице следует проконсультироваться для получения информации о национальной методологии и других специфичных метаданных.</p>
+                <table class="table table-hover">
+  
+  
+  
+  
+  
+  
+  
+  
       
       
       <tr>
-        <th scope="row">Описание глобального показателя </th>
+        <th scope="row">Географический охват </th>
         <td>
           
             
@@ -820,10 +605,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Назначенный ООН уровень </th>
+        <th scope="row">Unit of measurement </th>
         <td>
           
-            <p>2.0</p>
+            
 
           
         </td>
@@ -834,10 +619,66 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Депозитарное учреждение ООН  </th>
+        <th scope="row">Definitions </th>
         <td>
           
-            <p>United Nations Children’s Fund (UNICEFF)</p>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Method of computation </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Другая информация </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Source information </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data collection methods </th>
+        <td>
+          
+            
 
           
         </td>
@@ -881,76 +722,105 @@ data-event-label="Change to Sources tab"
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+</table>
+
+              </article>
+            </div>
+            
+            
+            
+            
+            
+            <div role="tabpanel" class="tab-pane " id="data_reporter">
+              <article>
+                <p>Below is info about the data reporter</p>
+                <table class="table table-hover">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row">Organization </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Contact person(s)/focal point </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Contact person's email </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Contact person's phone </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Organization website </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
   
   
   
@@ -964,15 +834,7 @@ data-event-label="Change to Sources tab"
 
               </article>
             </div>
-          </div>
-          <div role="tabpanel" class="tab-pane" id="sources">
-            <!-- Count the non-empty sources (up to 5) -->
-
-
-
-
-
-          </div>
+            
           
           
           <div role="tabpanel" class="tab-pane" id="edit">
@@ -1033,7 +895,7 @@ data-event-label="Change to Sources tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-site-quick-start/assets/js/sdg.js?v=20200210173434'></script><script>
+<script src='/sdg-site-quick-start/assets/js/sdg.js?v=20200211142803'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
