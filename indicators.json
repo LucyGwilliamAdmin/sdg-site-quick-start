@@ -1623,7 +1623,7 @@
         
         {
           "id": "15-1-1",
-          "title": "Forest area as a proportion of total land area",
+          "title": "Площадь лесов в процентном отношении к общей площади суши",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/15-1-1",
@@ -1635,7 +1635,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/15-1-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "15-1-2-1",
@@ -1651,7 +1651,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/15-2-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "15-3-1",
@@ -1659,7 +1659,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/15-3-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "15-4-1",
@@ -1667,7 +1667,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/15-4-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "15-4-2",
@@ -1675,7 +1675,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/15-4-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "15-5-1",
@@ -1683,7 +1683,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/15-5-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "15-6-1",
@@ -1691,7 +1691,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/15-6-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "15-7-1",
@@ -1699,7 +1699,23 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/15-7-1",
-          "status": "complete"
+          "status": "notstarted"
+        },
+        {
+          "id": "15-8-1",
+          "title": "Proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/15-8-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-9-1",
+          "title": "Progress towards national targets established in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011-2020",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/15-9-1",
+          "status": "notstarted"
         },
         {
           "id": "15-a-1",
@@ -1707,7 +1723,23 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/15-a-1",
-          "status": "complete"
+          "status": "notstarted"
+        },
+        {
+          "id": "15-b-1",
+          "title": "Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/15-b-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-c-1",
+          "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/15-c-1",
+          "status": "notstarted"
         }]
     }
   },
@@ -1723,19 +1755,27 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-1-1",
-          "status": "complete"
+          "status": "notstarted"
+        },
+        {
+          "id": "16-1-2",
+          "title": "Conflict-related deaths per 100,000 population, by sex, age and cause",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/16-1-2",
+          "status": "notstarted"
         },
         {
           "id": "16-1-3",
-          "title": "Proportion of population subjected to (a) physical violence, (b) psychological violence and (c) sexual violence in the previous 12 months",
+          "title": "Доля населения, в последние 12 месяцев подвергшегося a) физическому, b) психологическому и c) сексуальному насилию",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-1-3",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-1-4",
-          "title": "Proportion of population that feel safe walking alone around the area they live",
+          "title": "Доля людей, чувствующих себя в безопасности, когда они идут одни по улице в своем районе",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-1-4",
@@ -1743,7 +1783,7 @@
         },
         {
           "id": "16-2-1",
-          "title": "Proportion of children aged 1-17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month",
+          "title": "Доля детей в возрасте от 1 года до 17 лет, в последний месяц подвергшихся любому физическому наказанию и/или психологической агрессии со стороны тех, кто обеспечивает уход за ними",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-2-1",
@@ -1755,7 +1795,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-2-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-2-3",
@@ -1763,11 +1803,11 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-2-3",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-3-1",
-          "title": "Proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms",
+          "title": "Доля жертв насилия, которые в последние 12 месяцев подали соответствующую жалобу в компетентные органы или другие официально признанные механизмы урегулирования конфликтов",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-3-1",
@@ -1779,7 +1819,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-3-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-4-1",
@@ -1787,7 +1827,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-4-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-4-2",
@@ -1795,7 +1835,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-4-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-5-1",
@@ -1803,7 +1843,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-5-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-5-2",
@@ -1811,15 +1851,15 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-5-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-6-1",
-          "title": "Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)",
+          "title": "Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-6-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-6-2",
@@ -1827,6 +1867,14 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-6-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-6-2-1",
+          "title": "Executive branch of the government satisfaction index",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/16-6-2-1",
           "status": "complete"
         },
         {
@@ -1838,12 +1886,20 @@
           "status": "complete"
         },
         {
+          "id": "16-7-1",
+          "title": "Proportions of positions (by sex, age, persons with disabilities and population groups) in public institutions (national and local legislatures, public service, and judiciary) compared to national distributions",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/16-7-1",
+          "status": "notstarted"
+        },
+        {
           "id": "16-7-2",
           "title": "Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-7-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-8-1",
@@ -1851,11 +1907,11 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-8-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-9-1",
-          "title": "Proportion of children under 5 years of age whose births have been registered with a civil authority, by age",
+          "title": "Доля детей в возрасте до пяти лет, рождение которых было зарегистрировано в гражданских органах, в разбивке по возрасту",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-9-1",
@@ -1867,7 +1923,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-a-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-b-1",
@@ -1875,7 +1931,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-b-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-10-1",
@@ -1883,7 +1939,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-10-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "16-10-2",
@@ -1891,7 +1947,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/16-10-2",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -1907,11 +1963,11 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-1-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-1-2",
-          "title": "Proportion of domestic budget funded by domestic taxes",
+          "title": "Доля национального бюджета, финансируемая внутренними налогами",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-1-2",
@@ -1919,18 +1975,26 @@
         },
         {
           "id": "17-2-1",
-          "title": "Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donorsâ€™ gross national income (GNI)",
+          "title": "Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI)",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-2-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-3-1",
-          "title": "Foreign direct investment (FDI), official development assistance and South-South cooperation as a proportion of total domestic budget",
+          "title": "Прямые иностранные инвестиции (ПИИ), официальная помощь в целях развития и сотрудничество Юг-Юг в процентном отношении к совокупному национальному бюджету",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-3-1-1",
+          "title": "Foreign direct investment by (a) economic activity and (b) country of origin",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/17-3-1-1",
           "status": "complete"
         },
         {
@@ -1947,7 +2011,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-3-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-4-1",
@@ -1955,7 +2019,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-4-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-5-1",
@@ -1963,7 +2027,15 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-5-1",
-          "status": "complete"
+          "status": "notstarted"
+        },
+        {
+          "id": "17-6-1",
+          "title": "Number of science and/or technology cooperation agreements and programmes between countries, by type of cooperation",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/17-6-1",
+          "status": "notstarted"
         },
         {
           "id": "17-6-2",
@@ -1979,11 +2051,11 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-7-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-8-1",
-          "title": "Proportion of individuals using the Internet",
+          "title": "Доля населения, пользующегося Интернетом",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-8-1",
@@ -1991,11 +2063,11 @@
         },
         {
           "id": "17-9-1",
-          "title": "Dollar value of financial and technical assistance (including through North-South, Southâ€‘South and triangular cooperation) committed to developing countries",
+          "title": "Dollar value of financial and technical assistance (including through North-South, South-South and triangular cooperation) committed to developing countries",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-9-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-10-1",
@@ -2003,15 +2075,15 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-10-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-11-1",
-          "title": "Developing countriesâ€™ and least developed countriesâ€™ share of global exports",
+          "title": "Developing countries’ and least developed countries’ share of global exports",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-11-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-12-1",
@@ -2019,7 +2091,15 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-12-1",
-          "status": "complete"
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1",
+          "title": "Macroeconomic Dashboard",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/17-13-1",
+          "status": "notstarted"
         },
         {
           "id": "17-14-1",
@@ -2027,7 +2107,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-14-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-15-1",
@@ -2035,7 +2115,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-15-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-16-1",
@@ -2043,15 +2123,15 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-16-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-17-1",
-          "title": "Amount of United States dollars committed to (a) public-private partnerships and (b) civil society partnerships",
+          "title": "Amount of United States dollars committed to public-private and civil society partnerships",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-17-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-18-1",
@@ -2059,7 +2139,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-18-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-18-2",
@@ -2067,7 +2147,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-18-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-18-3",
@@ -2075,7 +2155,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-18-3",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-19-1",
@@ -2083,7 +2163,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-19-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "17-19-2",
@@ -2091,7 +2171,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/17-19-2",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   }]
