@@ -108,6 +108,9 @@ languages:
   - ru
   
 metadata_tabs:
+  indicator_information:
+    title: "Indicator information"
+    blurb: "Below is info about this indicator"
   national:
     title: indicator.national_metadata
     blurb: indicator.national_metadata_blurb
