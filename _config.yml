@@ -104,8 +104,9 @@ non_global_metadata: indicator.national_metadata
 
 # The list of languages that are translated. The first one is the default.
 languages:
-  - en
   - ru
+  - en
+  
   
 metadata_tabs:
   indicator_information:
