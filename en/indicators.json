@@ -710,6 +710,22 @@
           "status": "notstarted"
         },
         {
+          "id": "5-2-1-1a",
+          "title": "Число женщин, которые связались с фельдшерско-акушерские пункты, организации здравоохранения, оказывающие медицинскую и профилактическую помощь ЦСМ, станции (отделения, больницы) скорой медицинской помощи или отделы судебно-медицинской экспертизы в связи с насилием в семье",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/en/5-2-1-1a",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-2-1-1b",
+          "title": "Число пострадавших от семейного насилия",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/en/5-2-1-1b",
+          "status": "notstarted"
+        },
+        {
           "id": "5-2-2",
           "title": "Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence",
           "description": "",
