@@ -614,6 +614,14 @@
           "status": "notstarted"
         },
         {
+          "id": "4-4-1-1a",
+          "title": "Численность студентов, обучающихся по направлению ИКТ по полу",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/en/4-4-1-1a",
+          "status": "notstarted"
+        },
+        {
           "id": "4-5-1",
           "title": "Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",
           "description": "",
