@@ -398,6 +398,22 @@
           "status": "notstarted"
         },
         {
+          "id": "3-5-1-1",
+          "title": "Заболеваемость наркотической зависимостью на 100 000 населения",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/3-5-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-5-1-2",
+          "title": "Заболеваемость алкогольной зависимостью на 100 000 населения по полу и территории",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/3-5-1-2",
+          "status": "notstarted"
+        },
+        {
           "id": "3-5-2",
           "title": "Harmful use of alcohol, defined according to the national context as alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol",
           "description": "",
