@@ -1078,6 +1078,14 @@
           "status": "notstarted"
         },
         {
+          "id": "8-3-1-2",
+          "title": "Доля занятых в малых и средних предприятиях от всего занятого населения в экономике",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/8-3-1-2",
+          "status": "notstarted"
+        },
+        {
           "id": "8-4-1",
           "title": "",
           "description": "",
@@ -1099,6 +1107,14 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-quick-start/8-5-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-1-1",
+          "title": "Среднемесячная заработная плата по видам экономической деятельности",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/8-5-1-1",
           "status": "notstarted"
         },
         {
