@@ -182,6 +182,14 @@
           "status": "notstarted"
         },
         {
+          "id": "2-1-1-1e",
+          "title": "Среднедушевое потребление основных продуктов питания по отношению к среднефизиологическим нормам, в %",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/en/2-1-1-1e",
+          "status": "notstarted"
+        },
+        {
           "id": "2-1-2",
           "title": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)",
           "description": "",
