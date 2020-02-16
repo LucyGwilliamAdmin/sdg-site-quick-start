@@ -1166,6 +1166,14 @@
           "status": "complete"
         },
         {
+          "id": "8-9-1-1",
+          "title": "Доля туризма в ВВП",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-site-quick-start/8-9-1-1",
+          "status": "notstarted"
+        },
+        {
           "id": "8-9-2",
           "title": "Proportion of jobs in sustainable tourism industries out of total tourism jobs",
           "description": "",
