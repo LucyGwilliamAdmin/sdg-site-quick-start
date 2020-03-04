@@ -27,6 +27,8 @@ var opensdg = {
     // Alterations go here.
     return value;
   },
+
+  language: 'en',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -122,7 +124,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-quick-start/assets/css/style.css?v=20200304001809">
+        <link rel="stylesheet" href="/sdg-site-quick-start/assets/css/style.css?v=20200304143540">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -130,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/sdg-site-quick-start/assets/css/custom.css?v=20200304001809"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/sdg-site-quick-start/assets/css/custom.css?v=20200304143540"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
 <body class="language-en layout-reportingstatus">
@@ -186,10 +188,11 @@ var translations = {
   <form action="/sdg-site-quick-start/en/search">
     <input name="q" id="indicator_search" title="Search" />
     <label for="indicator_search">
-      <button id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false" aria-label=Search></i></button><span>Search:</span>
+      <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>Search:</span>
     </label>
   </form>
 </div>
+
       
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
             <a href="/sdg-site-quick-start/en/reporting-status">Reporting Status</a>
@@ -234,7 +237,16 @@ var translations = {
             </div><br style="clear:both;">
           </div>
         </div>
-        <div class="goal-stats"><span class="complete" style="width:25.704%" title="complete: 26%"></span><span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span><span class="notstarted" style="width:74.296%" title="notstarted: 74%"></span></div>
+        <div class="goal-stats">
+            
+            
+            <span class="complete" style="width:25.704225352112676%" title="complete: 26%"></span>
+            
+            
+            <span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span>
+            
+            
+            <span class="notstarted" style="width:74.29577464788731%" title="notstarted: 74%"></span></div>
 
       </div>
     <br style="clear:both;">
@@ -265,7 +277,16 @@ var translations = {
               </div><br style="clear:both;">
             </div>
           </div>
-          <div class="goal-stats"><span class="complete" style="width:35.0%" title="complete: 35%"></span><span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span><span class="notstarted" style="width:65.0%" title="notstarted: 65%"></span></div>
+          <div class="goal-stats">
+          
+          
+            <span class="complete" style="width:35.0%" title="complete: 35%"></span>
+          
+          
+            <span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span>
+          
+          
+            <span class="notstarted" style="width:65.0%" title="notstarted: 65%"></span></div>
           <div class="divider">
           </div>
         </div>
@@ -291,7 +312,16 @@ var translations = {
               </div><br style="clear:both;">
             </div>
           </div>
-          <div class="goal-stats"><span class="complete" style="width:20.0%" title="complete: 20%"></span><span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span><span class="notstarted" style="width:80.0%" title="notstarted: 80%"></span></div>
+          <div class="goal-stats">
+          
+          
+            <span class="complete" style="width:20.0%" title="complete: 20%"></span>
+          
+          
+            <span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span>
+          
+          
+            <span class="notstarted" style="width:80.0%" title="notstarted: 80%"></span></div>
           <div class="divider">
           </div>
         </div>
@@ -317,7 +347,16 @@ var translations = {
               </div><br style="clear:both;">
             </div>
           </div>
-          <div class="goal-stats"><span class="complete" style="width:53.333%" title="complete: 53%"></span><span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span><span class="notstarted" style="width:46.667%" title="notstarted: 47%"></span></div>
+          <div class="goal-stats">
+          
+          
+            <span class="complete" style="width:53.33333333333333%" title="complete: 53%"></span>
+          
+          
+            <span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span>
+          
+          
+            <span class="notstarted" style="width:46.66666666666667%" title="notstarted: 47%"></span></div>
           <div class="divider">
           </div>
         </div>
@@ -343,7 +382,16 @@ var translations = {
               </div><br style="clear:both;">
             </div>
           </div>
-          <div class="goal-stats"><span class="complete" style="width:17.647%" title="complete: 18%"></span><span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span><span class="notstarted" style="width:82.353%" title="notstarted: 82%"></span></div>
+          <div class="goal-stats">
+          
+          
+            <span class="complete" style="width:17.647058823529413%" title="complete: 18%"></span>
+          
+          
+            <span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span>
+          
+          
+            <span class="notstarted" style="width:82.35294117647058%" title="notstarted: 82%"></span></div>
           <div class="divider">
           </div>
         </div>
@@ -369,7 +417,16 @@ var translations = {
               </div><br style="clear:both;">
             </div>
           </div>
-          <div class="goal-stats"><span class="complete" style="width:23.529%" title="complete: 24%"></span><span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span><span class="notstarted" style="width:76.471%" title="notstarted: 76%"></span></div>
+          <div class="goal-stats">
+          
+          
+            <span class="complete" style="width:23.52941176470588%" title="complete: 24%"></span>
+          
+          
+            <span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span>
+          
+          
+            <span class="notstarted" style="width:76.47058823529412%" title="notstarted: 76%"></span></div>
           <div class="divider">
           </div>
         </div>
@@ -395,7 +452,16 @@ var translations = {
               </div><br style="clear:both;">
             </div>
           </div>
-          <div class="goal-stats"><span class="complete" style="width:28.571%" title="complete: 29%"></span><span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span><span class="notstarted" style="width:71.429%" title="notstarted: 71%"></span></div>
+          <div class="goal-stats">
+          
+          
+            <span class="complete" style="width:28.57142857142857%" title="complete: 29%"></span>
+          
+          
+            <span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span>
+          
+          
+            <span class="notstarted" style="width:71.42857142857143%" title="notstarted: 71%"></span></div>
           <div class="divider">
           </div>
         </div>
@@ -421,7 +487,16 @@ var translations = {
               </div><br style="clear:both;">
             </div>
           </div>
-          <div class="goal-stats"><span class="complete" style="width:50.0%" title="complete: 50%"></span><span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span><span class="notstarted" style="width:50.0%" title="notstarted: 50%"></span></div>
+          <div class="goal-stats">
+          
+          
+            <span class="complete" style="width:50.0%" title="complete: 50%"></span>
+          
+          
+            <span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span>
+          
+          
+            <span class="notstarted" style="width:50.0%" title="notstarted: 50%"></span></div>
           <div class="divider">
           </div>
         </div>
@@ -447,7 +522,16 @@ var translations = {
               </div><br style="clear:both;">
             </div>
           </div>
-          <div class="goal-stats"><span class="complete" style="width:33.333%" title="complete: 33%"></span><span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span><span class="notstarted" style="width:66.667%" title="notstarted: 67%"></span></div>
+          <div class="goal-stats">
+          
+          
+            <span class="complete" style="width:33.33333333333333%" title="complete: 33%"></span>
+          
+          
+            <span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span>
+          
+          
+            <span class="notstarted" style="width:66.66666666666666%" title="notstarted: 67%"></span></div>
           <div class="divider">
           </div>
         </div>
@@ -473,7 +557,16 @@ var translations = {
               </div><br style="clear:both;">
             </div>
           </div>
-          <div class="goal-stats"><span class="complete" style="width:46.154%" title="complete: 46%"></span><span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span><span class="notstarted" style="width:53.846%" title="notstarted: 54%"></span></div>
+          <div class="goal-stats">
+          
+          
+            <span class="complete" style="width:46.15384615384615%" title="complete: 46%"></span>
+          
+          
+            <span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span>
+          
+          
+            <span class="notstarted" style="width:53.84615384615384%" title="notstarted: 54%"></span></div>
           <div class="divider">
           </div>
         </div>
@@ -499,7 +592,16 @@ var translations = {
               </div><br style="clear:both;">
             </div>
           </div>
-          <div class="goal-stats"><span class="complete" style="width:9.091%" title="complete: 9%"></span><span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span><span class="notstarted" style="width:90.909%" title="notstarted: 91%"></span></div>
+          <div class="goal-stats">
+          
+          
+            <span class="complete" style="width:9.090909090909092%" title="complete: 9%"></span>
+          
+          
+            <span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span>
+          
+          
+            <span class="notstarted" style="width:90.9090909090909%" title="notstarted: 91%"></span></div>
           <div class="divider">
           </div>
         </div>
@@ -525,7 +627,16 @@ var translations = {
               </div><br style="clear:both;">
             </div>
           </div>
-          <div class="goal-stats"><span class="complete" style="width:13.333%" title="complete: 13%"></span><span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span><span class="notstarted" style="width:86.667%" title="notstarted: 87%"></span></div>
+          <div class="goal-stats">
+          
+          
+            <span class="complete" style="width:13.333333333333332%" title="complete: 13%"></span>
+          
+          
+            <span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span>
+          
+          
+            <span class="notstarted" style="width:86.66666666666667%" title="notstarted: 87%"></span></div>
           <div class="divider">
           </div>
         </div>
@@ -551,7 +662,16 @@ var translations = {
               </div><br style="clear:both;">
             </div>
           </div>
-          <div class="goal-stats"><span class="complete" style="width:0.0%" title="complete: 0%"></span><span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span><span class="notstarted" style="width:100.0%" title="notstarted: 100%"></span></div>
+          <div class="goal-stats">
+          
+          
+            <span class="complete" style="width:0.0%" title="complete: 0%"></span>
+          
+          
+            <span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span>
+          
+          
+            <span class="notstarted" style="width:100.0%" title="notstarted: 100%"></span></div>
           <div class="divider">
           </div>
         </div>
@@ -577,7 +697,16 @@ var translations = {
               </div><br style="clear:both;">
             </div>
           </div>
-          <div class="goal-stats"><span class="complete" style="width:12.5%" title="complete: 13%"></span><span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span><span class="notstarted" style="width:87.5%" title="notstarted: 88%"></span></div>
+          <div class="goal-stats">
+          
+          
+            <span class="complete" style="width:12.5%" title="complete: 13%"></span>
+          
+          
+            <span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span>
+          
+          
+            <span class="notstarted" style="width:87.5%" title="notstarted: 88%"></span></div>
           <div class="divider">
           </div>
         </div>
@@ -603,7 +732,16 @@ var translations = {
               </div><br style="clear:both;">
             </div>
           </div>
-          <div class="goal-stats"><span class="complete" style="width:0.0%" title="complete: 0%"></span><span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span><span class="notstarted" style="width:100.0%" title="notstarted: 100%"></span></div>
+          <div class="goal-stats">
+          
+          
+            <span class="complete" style="width:0.0%" title="complete: 0%"></span>
+          
+          
+            <span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span>
+          
+          
+            <span class="notstarted" style="width:100.0%" title="notstarted: 100%"></span></div>
           <div class="divider">
           </div>
         </div>
@@ -629,7 +767,16 @@ var translations = {
               </div><br style="clear:both;">
             </div>
           </div>
-          <div class="goal-stats"><span class="complete" style="width:13.333%" title="complete: 13%"></span><span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span><span class="notstarted" style="width:86.667%" title="notstarted: 87%"></span></div>
+          <div class="goal-stats">
+          
+          
+            <span class="complete" style="width:13.333333333333332%" title="complete: 13%"></span>
+          
+          
+            <span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span>
+          
+          
+            <span class="notstarted" style="width:86.66666666666667%" title="notstarted: 87%"></span></div>
           <div class="divider">
           </div>
         </div>
@@ -655,7 +802,16 @@ var translations = {
               </div><br style="clear:both;">
             </div>
           </div>
-          <div class="goal-stats"><span class="complete" style="width:24.0%" title="complete: 24%"></span><span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span><span class="notstarted" style="width:76.0%" title="notstarted: 76%"></span></div>
+          <div class="goal-stats">
+          
+          
+            <span class="complete" style="width:24.0%" title="complete: 24%"></span>
+          
+          
+            <span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span>
+          
+          
+            <span class="notstarted" style="width:76.0%" title="notstarted: 76%"></span></div>
           <div class="divider">
           </div>
         </div>
@@ -681,7 +837,16 @@ var translations = {
               </div><br style="clear:both;">
             </div>
           </div>
-          <div class="goal-stats"><span class="complete" style="width:18.519%" title="complete: 19%"></span><span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span><span class="notstarted" style="width:81.481%" title="notstarted: 81%"></span></div>
+          <div class="goal-stats">
+          
+          
+            <span class="complete" style="width:18.518518518518515%" title="complete: 19%"></span>
+          
+          
+            <span class="inprogress" style="width:0.0%" title="inprogress: 0%"></span>
+          
+          
+            <span class="notstarted" style="width:81.48148148148148%" title="notstarted: 81%"></span></div>
           <div class="divider">
           </div>
         </div>
@@ -731,7 +896,7 @@ var translations = {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-site-quick-start/assets/js/sdg.js?v=20200304001809'></script><script>
+<script src='/sdg-site-quick-start/assets/js/sdg.js?v=20200304143540'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
