@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://lucygwilliamadmin.github.io/sdg-data-quick-start/ru',
+  remoteDataBaseUrl: 'https://SDG-kyrgyzstan.github.io/open-sdg-data-starter/ru',
 
   // A hook which can be replaced to modify the configuration for Chart.js.
   // To see where this is used, see indicatorView.js createPlot() and updatePlot().
@@ -108,13 +108,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/sdg-site-quick-start/assets/js/lib/classList.js"></script>
+        <script src="/open-sdg-site-starter/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/sdg-site-quick-start/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/sdg-site-quick-start/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -124,7 +124,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-quick-start/assets/css/style.css?v=20200326165515">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20200326171126">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/sdg-site-quick-start/assets/css/custom.css?v=20200326165515"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20200326171126"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
 <body class="language-ru layout-indicator">
@@ -154,8 +154,8 @@ var translations = {
 <header role="banner">
   <div class="container">
 
-    <a class="navbar-brand" href="/sdg-site-quick-start/" id="home">
-      <img src="/sdg-site-quick-start/assets/img/SDG_logo.png" alt="Цели в области устойчивого развития - 17 Целей, чтобы преобразовать наш мир" />
+    <a class="navbar-brand" href="/open-sdg-site-starter/" id="home">
+      <img src="/open-sdg-site-starter/assets/img/SDG_logo.png" alt="Цели в области устойчивого развития - 17 Целей, чтобы преобразовать наш мир" />
     </a>
 
   <div class='hidden visible-xs float-right'>
@@ -167,7 +167,7 @@ var translations = {
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/sdg-site-quick-start/en/6-1-1/">English</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/open-sdg-site-starter/en/6-1-1/">English</a></li></ul>
 
     </div></div>
 
@@ -185,7 +185,7 @@ var translations = {
       </ul>
 
       <div id="search" class="menu-target">
-  <form action="/sdg-site-quick-start/search">
+  <form action="/open-sdg-site-starter/search">
     <input name="q" id="indicator_search" title="Поиск" />
     <label for="indicator_search">
       <button aria-label="Поиск" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>Поиск:</span>
@@ -195,15 +195,15 @@ var translations = {
 
       
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-            <a href="/sdg-site-quick-start/reporting-status">Состояние отчётности</a>
+            <a href="/open-sdg-site-starter/reporting-status">Состояние отчётности</a>
           </li><li class="nav-link ">
-            <a href="/sdg-site-quick-start/about">О нас</a>
+            <a href="/open-sdg-site-starter/news">Новости</a>
           </li><li class="nav-link ">
-            <a href="/sdg-site-quick-start/guidance">Руководство</a>
+            <a href="/open-sdg-site-starter/about">О нас</a>
           </li><li class="nav-link ">
-            <a href="/sdg-site-quick-start/faq">Часто задаваемые вопросы</a>
+            <a href="/open-sdg-site-starter/guidance">Руководство</a>
           </li><li class="nav-link ">
-            <a href="/sdg-site-quick-start/news">Новости</a>
+            <a href="/open-sdg-site-starter/faq">Часто задаваемые вопросы</a>
           </li><li>
           <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
@@ -212,7 +212,7 @@ var translations = {
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/sdg-site-quick-start/en/6-1-1/">English</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/open-sdg-site-starter/en/6-1-1/">English</a></li></ul>
 
         </li></ul>
 
@@ -262,7 +262,7 @@ var translations = {
   <% } %>
 </script>
 
-<script>translations['indicator'] = {"chart":"График","clear_all":"Очистить всё","clear_selections":"Очистить выделенное","dataset_size_warning":"В таблице слишком много данных, чтобы показать в графике. Чтобы увидеть все, удалите выделенное.","download_chart":"Скачать график CSV","download_chart_image":"Загрузить изображение диаграммы","download_chart_image_title":"Скачать диаграмму как изображение","download_csv":"Скачать CSV","download_csv_title":"Скачать в формате CSV","download_headline":"Скачать заголовки CSV","download_headline_title":"Скачать данные заголовков в формате CSV","download_source":"Скачать исходные CSV","download_source_title":"Скачать исходные данные в формате CSV","download_table":"Скачать табличные CSV","edit":"Редактировать","edit_data":"Редактировать данные","edit_metadata":"Редактировать метаданные","footnote":"Сноска","geographical_area":"Географический район","global_metadata":"Глобальные метаданные","global_metadata_blurb":"В этой таблице представлена информация для метаданных показателей ЦУР, определенных Статистической комиссией ООН. Полные глобальные метаданные представлены Статистическим отделом ООН.","legend_help":"Нажмите на легенду, чтобы убрать линии из графика.","loading_map":"Загрузка карты","map":"Карта","national_metadata":"Национальные метаданные","national_metadata_blurb":"В этой таблице представлены метаданные для фактического показателя, доступного из статистики ближайшей к соответствующему глобальному индикатору ЦУР. Обратите внимание, что даже если глобальный индикатор ЦУР полностью доступен из статистики, по этой таблице следует проконсультироваться для получения информации о национальной методологии и других специфичных метаданных.","no_data_hint":"Нет имеющихся вариантов из-за фильтров наверху.","select_all":"Выделить всё","series_help":"Выберите категории из выпадающего меню внизу, чтобы увидеть разные разбивки данных. Несколько не будет доступно, пока более высокий уровень не выбран. ","source":"Источник","sources":"Источники","sub_categories":"Субкатегории","table":"Таблица","unit_of_measurement":"Единица измерения","units_type":"Вид единиц","variable_hint":"Доступно, когда выбрано","view_indicator_list":"Посмотреть список индикаторов этой цели"};</script>
+<script>translations['indicator'] = {"chart":"График","clear_all":"Очистить всё","clear_selections":"Очистить выделенное","dataset_size_warning":"В таблице слишком много данных, чтобы показать в графике. Чтобы увидеть все, удалите выделенное.","download_chart":"Скачать график CSV","download_chart_image":"Загрузить изображение диаграммы","download_chart_image_title":"Скачать диаграмму как изображение","download_csv":"Скачать CSV","download_csv_title":"Скачать в формате CSV","download_geojson":"Скачать GeoJSON","download_geojson_title":"Скачать в формате GeoJSON","download_headline":"Скачать заголовки CSV","download_headline_title":"Скачать данные заголовков в формате CSV","download_source":"Скачать исходные CSV","download_source_title":"Скачать исходные данные в формате CSV","download_table":"Скачать табличные CSV","edit":"Редактировать","edit_data":"Редактировать данные","edit_metadata":"Редактировать метаданные","footnote":"Сноска","geographical_area":"Географический район","global_metadata":"Глобальные метаданные","global_metadata_blurb":"В этой таблице представлена информация для метаданных показателей ЦУР, определенных Статистической комиссией ООН. Полные глобальные метаданные представлены Статистическим отделом ООН.","legend_help":"Нажмите на легенду, чтобы убрать линии из графика.","loading_map":"Загрузка карты","map":"Карта","national_metadata":"Национальные метаданные","national_metadata_blurb":"В этой таблице представлены метаданные для фактического показателя, доступного из статистики ближайшей к соответствующему глобальному индикатору ЦУР. Обратите внимание, что даже если глобальный индикатор ЦУР полностью доступен из статистики, по этой таблице следует проконсультироваться для получения информации о национальной методологии и других специфичных метаданных.","no_data_hint":"Нет имеющихся вариантов из-за фильтров наверху.","select_all":"Выделить всё","series_help":"Выберите категории из выпадающего меню внизу, чтобы увидеть разные разбивки данных. Несколько не будет доступно, пока более высокий уровень не выбран. ","source":"Источник","sources":"Источники","sub_categories":"Субкатегории","table":"Таблица","unit_of_measurement":"Единица измерения","units_type":"Вид единиц","variable_hint":"Доступно, когда выбрано","view_indicator_list":"Посмотреть список индикаторов этой цели"};</script>
 
 <script>translations['data'] = {"0 to 5 months old":" возраст от 0-5 месяцев","1 to 14 years old":"1-14 лет","1 to 2 years old":"1-2 года","1 year old":" в возрасте 1 года","10 to 14 years old":"10-14 лет","12 to 14 years old":"12-14 лет","12 to 17 months old":" возраст от 12-17  месяцев","15 to 17 years old":"15-17 лет","15 to 19 years old":"15-19 лет","18 to 23 months old":" возраст от 18-23  месяцев","18 to 25 years old":"18-25 лет","2 years old":"2 года и старше","20 to 24 years old":"20-24 лет","24 to 35 months old":" возраст от 24-35  месяцев","25 to 29 years old":"25-29 лет","26 to 34 years old":"26-34 лет","3 to 4 years old":"3-4 года","3 years old":"3 года","30 to 34 years old":"30-34 лет","35 to 39 years old":"35-39 лет","35 to 45 years old":"35-45 лет","36 to 47 months old":" возраст от 36-47  месяцев","4 years old":"4 года","40 to 44 years old":"40-44 лет","45 to 49 years old":"45-49 лет","46 to 54 years old":"46-54 лет","48 to 59 months old":" возраст от 48-59  месяцев","5 to 11 years old":"5-11 лет","5 to 17 years old":"5-17 лет","5 to 6 years old":"5-6 лет","55 to 59 years old":"55-59 лет","6 to 11 months old":" возраст от 6-11  месяцев","60 years old and over":"60 лет и старше","7 to 14 years old":"7-14 лет","8 to 9 years old":"8-9 лет","Age":"Возраст","At the time of departure cargo.":"В момент отправления груза.","Batken":"Баткенская область","Bishkek (city)":"г. Бишкек","Chui":"Чуйская область","Composite breakdown":"Композитная разбивка","Degree of urbanisation":"Степень урбанизации","Education level":"Уровень образования","Female":"женский","Income or wealth quantile":"Доход или квинтиль благосостояния","Internet speed: 10 Mbit/s or above":"Скорость интернета: 10 Мбит /с  или выше","Internet speed: 2 Mbit/s to less than 10 Mbit/s":"Скорость интернета: от 2 Мбит /с  до менее 10 Мбит / с","Internet speed: 256 kbit/s to less than 2 Mbit/s":"Скорость интернета: от 256 кбит /с  до менее 2 Мбит / с","Issyk-Kul":"Иссык-Кульская область","Jalal-Abad":"Жалал-Абад область","Local currency":"Местная валюта","Lower secondary education":"1- этап среднего образования","Male":"мужской","Medical doctors":"Врачи","Mode of Transport: Air":"Вид транспорта: воздушный","Mode of Transport: Pipeline":"Вид транспорта: трубопроводный","Mode of Transport: Rail":"Вид транспорта: железнодорожный","Mode of Transport: Road":"Вид транспорта: дорожный","Mode of Transport: Water":"Вид транспорта: водный","Naryn":"Нарынская область","Non-communicable disease: Cancer":"Неинфекционные заболевания: рак","Non-communicable disease: Cardiovascular disease":"Неинфекционные заболевания: сердечно-сосудистые заболевания","Non-communicable disease: Chronic respiratory disease":"Неинфекционные заболевания: хронические респираторные заболевания","Non-communicable disease: Diabetes":"Неинфекционные заболевания:диабет","Nursing and midwifery professionals":"Медсестры и акушеры","Occupation":"Род занятий (Профессия)","Osh":"Ошская область","Osh (city)":"г. Ош","Percent":"Процент","Post-secondary non-tertiary education":"Послесреднее нетретичное образование","Pre-primary education":"Дошкольное образование","Primary education":"Начальное образование (1-4 классы)","Quintile 1 (poorest)":"квинтиль 1 (самые бедные)","Quintile 2":"квинтиль 2","Quintile 3":"квинтиль 3","Quintile 4":"квинтиль 4","Quintile 5 (richest)":"квинтиль 5 (самые богатые)","Reference area":"Справочная зона (условная зона)","Rural":"сельская местность","Sex":"пол","Since 2014 excluding deparmental transport.":"С 2014 года исключая департационный транспорт.","Skill: Functional literacy":"Навыки: Функциональная грамотность","Skill: Functional numeracy":"Навыки: Функциональное счисление ","Some primary education, grades 2 or 3":"Неполное начальное образование","Talas":"Таласская область","Time series-level footnotes":"Сноски для временных рядов","Until 2013 - including Osh.":"До 2013 года - включая Ош.","Upper secondary education":"2- этап среднего образования","Urban":"городская местность","under 1 year old":"возрасте до 1 года","under 5 years old":"до 5 лет"};</script>
 
@@ -271,19 +271,14 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2">
-        <a href="/sdg-site-quick-start/6" title="Посмотреть список индикаторов этой цели">
+        <a href="/open-sdg-site-starter/6" title="Посмотреть список индикаторов этой цели">
           <img src="https://open-sdg.github.io/sdg-translations/assets/img/goals/ru/6.png" alt="Чистая вода и санитария - Цель 6" />
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
-        <h1>
-          <a href="/sdg-site-quick-start/6">
-            <span class="hidden-sm hidden-md hidden-lg">Цель 6: </span>Обеспечение наличия и рационального использования водных ресурсов и санитарии
-для всех
-
-          </a>
-        </h1>
-        <h2>показатель 6.1.1: Proportion of population using safely managed drinking water services</h2>
+        <h1>показатель 6.1.1: Доля населения, пользующегося услугами
+водоснабжения, организованного с соблюдением требований
+безопасности</h1>
       </div>
     </div>
   </div>
@@ -291,8 +286,8 @@ var translations = {
 
 <div id="main-content" class="container goal-6">
   <ol class="breadcrumb">
-    <li><a href="/sdg-site-quick-start/">Главная</a></li>
-    <li><a href="/sdg-site-quick-start/6" title="Обеспечение наличия и рационального использования водных ресурсов и санитарии
+    <li><a href="/open-sdg-site-starter/">Главная</a></li>
+    <li><a href="/open-sdg-site-starter/6" title="Обеспечение наличия и рационального использования водных ресурсов и санитарии
 для всех
 ">Цель 6</a></li>
     <li class="active">показатель 6.1.1</li>
@@ -322,17 +317,241 @@ var translations = {
   data-charttitle="Доля населения, пользующегося услугами
 водоснабжения, организованного с соблюдением требований
 безопасности" data-measurementunit="" data-datasource="" data-copyright=""
-  data-geographicalarea="Кыргызская Республика" data-footnote="" data-showdata="false" data-graphtype="line"
+  data-geographicalarea="Кыргызская Республика" data-footnote="" data-showdata="true" data-graphtype="line"
   data-geocoderegex="" data-showmap="" data-startvalues="">
 
     
-    <div id="indicator-main" class="col-md-12">
+    <div id="indicator-sidebar" class="col-md-3">
+      <div id="toolbar">
+        <span id="series-help">
+          <h4>Субкатегории</h4>
+          <p>Выберите категории из выпадающего меню внизу, чтобы увидеть разные разбивки данных. Несколько не будет доступно, пока более высокий уровень не выбран. </p>
+        </span>
+        <p>Нажмите на легенду, чтобы убрать линии из графика.</p>
+        <div id="fields">
+          <p class="async-loading" data-img="/open-sdg-site-starter/assets/img/loading-small.gif"></p>
+        </div>
+      </div>
+      <div id="units"></div>
+    </div>
+    <div id="indicator-main" class="col-md-9">
     
+
+      
+      
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    <a href="https://SDG-kyrgyzstan.github.io/open-sdg-data-starter/ru/headline/6-1-1.csv" class="btn btn-primary btn-download" download="indicator_6-1-1.csv" tabindex="0" role="button">Скачать заголовки CSV</a>
+
+    <a href="https://SDG-kyrgyzstan.github.io/open-sdg-data-starter/ru/data/6-1-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_6-1-1.csv' tabindex='0' role='button'>Скачать исходные CSV</a>
+
+    <h3>Headline data</h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption>Доля населения, пользующегося услугами
+водоснабжения, организованного с соблюдением требований
+безопасности</caption>
+      <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col" class="table-value">Value</th>
+        
+        
+      </thead>
+      <tbody>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td class="table-value">92.354935</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td class="table-value">93.231051</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td class="table-value">89.6</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td class="table-value">88.946006</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td class="table-value">89.13614</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td class="table-value">89.949401</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td class="table-value">91.106719</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td class="table-value">91.811084</td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div id="datatableFooter">
+    
+    
+    <p>Географический район: Кыргызская Республика</p>
+    
+    
+    
+  </div>
+
+</div>
 
       
 
       <section>
 
+        
+        <p class="async-loading" data-img="/open-sdg-site-starter/assets/img/loading-small.gif"></p>
+        
+        <div class="async-loaded spacer medium" style="display:none;">
+          <ul class="nav nav-tabs data-view" role="tablist">
+            <li role="presentation" class="nav-item active">
+              <a class="nav-link" data-toggle="tab" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+>График</a>
+            </li>
+            <li role="presentation" class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+>Таблица</a>
+            </li>
+            <li role="presentation" class="nav-item map" style="display:none">
+              <a data-no-disagg="true" class="nav-link" data-toggle="tab" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Map tab"
+>Карта</a>
+            </li></ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content data-view">
+            <div role="tabpanel" class="tab-pane active" id="chartview">
+              
+
+    <div id="dataset-size-warning" style="display:none">
+      <i class="fa fa-bolt"></i> В таблице слишком много данных, чтобы показать в графике. Чтобы увидеть все, удалите выделенное.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <div id="chart-canvas">
+        <h3 class="chart-title">Доля населения, пользующегося услугами
+водоснабжения, организованного с соблюдением требований
+безопасности</h3>
+        <div id="chart" class="plot-container">
+          
+<canvas></canvas>
+
+
+        </div>
+        <div id="plotLegend"></div>
+      </div>
+      <button id="btnSave" title="Скачать диаграмму как изображение" class='btn btn-primary btn-download'>
+        Загрузить изображение диаграммы
+      </button>
+    </div>
+    <div id="chartSelectionDownload"></div>
+
+
+
+            </div>
+            <div role="tabpanel" class="tab-pane" id="tableview">
+              <div id="selectionsTable"></div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="mapview" class="map">
+              <div id="map">
+                <img src="/open-sdg-site-starter/assets/img/loading.gif" alt="Загрузка карты" />
+              </div>
+            </div>
+            
+          </div>
+        </div>
         
 
         <!-- Nav tabs -->
@@ -347,8 +566,8 @@ var translations = {
             <a class="nav-link" data-toggle="tab" href="#indicator_information" aria-controls="indicator_information" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to Indicator information tab"
->Indicator information</a>
+data-event-label="Change to custom.indicator_information tab"
+>Информация об индикаторе</a>
           </li>
           
           
@@ -371,8 +590,8 @@ data-event-label="Change to indicator.national_metadata tab"
             <a class="nav-link" data-toggle="tab" href="#data_reporter" aria-controls="data_reporter" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to Data reporter info tab"
->Data reporter info</a>
+data-event-label="Change to custom.data_reporter tab"
+>Поставщики данных</a>
           </li>
           
         
@@ -393,7 +612,7 @@ data-event-label="Change to Data reporter info tab"
             
             <div role="tabpanel" class="tab-pane active" id="indicator_information">
               <article>
-                <p>Below is info about this indicator</p>
+                <p>Данная таблица предоставляет информацию об индикаторе</p>
                 <table class="table table-hover">
   
   
@@ -406,7 +625,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Название показателя </th>
         <td>
           
-            
+            <p>Показатель 6.1.1: Доля населения, пользующегося услугами водоснабжения, организованного с соблюдением требований безопасности</p>
 
           
         </td>
@@ -420,7 +639,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Название задачи </th>
         <td>
           
-            
+            <p>Задача 6.1: К 2030 году обеспечить всеобщий и равноправный доступ к безопасной и недорогой питьевой воде для всех</p>
 
           
         </td>
@@ -434,7 +653,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Цель </th>
         <td>
           
-            
+            <p>Цель 6: Обеспечение наличия и рационального использования водных ресурсов и санитарии для всех</p>
 
           
         </td>
@@ -526,7 +745,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Определения </th>
         <td>
           
-            
+            <p>Доля населения, пользующегося безопасной инфраструктурой снабжения питьевой водой, измеряется как часть населения, которая использует улучшенные основные источники питьевой воды, не содержащей фекальных (в особенности химических) загрязнений, находящиеся в помещениях и в свободном доступе. “Улучшенные” источники определяются так же, как и для Целей тысячелетия, а именно: наличие водопровода до дома или участка; наличие общественных отводов или водосточных труб; наличие скважин или трубчатых колодцев; защищенные колодцы; защищенные источники и дождевая вода.</p>
 
           
         </td>
@@ -540,7 +759,9 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Основные понятия </th>
         <td>
           
-            
+            <p>“Улучшенные” водные источники включают: наличие водопровода до дома или участка; общественные отводы или водосточные трубы; скважины или трубчатые колодцы; защищенные колодцы; защищенные источники талой и дождевой воды. Пакетированная вода считается улучшенным источником в случае, если домохозяйства используют улучшенный источник воды для других домашних нужд. Источник воды считается “расположенным в помещении”, если место сбора воды расположено в помещении, во дворе или участке.
+Термин “В свободном доступе” означает: домохозяйства располагают достаточным количеством воды в случае необходимости.
+«Без фекального и  химического загрязнения»: вода соответствует соответствующим национальным или местным стандартам. В отсутствие таких стандартов делается ссылка на Руководство ВОЗ по качеству питьевой воды (http://www.who.int/water_sanitation_health/dwq/guidelines/en/).</p>
 
           
         </td>
@@ -554,7 +775,8 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Обоснование и толкование </th>
         <td>
           
-            
+            <p>Цель тысячелетия 7С ориентирована на “стабильный доступ” к “чистой питьевой воде”. На начальном этапе постановки целей тысячелетия имела место  нехватка данных о чистоте питьевой воде в развивающихся странах, эти данные не собирались с помощью обследований домашних хозяйств или переписей. Совместная программа мониторинга(JMP) ввела понятие “улучшенных” источников водных ресурсов, которое использовалось в качестве прокси для  понятия “безопасной воды”, поскольку улучшенные источники, как правило, защищены от фекальных загрязнений. Данная методика использовалась с 2000 года для отслеживания выполнения целей тысячелетия. В результате международных совещаний с 2011 было решено устранять упущения данного индикатора; в частности, обратиться к нормативным критериям прав человека на воду включая доступность и качество воды.
+В результате упомянутых выше совещаний было решено, что Совместная программа мониторинга (JMP) должна рассматривать не только базовый уровень доступности воды, но и то, каким образом осуществляется контроль над водной инфраструктурой, включая измерение доступности, наличия и качества воды. Предложенный индикатор “ Доля населения, пользующегося услугами водоснабжения, организованного с соблюдением требований безопасности “ призван соответствовать этому требованию.</p>
 
           
         </td>
@@ -568,7 +790,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Метод расчета </th>
         <td>
           
-            
+            <p>Показатель рассчитывается путем деления общего количества лиц, проживающих в домашних хозяйствах, использующих улучшенные основные источники питьевой воды, к общей численности населения. Все расчеты осуществляются с примененим коэффициентов взвешивания.</p>
 
           
         </td>
@@ -582,7 +804,9 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Комментарий и ограничения </th>
         <td>
           
-            
+            <p>Данные о доступности и безопасности питьевой воды становятся все более доступными благодаря сочетанию данных из обследований домашних хозяйств и административных источников, включая регулирующие органы, однако определения еще не стандартизированы. Данные о фекальных и химических загрязнениях, взятые из обследований домашних хозяйств и информационно-нормативных баз данных, не охватят все страны сразу. Однако данных вполне достаточно для составления глобальных и региональных оценок услуг водоснабжения, организованных с соблюдением требований безопасности.
+Оценки JMP основаны на национальных источниках данных, утвержденных в качестве официальной статистики. Различия между глобальными и национальными цифрами возникают из-за различий в определениях показателей и методах, используемых при расчете оценок национального охвата.
+В некоторых случаях национальные оценки основаны на самой последней точке данных, а не на регрессии по всем точкам данных, как это делает JMP.</p>
 
           
         </td>
@@ -610,7 +834,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Доступность данных и пробелы </th>
         <td>
           
-            
+            <p>Данные о наличии и качестве водоснабжения в настоящее время доступны из обследований домашних хозяйств или административных источников, включая регулирующие органы, для более чем 70 стран с высоким уровнем доходов и, по меньшей мере, для 30-40 стран с низким и средним уровнем дохода. Таким образом, данные в настоящее время доступны более чем для 100 стран, охватывающих большинство населения мира. Число имеющих данные  стран будет расти, поскольку регулирование данной области становится более распространенным в странах с низким и средним уровнем дохода.</p>
 
           
         </td>
@@ -624,7 +848,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Разбивка </th>
         <td>
           
-            
+            <p>Индикатор дезагрегирован по регионам (географическим и городским / сельским).</p>
 
           
         </td>
@@ -638,7 +862,8 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Сопоставимость с международными данными/стандартами </th>
         <td>
           
-            
+            <p>Национальные обследования домашних хозяйств оценивают показатель прямым методом, что отличается от международной методологии. Совместная программа мониторинга ВОЗ / ЮНИСЕФ по водоснабжению и санитарии (JMP) оценивает доступ к базовым услугам для каждой страны отдельно в городских и сельских районах путем подгонки линии регрессии к ряду точек данных из обследований домашних хозяйств и переписей. Этот подход использовался для построения отчета об использовании источников «улучшенной воды» для мониторинга ЦУР. По мере поступления большего количества данных JMP оценивает использование альтернативных методов статистической оценки. В сопроводительной Методической записке более подробно описывается, как данные о доступности и качестве из разных источников могут быть объединены с данными об использовании различных типов трубопроводов, которые учтены в текущей базе данных JMP для расчета предлагаемого индикатора.http://www.wssinfo.org/fileadmin/user_upload/resources/Methodological-note-on-monitoring-SDG-targets-for-WASH-and-wastewater_WHO-UNICEF_8October2015_Final.pdf. 
+ВОЗ, согласно резолюции Всемирной ассамблеи здравоохранения, консультируется со странами по всем статистическим данным  ВОЗ и запрашивает отзывы от стран по данным и территориям. Перед публикацией все оценки JMP проходят строгие страновые консультации при содействии национальных отделений ВОЗ и ЮНИСЕФ. Часто эти консультации приводят к непосредственному посещению страны и совещаниям по сверке данных. За последние 10 лет JMP взаимодействовал с более чем пятьюдесятью странами, объясняя оценки JMP и причины расхождений, если таковые имеются. JMP также разработал онлайн-инструмент для облегчения будущей проверки данных и расширения своих онлайн-возможностей. Данный инструмент позволит согласовывать данные в более интерактивном режиме и в режиме реального времени, что должно привести к сокращению расходов на миссии по согласованию данных.</p>
 
           
         </td>
@@ -666,7 +891,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Источники данных </th>
         <td>
           
-            
+            <p>Исследования домашних хозяйств, включая глобальные исследования, такин как MICS и DHS, поддерживаемые в странах с низким и средним уровнем дохода международными организациями. В некоторых странах такие данные также собираются посредством национальных переписей или других обследований домашних хозяйств. Национальные статистические службы, министерства водного хозяйства, санитарии, здравоохранения, окружающей среды. Регулирующие органы водоснабжения и санитарных условий.</p>
 
           
         </td>
@@ -680,7 +905,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Методы сбора данных </th>
         <td>
           
-            
+            <p>Данные по этому показателю собираются с помощью национальных выборочных обследований домашних хозяйств.</p>
 
           
         </td>
@@ -701,7 +926,7 @@ data-event-label="Change to Data reporter info tab"
 
             
               <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-06-01-01.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (pdf 428kB) <span class="visuallyhidden">открывается в новой вкладке</span>
+                Метаданные Целей устойчивого развития Организации Объединённых Наций <span class="visuallyhidden">открывается в новой вкладке</span>
               </a>
             
 
@@ -739,7 +964,7 @@ data-event-label="Change to Data reporter info tab"
             
             <div role="tabpanel" class="tab-pane " id="data_reporter">
               <article>
-                <p>Below is info about the data reporter</p>
+                <p>Данная таблица предоставляет информацию о поставщиках данных</p>
                 <table class="table table-hover">
   
   
@@ -771,7 +996,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Организация </th>
         <td>
           
-            
+            <p>НСК КР</p>
 
           
         </td>
@@ -785,7 +1010,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Контактное лицо (лица)/Координатор </th>
         <td>
           
-            
+            <p>Керималиева Н.К</p>
 
           
         </td>
@@ -799,7 +1024,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Электронная почта контактного лица </th>
         <td>
           
-            
+            <p>nazira.kerimaliena@gmail.com</p>
 
           
         </td>
@@ -813,7 +1038,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Телефон контактного лица </th>
         <td>
           
-            
+            <p>(0312) 32 46 91</p>
 
           
         </td>
@@ -827,7 +1052,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Сайт организации </th>
         <td>
           
-            
+            <p>www.stat.kg</p>
 
           
         </td>
@@ -853,11 +1078,11 @@ data-event-label="Change to Data reporter info tab"
           <div role="tabpanel" class="tab-pane" id="edit">
             <div class="edit-container">
               
-<a class="btn btn-primary" href="http://prose.io/#lucygwilliamadmin/sdg-data-quick-start/edit/develop/data/indicator_6-1-1.csv">Редактировать данные</a>
+<a class="btn btn-primary" href="http://prose.io/#sustainabledevelopment-kyrgyzstan/open-sdg-data-starter/edit/develop/data/indicator_6-1-1.csv">Редактировать данные</a>
 
 
 
-<a class="btn btn-primary" href="http://prose.io/#lucygwilliamadmin/sdg-data-quick-start/edit/develop/meta/6-1-1.md">Редактировать метаданные</a>
+<a class="btn btn-primary" href="http://prose.io/#sustainabledevelopment-kyrgyzstan/open-sdg-data-starter/edit/develop/meta/6-1-1.md">Редактировать метаданные</a>
 
 
             </div>
@@ -876,6 +1101,19 @@ data-event-label="Change to Data reporter info tab"
         <div id="footerLinks">
           <ul>
             <li><a href="https://open-sdg.readthedocs.io/en/latest/">Построен с использованием Open SDG</a></li>
+            
+              
+                <li>
+                
+                  <a href="mailto:sdg_nsc@stat.kg" target="_blank">Свяжитесь с нами</a>
+                
+                </li>
+              
+                <li>
+                <a href="/open-sdg-site-starter/about/cookies-and-privacy">Cookies</a>
+                
+                </li>
+              
             
           </ul>
         </div>
@@ -909,7 +1147,7 @@ data-event-label="Change to Data reporter info tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-site-quick-start/assets/js/sdg.js?v=20200326165515'></script><script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20200326171126'></script><script src="/open-sdg-site-starter/assets/js/custom.js?v=20200326171126"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

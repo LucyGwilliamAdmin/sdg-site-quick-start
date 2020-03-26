@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://lucygwilliamadmin.github.io/sdg-data-quick-start/en',
+  remoteDataBaseUrl: 'https://SDG-kyrgyzstan.github.io/open-sdg-data-starter/en',
 
   // A hook which can be replaced to modify the configuration for Chart.js.
   // To see where this is used, see indicatorView.js createPlot() and updatePlot().
@@ -108,13 +108,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/sdg-site-quick-start/assets/js/lib/classList.js"></script>
+        <script src="/open-sdg-site-starter/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/sdg-site-quick-start/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/sdg-site-quick-start/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -124,7 +124,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-quick-start/assets/css/style.css?v=20200326165515">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20200326171126">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/sdg-site-quick-start/assets/css/custom.css?v=20200326165515"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20200326171126"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
 <body class="language-en layout-indicator">
@@ -145,7 +145,7 @@ var translations = {
   <div class="container">
   <div class="alert alert-danger" role="alert">
     <strong class="phase-tag">Alpha</strong>
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    This is a development website. We welcome your <a href="mailto:sdg_nsc@stat.kg">feedback</a>.
   </div>
 </div>
 
@@ -154,8 +154,8 @@ var translations = {
 <header role="banner">
   <div class="container">
 
-    <a class="navbar-brand" href="/sdg-site-quick-start/en/" id="home">
-      <img src="/sdg-site-quick-start/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <a class="navbar-brand" href="/open-sdg-site-starter/en/" id="home">
+      <img src="/open-sdg-site-starter/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
     </a>
 
   <div class='hidden visible-xs float-right'>
@@ -167,7 +167,7 @@ var translations = {
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/sdg-site-quick-start/6-3-1/">Pусский</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/open-sdg-site-starter/6-3-1/">Pусский</a></li></ul>
 
     </div></div>
 
@@ -185,7 +185,7 @@ var translations = {
       </ul>
 
       <div id="search" class="menu-target">
-  <form action="/sdg-site-quick-start/en/search">
+  <form action="/open-sdg-site-starter/en/search">
     <input name="q" id="indicator_search" title="Search" />
     <label for="indicator_search">
       <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>Search:</span>
@@ -195,15 +195,15 @@ var translations = {
 
       
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-            <a href="/sdg-site-quick-start/en/reporting-status">Reporting Status</a>
+            <a href="/open-sdg-site-starter/en/reporting-status">Reporting Status</a>
           </li><li class="nav-link ">
-            <a href="/sdg-site-quick-start/en/about">About</a>
+            <a href="/open-sdg-site-starter/en/news">News</a>
           </li><li class="nav-link ">
-            <a href="/sdg-site-quick-start/en/guidance">Guidance</a>
+            <a href="/open-sdg-site-starter/en/about">About</a>
           </li><li class="nav-link ">
-            <a href="/sdg-site-quick-start/en/faq">FAQ</a>
+            <a href="/open-sdg-site-starter/en/guidance">Guidance</a>
           </li><li class="nav-link ">
-            <a href="/sdg-site-quick-start/en/news">News</a>
+            <a href="/open-sdg-site-starter/en/faq">FAQ</a>
           </li><li>
           <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
@@ -212,7 +212,7 @@ var translations = {
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/sdg-site-quick-start/6-3-1/">Pусский</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/open-sdg-site-starter/6-3-1/">Pусский</a></li></ul>
 
         </li></ul>
 
@@ -262,7 +262,7 @@ var translations = {
   <% } %>
 </script>
 
-<script>translations['indicator'] = {"chart":"Chart","clear_all":"Clear all","clear_selections":"Clear selections","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading_map":"Loading map","map":"Map","national_metadata":"National Metadata","national_metadata_blurb":"This table provides metadata for the actual indicator available from %country_name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country_adjective statistics, this table should be consulted for information on national methodology and other %country_adjective-specific metadata information.","no_data_hint":"No options available because of filters above","select_all":"Select all","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","sub_categories":"Sub-categories","table":"Table","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+<script>translations['indicator'] = {"chart":"Chart","clear_all":"Clear all","clear_selections":"Clear selections","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading_map":"Loading map","map":"Map","national_metadata":"National Metadata","national_metadata_blurb":"This table provides metadata for the actual indicator available from %country_name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country_adjective statistics, this table should be consulted for information on national methodology and other %country_adjective-specific metadata information.","no_data_hint":"No options available because of filters above","select_all":"Select all","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","sub_categories":"Sub-categories","table":"Table","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
 
 <script>translations['data'] = {"Баткенская область":"Batken Oblast","Бишкек":"Bishkek","Женщины":"Female","Мужчины":"Male","Пол":"Sex","Территория":"Geographical area"};</script>
 
@@ -271,17 +271,12 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2">
-        <a href="/sdg-site-quick-start/en/6" title="View this goal's indicator list">
+        <a href="/open-sdg-site-starter/en/6" title="View this goal's indicator list">
           <img src="https://open-sdg.github.io/sdg-translations/assets/img/goals/en/6.png" alt="Clean water and sanitation - Goal 6" />
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
-        <h1>
-          <a href="/sdg-site-quick-start/en/6">
-            <span class="hidden-sm hidden-md hidden-lg">Goal 6: </span>Ensure availability and sustainable management of water and sanitation for all
-          </a>
-        </h1>
-        <h2>Indicator 6.3.1: Proportion of wastewater safely treated</h2>
+        <h1>Indicator 6.3.1: Proportion of wastewater safely treated</h1>
       </div>
     </div>
   </div>
@@ -289,8 +284,8 @@ var translations = {
 
 <div id="main-content" class="container goal-6">
   <ol class="breadcrumb">
-    <li><a href="/sdg-site-quick-start/en/">Home</a></li>
-    <li><a href="/sdg-site-quick-start/en/6" title="Ensure availability and sustainable management of water and sanitation for all">Goal 6</a></li>
+    <li><a href="/open-sdg-site-starter/en/">Home</a></li>
+    <li><a href="/open-sdg-site-starter/en/6" title="Ensure availability and sustainable management of water and sanitation for all">Goal 6</a></li>
     <li class="active">Indicator 6.3.1</li>
   </ol>
 
@@ -328,7 +323,7 @@ var translations = {
         </span>
         <p>Click on the legend to remove individual lines from the chart.</p>
         <div id="fields">
-          <p class="async-loading" data-img="/sdg-site-quick-start/assets/img/loading-small.gif"></p>
+          <p class="async-loading" data-img="/open-sdg-site-starter/assets/img/loading-small.gif"></p>
         </div>
       </div>
       <div id="units"></div>
@@ -344,9 +339,9 @@ var translations = {
 
   <div id="datatables">
 
-    <a href="https://lucygwilliamadmin.github.io/sdg-data-quick-start/en/headline/6-3-1.csv" class="btn btn-primary btn-download" download="indicator_6-3-1.csv" tabindex="0" role="button">Download Headline CSV</a>
+    <a href="https://SDG-kyrgyzstan.github.io/open-sdg-data-starter/en/headline/6-3-1.csv" class="btn btn-primary btn-download" download="indicator_6-3-1.csv" tabindex="0" role="button">Download Headline CSV</a>
 
-    <a href="https://lucygwilliamadmin.github.io/sdg-data-quick-start/en/data/6-3-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_6-3-1.csv' tabindex='0' role='button'>Download Source CSV</a>
+    <a href="https://SDG-kyrgyzstan.github.io/open-sdg-data-starter/en/data/6-3-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_6-3-1.csv' tabindex='0' role='button'>Download Source CSV</a>
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
@@ -424,6 +419,18 @@ var translations = {
           
         </tr>
         
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td class="table-value">95.1</td>
+          
+          
+        </tr>
+        
       </tbody>
     </table>
   </div>
@@ -444,7 +451,7 @@ var translations = {
       <section>
 
         
-        <p class="async-loading" data-img="/sdg-site-quick-start/assets/img/loading-small.gif"></p>
+        <p class="async-loading" data-img="/open-sdg-site-starter/assets/img/loading-small.gif"></p>
         
         <div class="async-loaded spacer medium" style="display:none;">
           <ul class="nav nav-tabs data-view" role="tablist">
@@ -505,7 +512,7 @@ data-event-label="Change to Map tab"
             </div>
             <div role="tabpanel" class="tab-pane" id="mapview" class="map">
               <div id="map">
-                <img src="/sdg-site-quick-start/assets/img/loading.gif" alt="Loading map" />
+                <img src="/open-sdg-site-starter/assets/img/loading.gif" alt="Loading map" />
               </div>
             </div>
             
@@ -525,7 +532,7 @@ data-event-label="Change to Map tab"
             <a class="nav-link" data-toggle="tab" href="#indicator_information" aria-controls="indicator_information" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to Indicator information tab"
+data-event-label="Change to custom.indicator_information tab"
 >Indicator information</a>
           </li>
           
@@ -549,8 +556,8 @@ data-event-label="Change to indicator.national_metadata tab"
             <a class="nav-link" data-toggle="tab" href="#data_reporter" aria-controls="data_reporter" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to Data reporter info tab"
->Data reporter info</a>
+data-event-label="Change to custom.data_reporter tab"
+>Data supplier</a>
           </li>
           
         
@@ -571,7 +578,7 @@ data-event-label="Change to Data reporter info tab"
             
             <div role="tabpanel" class="tab-pane active" id="indicator_information">
               <article>
-                <p>Below is info about this indicator</p>
+                <p>This table provides information about the indicator</p>
                 <table class="table table-hover">
   
   
@@ -584,7 +591,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            
+            <p>6.3.1 Доля безопасно очищаемых сточных вод</p>
 
           
         </td>
@@ -598,7 +605,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Target name </th>
         <td>
           
-            
+            <p>К 2030 году повысить качество воды посредством уменьшения загрязнения, ликвидации сброса отходов и сведения к минимуму выбросов опасных химических веществ и материалов, сокращения вдвое доли неочищенных сточных вод и значительного увеличения масштабов рециркуляции и безопасного повторного использования сточных вод во всем мире</p>
 
           
         </td>
@@ -612,7 +619,9 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Goal </th>
         <td>
           
-            
+            <ol>
+  <li>Обеспечение наличия и рационального использования водных ресурсов и санитарии для всех</li>
+</ol>
 
           
         </td>
@@ -704,7 +713,14 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Definitions </th>
         <td>
           
-            
+            <p>Доля сточных вод, образующихся в домашних хозяйствах и в хозяйственной деятельности, которые подвергаются безопасной очистке основанной на ступенях обработки, которые определенны SEEA: (http://unstats.un.org/unsd/envaccounting/water.asp, Международные рекомендации по статистике водных ресурсов и IRWS: http://unstats.un.org/unsd/envaccounting/irws/irwswebversion.pdf) по сравнению с общим объемом сточных вод, образующихся от бытовой и хозяйственной деятельности.                                                                             Показатель охватывает домашние хозяйства и всю экономику и основывается на системе мониторинга СМП, СОООН/Опросник ЮНЕП по водным ресурсам для стран, не являющихся членами ОЭСР/Евростата, а также ОЭСР/Опросник Евростата для стран ОЭСР, АКВАСТАТ, IBNET. Статистические методы измерения очистки сточных вод согласованы со статистическим стандартом SEEA21, соответствующими определениями, классификациями и категориями переработки (Включает все сточные воды полученные и обработанные в результате хозяйственной деятельности. Критерии отчистки будут максимально согласованны, в контексте целей глобального мониторинга, с целями, определенными в SEEA (http://unstats.un.org/unsd/envaccounting/water.asp), и в Международных рекомендациях по статистике водных ресурсов (IRWS: http://unstats.un.org/unsd/envaccounting/irws/irwswebversion.pdf)</p>
+
+<p>Кроме того, объединенные базы данных по отраслям промышленности ЮНИДО (http://stat.unido.org/) и система МСОК (http://unstats.un.org/unsd/publication/seriesM/seriesm_4rev4e.pdf) позволят дезагрегировать данные по промышленным / хозяйственным сточным водам по различным видам хозяйственной деятельности, а также провести различие между опасными отраслями и остальными. АООС США согласовала классификацию опасных отходов с нормами ЕС, дополнив их нормами МСОК по всем видам отходов. (www.epa.ie/pubs/reports/waste/stats/wasteclassification/EPA_Waste_Classification_2015_Web.pdf)</p>
+
+<p>Доля бытовых сточных вод имеет такой же показатель, как и 6.2.1, поэтому мониторинг будет взаимосвязан с мониторингом СМП для 6.2.1. За последние 25 лет СМП установил глобальные нормы и стандарты мониторинга питьевой воды, санитарии и гигиены. Предложенный показатель 6.2.1. основывается на индикаторах, установленных после обширных консультаций со специалистами отрасли. Главные международные консультации состоялись в 2011 и 2012 годах, также в разных частях света прошли региональные консультации.</p>
+
+<p>Существующую документацию норм, стандартов и мониторинг технических рекомендаций ЦУР вы можете найти здесь: http://www.wssinfo.org/fileadmin/user_upload/resources/Methodological-note-on-monitoring-SDG-targets-for-WASH-and-wastewater_WHO-UNICEF_8October2015_Final.pdf.</p>
+
 
           
         </td>
@@ -718,7 +734,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Concepts </th>
         <td>
           
-            
+            <p>Глобальные нормы, стандарты и технические рекомендации для мониторинга ЦУР вы можете найти здесь: http://www.wssinfo.org/fileadmin/user_upload/resources/Methodological-note-on-monitoring-SDG-targets-for-WASH-and-wastewater_WHO-UNICEF_8October2015_Final.pdf.                                                   Система экологического и экономического учета водных ресурсов принятая статистической комиссией в 2014 году. Данная структура учета означает, что эти виды деятельности охватывают всю экономику и рассматриваются для каждой отрасли, которые определяются в соответствии с Международным стандартом отраслевой классификации (МСОК), и охватывает 1) забор и распределение воды, 2) выброс, повторное использование и отчистку сточных вод, и 3) потребление и возврат воды в окружающую среду, в данной структуре, дезагрегированный стандартизированным образом по отраслям. Хозяйственная деятельность МСОК в целом охватывает сельское хозяйство, вредные отрасли и другие виды хозяйственной деятельности.</p>
 
           
         </td>
@@ -732,7 +748,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Rationale and interpretation </th>
         <td>
           
-            
+            <p>Цель и обоснование этого показателя также можно найти в документе: http://www.wssinfo.org/post-2015-monitoring/ , и они обобщены в следующей методологической записке (с. 12): http://www.wssinfo.org/fileadmin/user_upload/resources/Methodological-note-on-monitoring-SDG-targets-for-WASH-and-wastewater_WHO-UNICEF_8October2015_Final.pdf</p>
 
           
         </td>
@@ -746,7 +762,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Method of computation </th>
         <td>
           
-            
+            <p>Расчет значения показателя, полученного из базы, представляет собой количество обработанного материала (за пределами объекта и на месте), разделенное на общее количество произведенных отходов. Сведения об очистке бытовых сточных вод исходят из многоцелевого показателя 6.2.1. Данные об объемах промышленных сточных вод могут быть оценены по перечням отраслей, которые будут доступны в большинстве государств-членов по классификациям МСОК. Распад очищенных сточных вод может быть рассчитан на основе записи соответствия, относящиеся к национальным стандартам. Если проверка учетной документации будет проведена иначе, образующиеся отходы будут считаться необработанными.</p>
 
           
         </td>
@@ -760,7 +776,8 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Comments and limitations </th>
         <td>
           
-            
+            <p>Основным вопросом, связанным с безопасным управлением услугами питьевого водоснабжения, является определение того, что считается надежной отчисткой воды. Несмотря на наличие международных принципов и стандартов их соблюдение является не обязательным для стран. Страны устанавливают свои собственные критерии, которые могут отличаться от международных стандартов и норм. По этой причине, данные по странам могут не следовать международному стандарту, которому СМП предлагает следовать в целях глобального мониторинга.
+С учетом вышесказанного использование опыта согласования данных, накопленного в рамках ЦРТ, и совместная работа с СМП по этому вопросу будет способствовать устранению расхождений в определениях и, следовательно, различий в оценках. Этот богатый опыт в решении таких вопросов будет весьма полезен при рассмотрении вышеуказанных вопросов для ЦУР.</p>
 
           
         </td>
@@ -788,7 +805,13 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Data availability and gaps </th>
         <td>
           
-            
+            <ol>
+  <li>В преддверии 3-го заседания IAEG о качестве уровня III показателя, свидетельствующего о необходимости методических разработок, было доказано, что этот показатель следует относить к уровню I показателя, следуя международным стандартам, а также он имеет большой охват данных для большинства стран для того, чтобы быть надежным показателем ЦУР. После третьего совещания IAEG мы также провели обширные обсуждения с рядом стран по этому показателю, включая страны-члены IAEG.</li>
+  <li>Большинство стран мира, включая регионы ЦРТ, охватывают 90% мирового населения (2010 год), а также 50% стран мира, охватывающих не менее 50% мирового населения, включая все регионы ЦРТ на период 2000-2009 годов.</li>
+  <li>Предварительные оценки имеются по 140 странам для 6.2.1, которые совпадают с хозяйственной частью данного показателя: http://www-wds.worldbank.org/external/default/WDSContentServer/WDSP/IB/2016/02/11/090224b084172a75/1_0/Original/The0costs0of0m0iene000data0catalog.xlsx. После опубликования вышеупомянутого доклада ВОЗ и ООН-Хабитат организация осуществляют сбор данных непосредственно из национальных источников и в настоящее время располагает данными об очистке сточных вод в большинстве стран мира, многие из которых также представляют периодические данные.</li>
+  <li>После дальнейшего тестирования в ближайшее время будет представлена пересмотренная базовая оценка ЦУР вместе с оценками для других частей этого индикатора сточных вод, т. е. промышленных и коммерческих частей, по видам хозяйственной деятельность в соответствии с определениями и стандартами SEEA.</li>
+  <li>Для ссылок на несколько источников данных, упомянутых в Q11 ниже: i) СОООН-ЮНЕП опросник: http://unstats.un.org/unsd/environment/questionnaire.htm; ii) ОЭСР: https://data.oecd.org/water/waste-water-treatment.htm; iii) АКВАСТАТ: http://www.fao.org/nr/water/aquastat/data/query/index.html?lang=en; iv) IBNET: https://www.ibnet.org/;  v) GWI: https://www.globalwaterintel.com/.</li>
+</ol>
 
           
         </td>
@@ -802,7 +825,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Disaggregation </th>
         <td>
           
-            
+            <p>Поскольку этот показатель дезагрегирован по бытовым и не бытовым (промышленным и коммерческим учреждения, согласно классификации МСОК Rev4); больше информации можно найти на методическом примечании: http://www.wssinfo.org/fileadmin/user_upload/resources/Methodological-note-on-monitoring-SDG-targets-for-WASH-and-wastewater_WHO-UNICEF_8October2015_Final.pdf.</p>
 
           
         </td>
@@ -830,7 +853,13 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">References and documentation </th>
         <td>
           
-            
+            <p>URL: 
+www.wssinfo.org (веб-сайт, который будет расширен для размещения данных о сточных водах, как показатель санитарии СМП также обратиться к части о сточных водах)</p>
+<ol>
+  <li>Последние данные из 140 стран о работе санитарных служб, которые совпадают с показателями сточных вод внутри государства, опубликованные в докладе, который был подготовлен в сотрудничестве между Всемирным банком и СМП. С отчетом и источниками данных можно ознакомиться по этой ссылке: http://www.worldbank.org/en/topic/water/publication/the-costs-of-meeting-the-2030-sustainable-development-goal-targets-on-drinking-water-sanitation-and-hygiene</li>
+  <li>Кроме того, как поясняется в методической записке (см. ссылку выше), другие данные из международных баз данных, таких как СОООН-ЮНЕП, ОЭСР, ЕВРОСТАТ, АКВАСТАТ (ФАО), ИБНЕТ (Всемирный банк), Глобальная разведка водных ресурсов, а также данные национальных регулирующих органов и других частей национальных статистических систем со всего мира будут объединены для мониторинга 6.3.1. Предполагается, что, объединяя различные источники данных, данные из более чем 180 стран могут использоваться для целей глобальной отчетности.</li>
+  <li>Этот показатель классифицируется как показатель уровня I, имеет установленную методологию, а также стандарты, и данные регулярно производятся почти всеми странами, которые могут быть использованы для глобальной отчетности.</li>
+</ol>
 
           
         </td>
@@ -844,7 +873,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Data sources </th>
         <td>
           
-            
+            <p>Предварительные оценки имеются по 140 странам для 6.2.1, которые совпадают с хозяйственной частью данного показателя: http://www-wds.worldbank.org/external/default/WDSContentServer/WDSP/IB/2016/02/11/090224b084172a75/1_0/Original/The0costs0of0m0iene000data0catalog.xlsx.        После опубликования этого совместного исследования с СМП были найдены государственные данные, доступные для большинства стран мира. Однако обширные данные из различных источников могут быть объединены с i) СОООН-ЮНЕП опросник: http://unstats.un.org/unsd/environment/questionnaire.htm; ii) ОЭСР: https://data.oecd.org/water/waste-water-treatment.htm; iii) АКВАСТАТ: http://www.fao.org/nr/water/aquastat/data/query/index.html?lang=en; iv) IBNET: https://www.ibnet.org/; v) GWI: https://www.globalwaterintel.com/.</p>
 
           
         </td>
@@ -858,7 +887,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Data collection methods </th>
         <td>
           
-            
+            <p>Как упоминалось ранее, данные собираются непосредственно из государственных источников и в соответствии с установленными нормами, оценки распределяются по странам для получения их отзывов до публикации. См. Раздел 6.1 выше для более подробной информации.</p>
 
           
         </td>
@@ -879,7 +908,7 @@ data-event-label="Change to Data reporter info tab"
 
             
               <a href="https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-6.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (pdf 428kB) <span class="visuallyhidden">opens in a new window</span>
+                United Nations Sustainable Development Goals Metadata <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -917,7 +946,7 @@ data-event-label="Change to Data reporter info tab"
             
             <div role="tabpanel" class="tab-pane " id="data_reporter">
               <article>
-                <p>Below is info about the data reporter</p>
+                <p>This table provides information about the supplier of the data</p>
                 <table class="table table-hover">
   
   
@@ -949,7 +978,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Organization </th>
         <td>
           
-            
+            <p>НСК КР</p>
 
           
         </td>
@@ -963,7 +992,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Contact person(s)/focal point </th>
         <td>
           
-            
+            <p>Керималиева Н.К</p>
 
           
         </td>
@@ -977,7 +1006,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Contact person's email </th>
         <td>
           
-            
+            <p>nazira.kerimaliena@gmail.com</p>
 
           
         </td>
@@ -991,7 +1020,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Contact person's phone </th>
         <td>
           
-            
+            <p>(0312) 32 46 91</p>
 
           
         </td>
@@ -1005,7 +1034,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Organization website </th>
         <td>
           
-            
+            <p>www.stat.kg</p>
 
           
         </td>
@@ -1031,11 +1060,11 @@ data-event-label="Change to Data reporter info tab"
           <div role="tabpanel" class="tab-pane" id="edit">
             <div class="edit-container">
               
-<a class="btn btn-primary" href="http://prose.io/#lucygwilliamadmin/sdg-data-quick-start/edit/develop/data/indicator_6-3-1.csv">Edit Data</a>
+<a class="btn btn-primary" href="http://prose.io/#sustainabledevelopment-kyrgyzstan/open-sdg-data-starter/edit/develop/data/indicator_6-3-1.csv">Edit Data</a>
 
 
 
-<a class="btn btn-primary" href="http://prose.io/#lucygwilliamadmin/sdg-data-quick-start/edit/develop/meta/6-3-1.md">Edit Metadata</a>
+<a class="btn btn-primary" href="http://prose.io/#sustainabledevelopment-kyrgyzstan/open-sdg-data-starter/edit/develop/meta/6-3-1.md">Edit Metadata</a>
 
 
             </div>
@@ -1054,6 +1083,19 @@ data-event-label="Change to Data reporter info tab"
         <div id="footerLinks">
           <ul>
             <li><a href="https://open-sdg.readthedocs.io/en/latest/">Built using Open SDG</a></li>
+            
+              
+                <li>
+                
+                  <a href="mailto:sdg_nsc@stat.kg" target="_blank">Contact us</a>
+                
+                </li>
+              
+                <li>
+                <a href="/open-sdg-site-starter/en/about/cookies-and-privacy">Cookies</a>
+                
+                </li>
+              
             
           </ul>
         </div>
@@ -1087,7 +1129,7 @@ data-event-label="Change to Data reporter info tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-site-quick-start/assets/js/sdg.js?v=20200326165515'></script><script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20200326171126'></script><script src="/open-sdg-site-starter/assets/js/custom.js?v=20200326171126"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

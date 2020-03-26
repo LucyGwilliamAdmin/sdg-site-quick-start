@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://lucygwilliamadmin.github.io/sdg-data-quick-start/en',
+  remoteDataBaseUrl: 'https://SDG-kyrgyzstan.github.io/open-sdg-data-starter/en',
 
   // A hook which can be replaced to modify the configuration for Chart.js.
   // To see where this is used, see indicatorView.js createPlot() and updatePlot().
@@ -108,13 +108,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/sdg-site-quick-start/assets/js/lib/classList.js"></script>
+        <script src="/open-sdg-site-starter/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/sdg-site-quick-start/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/sdg-site-quick-start/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -124,7 +124,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-quick-start/assets/css/style.css?v=20200326165515">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20200326171126">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/sdg-site-quick-start/assets/css/custom.css?v=20200326165515"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20200326171126"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
 <body class="language-en layout-indicator">
@@ -145,7 +145,7 @@ var translations = {
   <div class="container">
   <div class="alert alert-danger" role="alert">
     <strong class="phase-tag">Alpha</strong>
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    This is a development website. We welcome your <a href="mailto:sdg_nsc@stat.kg">feedback</a>.
   </div>
 </div>
 
@@ -154,8 +154,8 @@ var translations = {
 <header role="banner">
   <div class="container">
 
-    <a class="navbar-brand" href="/sdg-site-quick-start/en/" id="home">
-      <img src="/sdg-site-quick-start/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <a class="navbar-brand" href="/open-sdg-site-starter/en/" id="home">
+      <img src="/open-sdg-site-starter/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
     </a>
 
   <div class='hidden visible-xs float-right'>
@@ -167,7 +167,7 @@ var translations = {
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/sdg-site-quick-start/3-7-2/">Pусский</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/open-sdg-site-starter/3-7-2/">Pусский</a></li></ul>
 
     </div></div>
 
@@ -185,7 +185,7 @@ var translations = {
       </ul>
 
       <div id="search" class="menu-target">
-  <form action="/sdg-site-quick-start/en/search">
+  <form action="/open-sdg-site-starter/en/search">
     <input name="q" id="indicator_search" title="Search" />
     <label for="indicator_search">
       <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>Search:</span>
@@ -195,15 +195,15 @@ var translations = {
 
       
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-            <a href="/sdg-site-quick-start/en/reporting-status">Reporting Status</a>
+            <a href="/open-sdg-site-starter/en/reporting-status">Reporting Status</a>
           </li><li class="nav-link ">
-            <a href="/sdg-site-quick-start/en/about">About</a>
+            <a href="/open-sdg-site-starter/en/news">News</a>
           </li><li class="nav-link ">
-            <a href="/sdg-site-quick-start/en/guidance">Guidance</a>
+            <a href="/open-sdg-site-starter/en/about">About</a>
           </li><li class="nav-link ">
-            <a href="/sdg-site-quick-start/en/faq">FAQ</a>
+            <a href="/open-sdg-site-starter/en/guidance">Guidance</a>
           </li><li class="nav-link ">
-            <a href="/sdg-site-quick-start/en/news">News</a>
+            <a href="/open-sdg-site-starter/en/faq">FAQ</a>
           </li><li>
           <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
@@ -212,7 +212,7 @@ var translations = {
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/sdg-site-quick-start/3-7-2/">Pусский</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/open-sdg-site-starter/3-7-2/">Pусский</a></li></ul>
 
         </li></ul>
 
@@ -262,7 +262,7 @@ var translations = {
   <% } %>
 </script>
 
-<script>translations['indicator'] = {"chart":"Chart","clear_all":"Clear all","clear_selections":"Clear selections","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading_map":"Loading map","map":"Map","national_metadata":"National Metadata","national_metadata_blurb":"This table provides metadata for the actual indicator available from %country_name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country_adjective statistics, this table should be consulted for information on national methodology and other %country_adjective-specific metadata information.","no_data_hint":"No options available because of filters above","select_all":"Select all","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","sub_categories":"Sub-categories","table":"Table","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+<script>translations['indicator'] = {"chart":"Chart","clear_all":"Clear all","clear_selections":"Clear selections","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading_map":"Loading map","map":"Map","national_metadata":"National Metadata","national_metadata_blurb":"This table provides metadata for the actual indicator available from %country_name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country_adjective statistics, this table should be consulted for information on national methodology and other %country_adjective-specific metadata information.","no_data_hint":"No options available because of filters above","select_all":"Select all","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","sub_categories":"Sub-categories","table":"Table","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
 
 <script>translations['data'] = {"Баткенская область":"Batken Oblast","Бишкек":"Bishkek","Женщины":"Female","Мужчины":"Male","Пол":"Sex","Территория":"Geographical area"};</script>
 
@@ -271,17 +271,12 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2">
-        <a href="/sdg-site-quick-start/en/3" title="View this goal's indicator list">
+        <a href="/open-sdg-site-starter/en/3" title="View this goal's indicator list">
           <img src="https://open-sdg.github.io/sdg-translations/assets/img/goals/en/3.png" alt="Good health and well-being - Goal 3" />
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
-        <h1>
-          <a href="/sdg-site-quick-start/en/3">
-            <span class="hidden-sm hidden-md hidden-lg">Goal 3: </span>Ensure healthy lives and promote well-being for all at all ages
-          </a>
-        </h1>
-        <h2>Indicator 3.7.2: Adolescent birth rate (aged 10-14 years; aged 15-19 years) per 1,000 women in that age group</h2>
+        <h1>Indicator 3.7.2: Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group</h1>
       </div>
     </div>
   </div>
@@ -289,8 +284,8 @@ var translations = {
 
 <div id="main-content" class="container goal-3">
   <ol class="breadcrumb">
-    <li><a href="/sdg-site-quick-start/en/">Home</a></li>
-    <li><a href="/sdg-site-quick-start/en/3" title="Ensure healthy lives and promote well-being for all at all ages">Goal 3</a></li>
+    <li><a href="/open-sdg-site-starter/en/">Home</a></li>
+    <li><a href="/open-sdg-site-starter/en/3" title="Ensure healthy lives and promote well-being for all at all ages">Goal 3</a></li>
     <li class="active">Indicator 3.7.2</li>
   </ol>
 
@@ -315,7 +310,7 @@ var translations = {
 
   
   <div class="row" id="indicatorData" data-indicatorid='indicator_3-7-2' data-id="3-7-2" data-country="Кыргызская Республика"
-  data-charttitle="Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group" data-measurementunit="" data-datasource="" data-copyright=""
+  data-charttitle="Показатель рождаемости среди девушек-подростков (в возрасте от 15 до 19 лет) на 1000 женщин в данной возрастной группе" data-measurementunit="" data-datasource="" data-copyright=""
   data-geographicalarea="Кыргызская Республика" data-footnote="" data-showdata="true" data-graphtype="bar"
   data-geocoderegex="" data-showmap="" data-startvalues="">
 
@@ -328,7 +323,7 @@ var translations = {
         </span>
         <p>Click on the legend to remove individual lines from the chart.</p>
         <div id="fields">
-          <p class="async-loading" data-img="/sdg-site-quick-start/assets/img/loading-small.gif"></p>
+          <p class="async-loading" data-img="/open-sdg-site-starter/assets/img/loading-small.gif"></p>
         </div>
       </div>
       <div id="units"></div>
@@ -344,13 +339,13 @@ var translations = {
 
   <div id="datatables">
 
-    <a href="https://lucygwilliamadmin.github.io/sdg-data-quick-start/en/headline/3-7-2.csv" class="btn btn-primary btn-download" download="indicator_3-7-2.csv" tabindex="0" role="button">Download Headline CSV</a>
+    <a href="https://SDG-kyrgyzstan.github.io/open-sdg-data-starter/en/headline/3-7-2.csv" class="btn btn-primary btn-download" download="indicator_3-7-2.csv" tabindex="0" role="button">Download Headline CSV</a>
 
-    <a href="https://lucygwilliamadmin.github.io/sdg-data-quick-start/en/data/3-7-2.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_3-7-2.csv' tabindex='0' role='button'>Download Source CSV</a>
+    <a href="https://SDG-kyrgyzstan.github.io/open-sdg-data-starter/en/data/3-7-2.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_3-7-2.csv' tabindex='0' role='button'>Download Source CSV</a>
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group</caption>
+      <caption>Показатель рождаемости среди девушек-подростков (в возрасте от 15 до 19 лет) на 1000 женщин в данной возрастной группе</caption>
       <thead>
         
         
@@ -367,11 +362,143 @@ var translations = {
         <tr>
           
           
+          <td>2007</td>
+          
+          
+          
+          <td class="table-value">29.5</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2008</td>
+          
+          
+          
+          <td class="table-value">30.1</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td class="table-value">31.2</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td class="table-value">34.1</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td class="table-value">41.4</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td class="table-value">42.1</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td class="table-value">41.9</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td class="table-value">43.3</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td class="table-value">39.7</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td class="table-value">38.6</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td class="table-value">33.9</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
           <td>2018</td>
           
           
           
-          <td class="table-value">50</td>
+          <td class="table-value">35.9</td>
           
           
         </tr>
@@ -396,7 +523,7 @@ var translations = {
       <section>
 
         
-        <p class="async-loading" data-img="/sdg-site-quick-start/assets/img/loading-small.gif"></p>
+        <p class="async-loading" data-img="/open-sdg-site-starter/assets/img/loading-small.gif"></p>
         
         <div class="async-loaded spacer medium" style="display:none;">
           <ul class="nav nav-tabs data-view" role="tablist">
@@ -434,7 +561,7 @@ data-event-label="Change to Map tab"
     
     <div id="selectionsChart">
       <div id="chart-canvas">
-        <h3 class="chart-title">Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group</h3>
+        <h3 class="chart-title">Показатель рождаемости среди девушек-подростков (в возрасте от 15 до 19 лет) на 1000 женщин в данной возрастной группе</h3>
         <div id="chart" class="plot-container">
           
 <canvas></canvas>
@@ -457,7 +584,7 @@ data-event-label="Change to Map tab"
             </div>
             <div role="tabpanel" class="tab-pane" id="mapview" class="map">
               <div id="map">
-                <img src="/sdg-site-quick-start/assets/img/loading.gif" alt="Loading map" />
+                <img src="/open-sdg-site-starter/assets/img/loading.gif" alt="Loading map" />
               </div>
             </div>
             
@@ -477,7 +604,7 @@ data-event-label="Change to Map tab"
             <a class="nav-link" data-toggle="tab" href="#indicator_information" aria-controls="indicator_information" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to Indicator information tab"
+data-event-label="Change to custom.indicator_information tab"
 >Indicator information</a>
           </li>
           
@@ -501,8 +628,8 @@ data-event-label="Change to indicator.national_metadata tab"
             <a class="nav-link" data-toggle="tab" href="#data_reporter" aria-controls="data_reporter" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to Data reporter info tab"
->Data reporter info</a>
+data-event-label="Change to custom.data_reporter tab"
+>Data supplier</a>
           </li>
           
         
@@ -523,7 +650,7 @@ data-event-label="Change to Data reporter info tab"
             
             <div role="tabpanel" class="tab-pane active" id="indicator_information">
               <article>
-                <p>Below is info about this indicator</p>
+                <p>This table provides information about the indicator</p>
                 <table class="table table-hover">
   
   
@@ -536,7 +663,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            
+            <p>3.7.2 Рождаемость среди подростков (в возрасте от 15 до 19 лет) на 1000 женщин в данной возрастной группе</p>
 
           
         </td>
@@ -550,7 +677,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Target name </th>
         <td>
           
-            
+            <p>К 2030 году обеспечить всеобщий доступ к услугам по охране сексуального и репродуктивного здоровья, включая услуги по планированию семьи, информирование и просвещение, и учет вопросов охраны репродуктивного здоровья в национальных стратегиях и программах</p>
 
           
         </td>
@@ -564,7 +691,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Goal </th>
         <td>
           
-            
+            <p>Обеспечение здорового образа жизни и содействие благополучию для всех в любом возрасте</p>
 
           
         </td>
@@ -642,7 +769,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            
+            <p>на 1000 женщин в возрасте 15-19 лет</p>
 
           
         </td>
@@ -656,7 +783,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Definitions </th>
         <td>
           
-            
+            <p>Ежегодное число рождений у женщин в возрасте 15-19 лет на 1000 женщин соответствующей возрастной группы.</p>
 
           
         </td>
@@ -670,7 +797,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Concepts </th>
         <td>
           
-            
+            <p>Рождаемость - процесс, который определяется частотой и характеристиками деторождений (возраст матери, очередность рождения и др.) в данном населении.Уровень рождаемости среди подростков представляет собой риск деторождения среди женщин в конкретной возрастной группе. Коэффициент подростковой рождаемости среди женщин в возрасте 15-19 лет также называется коэффициентом возрастной фертильности среди женщин в возрасте 15-19 лет..</p>
 
           
         </td>
@@ -684,7 +811,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Rationale and interpretation </th>
         <td>
           
-            
+            <p>Анализ показателя позволяет оценить уровень эффективности государственной политики в области охраны материнства и детства в республике, поскольку уровень медицинской помощи беременным и родильницам определяет судьбу и здоровье будущих поколений. Сокращение подростковой фертильности и устранение многочисленных факторов, лежащих в ее основе, имеют важное значение для улучшения сексуального и репродуктивного здоровья и социально-экономического благосостояния подростков. В литературе широко признается, что женщины, забеременевшие и родившие очень рано в своей репродуктивной жизни, подвергаются более высокому риску осложнений или даже смерти во время беременности и родов, а их дети также являются более уязвимыми. Поэтому профилактика деторождения на самых ранних этапах жизни женщины является важной мерой по улучшению материнского здоровья и снижению младенческой смертности. Кроме того, женщины, имеющие детей в раннем возрасте, сталкиваются с ограничением своих возможностей в социально-экономическом развитии, особенно в силу того, что молодые матери вряд ли будут продолжать учиться и, если им необходимо работать, то может быть особенно трудно совмещать семейные и трудовые обязанности. Коэффициент рождаемости среди подростков также дает косвенные данные о доступе к соответствующим медицинским услугам, поскольку молодые люди, и в частности незамужние женщины-подростки, часто сталкиваются с трудностями в доступе к услугам в области сексуального и репродуктивного здоровья.</p>
 
           
         </td>
@@ -698,7 +825,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Method of computation </th>
         <td>
           
-            
+            <p>Коэффициент рождаемости среди подростков рассчитывается как отношение. Числителем является число живорождений у женщин в возрасте 15-19 лет, а знаменателем - оценка подверженности деторождению женщин в возрасте 15-19 лет.</p>
 
           
         </td>
@@ -712,7 +839,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Comments and limitations </th>
         <td>
           
-            
+            <p>По оценке экспертов охват системы регистрации актов гражданского состояния считается удовлетворительным, но нуждается в совершенствовании, т.к. основана на использовании бумажных носителей. С декабря 2014г. начала функционировать автоматизированная электронная истема АИС “ЗАГС”, как один из компонентов информационных систем ГРС. Однако, в органы статистики данные поступают на бумажных носителях и затем вводятся в специальное программное обеспечение сотрудниками статорганов, что иногда приводит к ошибкам, пропускам данных. В ближайшей перспективе (до конца 2019г.) одним из источников статистических данных о населении станет база данных по естественному и миграционному движению населения, создаваемая на основе данных ГРС.</p>
 
           
         </td>
@@ -726,7 +853,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Quality assurance </th>
         <td>
           
-            
+            <p>Проводится логический и арифметический контроль отчетных данных. Процедура проверки правильности данных в актовых записях осуществляется путем логического контроля, заложенного в программном обеспечении по вводу и разработке данных.</p>
 
           
         </td>
@@ -740,7 +867,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Data availability and gaps </th>
         <td>
           
-            
+            <p>Данные распространяются в статистических публикациях НСК: статистических сборниках «Статистический ежегодник КР», «Социальные тенденции КР», тематических сборниках «Демографический ежегодник КР», «Женщины и мужчины КР», «Здоровье населения и здравоохранение в КР», «Молодежь в КР». Информация также публикуется на официальном сайте НСК КР: http://www.stat.kg/ru/publications/</p>
 
           
         </td>
@@ -754,7 +881,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Disaggregation </th>
         <td>
           
-            
+            <p>Агрегация данных по територии :Показатель рассчитывается по территории и регионам (Республика, области, г.Бишкек, г.Ош) на ежегодной основе. Сведения о рождаемости предоставляются НСК после 15 марта каждого года.</p>
 
           
         </td>
@@ -768,7 +895,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Comparability with international data/standards </th>
         <td>
           
-            
+            <p>Национальное определение показателя, используемое в статистике, соответствует его международному определению. С 2004г. в Кыргызстане введены критерии ВОЗ, т.о. регистрации подлежат все случаи рождения новорожденных с массой тела 500г и выше и с гестационным сроком (сроком беременности) 22 недели и выше. Основанием для регистрации ребенка является медицинское свидетельство о рождении ребенка (форма 103/у Минздрава) и заявление о рождении, которое делается в письменной форме родителями или одним из них (в случае, если родители не имеют возможности лично заявить о рождении ребенка, это заявление может быть сделано родственниками либо администрацией медицинской организации, в которой находилась мать при рождении ребенка). Медицинское свидетельство о рождении выдается родильным домом или больницей, установившей факт и время рождения ребенка.</p>
 
           
         </td>
@@ -782,7 +909,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">References and documentation </th>
         <td>
           
-            
+            <p>Ссылки на НПА и методологию: http://www.stat.kg/ru/about/pravovye-osnovy-organov-gosudarstvennoj-statistiki/; https://unstats.un.org/sdgs/metadata/files/Metadata; http://www.stat.kg/ru/statistics/download/methodology/68/. Статистические публикации НСК: ежемесячный доклад «Социально-экономическое положение КР», статистические сборники «Демографический ежегодник КР», «Социальные тенденции КР», «Женщины и мужчины КР», “Уровень жизни населения КР”,«Здоровье населения и здравоохранение в КР» на официальном сайте НСК КР: http://www.stat.kg/ru/publications/</p>
 
           
         </td>
@@ -796,7 +923,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Data sources </th>
         <td>
           
-            
+            <p>Источником данных является система регистрации актов гражданского состояния, которая регистрирует факт рождения и смерти на постоянной основе.Эти документы вместе с Записи актов гражданского состояния о рождаемости составляемыми в органах ЗАГС (находятся в подчинении Государственной регистрационной службы при Правительстве КР), направляются для разработки в органы статистики.</p>
 
           
         </td>
@@ -810,7 +937,9 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Data collection methods </th>
         <td>
           
-            
+            <p>Сбор данных проводится на основании представленных записей актов гражданского состояния о рождаемости представляемых ГРС при ПКР на регулярной основе.  Данные о рождениях в разбивке по возрасту матери поступают из систем регистрации актов гражданского состояния, охватывающих 90 или более процентов всех живорождений, и в конечном итоге дополняются оценками переписи или обследования за периоды, когда данные регистрации отсутствуют. 
+Первичная обработка и свод данных по родившимся  детям осуществляется на уровне областных органов государственной статистики. Свод данных по стране осуществляется Национальным статистическим комитетом Кыргызской Республики.</p>
+
 
           
         </td>
@@ -831,7 +960,7 @@ data-event-label="Change to Data reporter info tab"
 
             
               <a href="http://data.un.org/Data.aspx?q=births&d=WDI&f=Indicator_Code%3aSP.ADO.TFRT" target="_blank">
-                United Nations Sustainable Development Goals Metadata (PDF 90.8 KB) <span class="visuallyhidden">opens in a new window</span>
+                United Nations Sustainable Development Goals Metadata <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -869,7 +998,7 @@ data-event-label="Change to Data reporter info tab"
             
             <div role="tabpanel" class="tab-pane " id="data_reporter">
               <article>
-                <p>Below is info about the data reporter</p>
+                <p>This table provides information about the supplier of the data</p>
                 <table class="table table-hover">
   
   
@@ -901,7 +1030,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Organization </th>
         <td>
           
-            
+            <p>НСК КР, ГРС при ПКР, Минздрав КР</p>
 
           
         </td>
@@ -915,7 +1044,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Contact person(s)/focal point </th>
         <td>
           
-            
+            <p>Мааткулова Ж.Б.</p>
 
           
         </td>
@@ -929,7 +1058,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Contact person's email </th>
         <td>
           
-            
+            <p>Jmaatkulova@stat.kg</p>
 
           
         </td>
@@ -943,7 +1072,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Contact person's phone </th>
         <td>
           
-            
+            <p>(0312)32 46 36</p>
 
           
         </td>
@@ -957,7 +1086,7 @@ data-event-label="Change to Data reporter info tab"
         <th scope="row">Organization website </th>
         <td>
           
-            
+            <p>www.stat.kg</p>
 
           
         </td>
@@ -983,11 +1112,11 @@ data-event-label="Change to Data reporter info tab"
           <div role="tabpanel" class="tab-pane" id="edit">
             <div class="edit-container">
               
-<a class="btn btn-primary" href="http://prose.io/#lucygwilliamadmin/sdg-data-quick-start/edit/develop/data/indicator_3-7-2.csv">Edit Data</a>
+<a class="btn btn-primary" href="http://prose.io/#sustainabledevelopment-kyrgyzstan/open-sdg-data-starter/edit/develop/data/indicator_3-7-2.csv">Edit Data</a>
 
 
 
-<a class="btn btn-primary" href="http://prose.io/#lucygwilliamadmin/sdg-data-quick-start/edit/develop/meta/3-7-2.md">Edit Metadata</a>
+<a class="btn btn-primary" href="http://prose.io/#sustainabledevelopment-kyrgyzstan/open-sdg-data-starter/edit/develop/meta/3-7-2.md">Edit Metadata</a>
 
 
             </div>
@@ -1006,6 +1135,19 @@ data-event-label="Change to Data reporter info tab"
         <div id="footerLinks">
           <ul>
             <li><a href="https://open-sdg.readthedocs.io/en/latest/">Built using Open SDG</a></li>
+            
+              
+                <li>
+                
+                  <a href="mailto:sdg_nsc@stat.kg" target="_blank">Contact us</a>
+                
+                </li>
+              
+                <li>
+                <a href="/open-sdg-site-starter/en/about/cookies-and-privacy">Cookies</a>
+                
+                </li>
+              
             
           </ul>
         </div>
@@ -1039,7 +1181,7 @@ data-event-label="Change to Data reporter info tab"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
-<script src='/sdg-site-quick-start/assets/js/sdg.js?v=20200326165515'></script><script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20200326171126'></script><script src="/open-sdg-site-starter/assets/js/custom.js?v=20200326171126"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
