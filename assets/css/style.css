@@ -1268,7 +1268,8 @@ footer {
     #main-content #fields .variable-selector.disallowed .variable-hint {
       display: block; }
 #main-content #units {
-  clear: left; }
+  clear: left;
+  margin-bottom: 20px; }
   #main-content #units label {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
