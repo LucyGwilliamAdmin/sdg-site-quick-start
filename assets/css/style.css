@@ -1005,6 +1005,8 @@ header .container {
           color: #E5E6E7;
           display: block;
           padding: 15px; }
+          .navbar .top-level li span[data-target="search"] {
+            text-transform: capitalize; }
         .navbar .top-level li button {
           color: #E5E6E7;
           display: block;
