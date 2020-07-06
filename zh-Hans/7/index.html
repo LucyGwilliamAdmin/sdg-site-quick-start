@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CObject.assign%2CArray.isArray"></script>
+<script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
+
+        <script>
+// This is where we initialise any global variables, namespaced in "opensdg".
+var opensdg = {
+
+  // A base URL for asynchronous calls to SDG data.
+  remoteDataBaseUrl: 'https://lucygwilliamadmin.github.io/sdg-data-quick-start/zh-Hans',
+
+  chartConfigAlterations: [],
+  // A hook which can be used to modify the configuration for Chart.js.
+  chartConfigAlter: function(callback) {
+    this.chartConfigAlterations.push(callback);
+  },
+
+  // A hook which can be replaced to alter whether/how the values that are
+  // displayed on indicator tables/graphs get rounded.
+  dataRounding: function(value) {
+    // Alterations go here.
+    return value;
+  },
+
+  language: 'zh-Hans',
+};
+
+// For backwards compatibility, some of these might need to be global.
+// @TODO: Remove these eventually.
+var remoteDataBaseUrl = opensdg.remoteDataBaseUrl;
+
+</script>
+
+        <script>
+// JavaScript container for translation data.
+var translations = {
+  //Javascript version of the "t" filter from jekyll-open-sdg-plugins.
+  t: function(key) {
+
+    if (!key || typeof key !== 'string') {
+      return '';
+    }
+
+    // The majority of uses of this function are to translate disaggregation
+    // data. To spare data providers of needing to enter "data." in front of
+    // their disaggregation data, we specifically look for that here.
+    if (typeof this.data === 'object' && this.data !== null && this.data[key]) {
+      return this.data[key];
+    }
+
+    var originalKey = key;
+    var drilled = this;
+    var levelsDrilled = 0;
+    var levels = key.split('.');
+
+    for (var level in levels) {
+      // If we have drilled down to soon, abort.
+      if (typeof drilled !== 'object') {
+        break;
+      }
+
+      if (levels[level] in drilled) {
+        drilled = drilled[levels[level]];
+        levelsDrilled += 1;
+      }
+    }
+
+    // If we didn't drill the right number of levels, return the original string.
+    if (levels.length != levelsDrilled) {
+      return originalKey;
+    }
+
+    // Otherwise we must have drilled all the way.
+    return drilled;
+  },
+};
+</script>
+
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title and meta description
+        ================================================== -->
+
+        <title>
+          
+            目标 7 - 经济适用的清洁能源
+          
+        </title>
+
+        <meta name="description" content="">
+        <meta property="og:description" content="">
+        
+        <meta name="robots" content="noindex, nofollow">
+        
+        <link rel="canonical" href="/">
+
+        
+
+        <!--[if IE 9]>
+        <script src="/sdg-site-quick-start/assets/js/lib/classList.js"></script>
+        <![endif]-->
+
+        <!-- Favicons ================================================== -->
+        <!-- 128x128 -->
+        <link rel="shortcut icon" type="image/ico" href="/sdg-site-quick-start/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/sdg-site-quick-start/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+        -->
+
+        
+
+        
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
+        <link rel="stylesheet" href="/sdg-site-quick-start/assets/css/style.css?v=20200706131551">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+          integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+          crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
+        <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
+        <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/sdg-site-quick-start/assets/css/custom.css?v=20200706131551"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+
+    </head>
+<body class="language-zh-Hans layout-goal-by-target">
+<!-- <div class="container"> -->
+
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"默认对比","disable_high_contrast":"禁用高对比度","disclaimer":"这是一个发展中的网站。欢迎您向我们发送反馈意见。","enable_high_contrast":"启用高对比度","high_contrast":"高对比度","skip_link":"跳到主要内容","tag_line":"变革世界的17个目标"};</script>
+
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">跳到主要内容</a>
+<div id="disclaimer">
+  <div class="container">
+  <div class="disclaimer-alert" role="alert">
+    <strong class="phase-tag">Alpha</strong>
+    
+    这是一个发展中的网站。欢迎您向我们发送反馈意见。
+  </div>
+</div>
+
+</div>
+
+<header role="banner">
+  <div class="container">
+
+    <a class="navbar-brand" href="/sdg-site-quick-start/zh-Hans/" id="home">
+      <img src="/sdg-site-quick-start/assets/img/SDG_logo.png" alt="可持续发展目标 - 变革世界的17个目标" />
+    </a>
+
+  <div class='hidden visible-xs float-right'>
+    <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
+      <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
+  <i class="fa fa-globe"></i>
+  <span class="language-toggle-text">中文</span>
+  <i class="language-toggle fa fa-chevron-down"></i>
+  <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
+</a>
+
+<ul class="language-options language-toggle"><li><a href="/sdg-site-quick-start/7/">Pусский</a></li><li><a href="/sdg-site-quick-start/en/7/">English</a></li></ul>
+
+    </div></div>
+
+    <nav class="navbar navbar-default" id="main-nav">
+
+      <ul class="top-level">
+        <li id="menuToggle"
+            aria-label="Menu toggle. Click to expand or collapse the menu."
+            aria-haspopup="true"
+            aria-expanded="false">
+          <span data-target="menu" tabindex="0"
+          role="navigation">目录</span>
+        </li>
+        <li><span data-target="search">搜索</span></li>
+      </ul>
+
+      <div id="search" class="menu-target">
+  <form action="/sdg-site-quick-start/zh-Hans/search">
+    <input name="q" id="indicator_search" title="搜索" />
+    <label for="indicator_search">
+      <button aria-label="搜索" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>搜索:</span>
+    </label>
+  </form>
+</div>
+
+      
+      <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
+            <a href="/sdg-site-quick-start/zh-Hans/reporting-status">上报状况</a>
+          </li><li class="nav-link ">
+            <a href="/sdg-site-quick-start/zh-Hans/news">menu.news</a>
+          </li><li class="nav-link ">
+            <a href="/sdg-site-quick-start/zh-Hans/about">关于</a>
+          </li><li class="nav-link ">
+            <a href="/sdg-site-quick-start/zh-Hans/guidance">指引</a>
+          </li><li class="nav-link ">
+            <a href="/sdg-site-quick-start/zh-Hans/faq">常见问题解答</a>
+          </li><li>
+          <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
+  <i class="fa fa-globe"></i>
+  <span class="language-toggle-text">中文</span>
+  <i class="language-toggle fa fa-chevron-down"></i>
+  <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
+</a>
+
+<ul class="language-options language-toggle"><li><a href="/sdg-site-quick-start/7/">Pусский</a></li><li><a href="/sdg-site-quick-start/en/7/">English</a></li></ul>
+
+        </li></ul>
+
+      
+
+    </nav>
+  </div>
+
+</header>
+
+
+<div class="heading goal-banner goal-7">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4 col-md-3 col-lg-2">
+        <img src="https://open-sdg.github.io/sdg-translations/assets/img/goals/zh-Hans/7.png" alt="经济适用的清洁能源 - 目标 7" />
+      </div>
+      <div class="col-xs-8 col-md-9 col-lg-10">
+        <h1>
+          <span class="hidden-sm hidden-md hidden-lg">目标 7: </span>确保人人获得负担得起的、可靠和可持续的现代能源
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="main-content" class="container goal-indicators goal-7 goal-by-target">
+
+  
+
+  <ol class="breadcrumb">
+    <li><a href="/sdg-site-quick-start/zh-Hans/">首页</a></li>
+    <li class="active">目标 7</li>
+  </ol>
+
+  <div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+      <h2>目标</h2>
+    </div>
+    <div class="col-md-6">
+      <h2>指标</h2>
+    </div>
+  </div>
+
+  
+  
+    
+    <div class="indicator-cards target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">目标</label>
+        7.1
+      </span>
+      到2030年,确保人人都能获得负担得起的、可靠的现代能源服务
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/7-1-1">
+          <span>
+            7.1.1
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          能获得电力的人口比例
+          
+        </a>
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/7-1-2">
+          <span>
+            7.1.2
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          主要依靠清洁燃料和技术的人口比例
+          
+        </a>
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">目标</label>
+        7.2
+      </span>
+      到2030年,大幅增加可再生能源在全球能源结构中的比例
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/7-2-1">
+          <span>
+            7.2.1
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          可再生能源在最终能源消费总量中的份额
+          
+        </a>
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 indicator-custom-national">
+        <a href="/sdg-site-quick-start/zh-Hans/7-2-1-1">
+          <span>
+            7.2.1.1
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          Доля возобновляемых источников энергии в общем объеме конечного энергопотребления, за исключением электроэнергии крупных ГЭС
+          
+            <ul class="tags">
+            
+              
+              <li class="tag-custom-national warning">custom.national</li>
+            
+            </ul>
+          
+        </a>
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">目标</label>
+        7.3
+      </span>
+      到2030年,全球能效改善率提高一倍
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/7-3-1">
+          <span>
+            7.3.1
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          以一次能源和国内生产总值计量的能源密集度
+          
+        </a>
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 indicator-custom-national">
+        <a href="/sdg-site-quick-start/zh-Hans/7-3-1-1">
+          <span>
+            7.3.1.1
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          Энергоемкость
+          
+            <ul class="tags">
+            
+              
+              <li class="tag-custom-national warning">custom.national</li>
+            
+            </ul>
+          
+        </a>
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 indicator-custom-national">
+        <a href="/sdg-site-quick-start/zh-Hans/7-3-1-2">
+          <span>
+            7.3.1.2
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          Электроемкость
+          
+            <ul class="tags">
+            
+              
+              <li class="tag-custom-national warning">custom.national</li>
+            
+            </ul>
+          
+        </a>
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">目标</label>
+        7.a
+      </span>
+      到2030年,加强国际合作,促进获取清洁能源的研究和技术,包括可再生能源、能效,以及先进和更清洁的化石燃料技术,并促进对能源基础设施和清洁能源技术的投资
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/7-a-1">
+          <span>
+            7.a.1
+            <span class="status notapplicable">
+              不适用
+            </span>
+          </span>
+          为支助清洁能源研发和可再生能源生产,包括为支助混合系统而流入发展中国家的国际资金
+          
+        </a>
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">目标</label>
+        7.b
+      </span>
+      到2030年,增建基础设施并进行技术升级,以便根据发展中国家,特别是最不发达国家、小岛屿发展中国家和内陆发展中国家各自的支持方案,为所有人提供可持续的现代能源服务
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/7-b-1">
+          <span>
+            7.b.1
+            <span class="status notstarted">
+              探索数据源
+            </span>
+          </span>
+          为提高能源效率而进行的投资与国内生产总值的比例,以及为促进可持续发展服务的基础设施和技术进行的外国直接投资资金转移的数量
+          
+        </a>
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 indicator-custom-national">
+        <a href="/sdg-site-quick-start/zh-Hans/7-b-1-1a">
+          <span>
+            7.b.1.1a
+            <span class="status notstarted">
+              探索数据源
+            </span>
+          </span>
+          Поступление прямых иностранных инвестиций, поступающих на цели расширения энергетической инфраструктуры и модернизации технологий
+          
+            <ul class="tags">
+            
+              
+              <li class="tag-custom-national warning">custom.national</li>
+            
+            </ul>
+          
+        </a>
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/7-b-1-1а">
+          <span>
+            7.b.1.1а
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          Flow of foreign direct investment for the expansion of energy infrastructure and modernization of technologies
+          
+        </a>
+      </div>
+    
+    </div>
+  
+</div>
+
+<footer role="contentinfo">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div id="footerLinks">
+          <ul>
+            <li><a href="https://open-sdg.org">使用 Open SDG构建</a></li>
+            
+              
+                <li>
+                
+                  <a href="mailto:sdg_nsc@stat.kg" target="_blank">联系我们</a>
+                
+                </li>
+              
+                <li>
+                <a href="/sdg-site-quick-start/zh-Hans/about/cookies-and-privacy">Cookies</a>
+                
+                </li>
+              
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+<!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
+<!-- Google Analytics -->
+
+<!-- /.container </div> -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+<script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
+<script>translations['general'] = translations['general'] || {};
+    translations['general']['hide'] = '隐藏';</script>
+
+<script>translations['search'] = translations['search'] || {};
+    translations['search']['search'] = '搜索';</script>
+
+<script src='/sdg-site-quick-start/assets/js/sdg.js?v=20200706131551'></script><script src="/sdg-site-quick-start/assets/js/custom.js?v=20200706131551"></script><script>
+$(function() {
+    if($('#indicatorData').length) {
+      var domData = $('#indicatorData').data();
+
+      if (domData.showdata) {
+
+        $('.async-loading').each(function(i, obj) {
+            $(obj).append($('<img />').attr('src', $(obj).data('img')));
+        });
+
+        var remoteUrl = '/comb/' + domData.id + '.json';
+        if (opensdg.remoteDataBaseUrl !== '/') {
+          remoteUrl = opensdg.remoteDataBaseUrl + remoteUrl;
+        }
+
+        $.ajax({
+          url: remoteUrl,
+          success: function(res) {
+
+            $('.async-loading').remove();
+            $('.async-loaded').show();
+
+            var model = new indicatorModel({
+              data: res.data,
+              edgesData: res.edges,
+              showMap: domData.showmap,
+              country: domData.country,
+              indicatorId: domData.indicatorid,
+              shortIndicatorId: domData.id,
+              chartTitle: domData.charttitle,
+              chartTitles: domData.charttitles,
+              measurementUnit: domData.measurementunit,
+              copyright: domData.copyright,
+              dataSource: domData.datasource,
+              geographicalArea: domData.geographicalarea,
+              showData: domData.showdata,
+              footnote: domData.footnote,
+              graphType: domData.graphtype,
+              startValues: domData.startvalues,
+              graphLimits: domData.graphlimits,
+              stackedDisaggregation: domData.stackeddisaggregation,
+            }),
+            view  = new indicatorView(model, {
+              rootElement: '#indicatorData',
+              legendElement: '#plotLegend',
+              maxChartHeight: 420,
+              tableColumnDefs: [
+                { maxCharCount: 25 }, // nowrap
+                { maxCharCount: 35, width: 200 },
+                { maxCharCount: Infinity, width: 250 }
+              ]
+            }),
+            controller = new indicatorController(model, view);
+            controller.initialise();
+          }
+        });
+      }
+    }
+
+    var switcher = new accessibilitySwitcher();
+
+
+});
+</script>
+
+
+
+
+</body>
+</html>
+

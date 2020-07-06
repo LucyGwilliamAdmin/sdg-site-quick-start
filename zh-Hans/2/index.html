@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CObject.assign%2CArray.isArray"></script>
+<script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
+
+        <script>
+// This is where we initialise any global variables, namespaced in "opensdg".
+var opensdg = {
+
+  // A base URL for asynchronous calls to SDG data.
+  remoteDataBaseUrl: 'https://lucygwilliamadmin.github.io/sdg-data-quick-start/zh-Hans',
+
+  chartConfigAlterations: [],
+  // A hook which can be used to modify the configuration for Chart.js.
+  chartConfigAlter: function(callback) {
+    this.chartConfigAlterations.push(callback);
+  },
+
+  // A hook which can be replaced to alter whether/how the values that are
+  // displayed on indicator tables/graphs get rounded.
+  dataRounding: function(value) {
+    // Alterations go here.
+    return value;
+  },
+
+  language: 'zh-Hans',
+};
+
+// For backwards compatibility, some of these might need to be global.
+// @TODO: Remove these eventually.
+var remoteDataBaseUrl = opensdg.remoteDataBaseUrl;
+
+</script>
+
+        <script>
+// JavaScript container for translation data.
+var translations = {
+  //Javascript version of the "t" filter from jekyll-open-sdg-plugins.
+  t: function(key) {
+
+    if (!key || typeof key !== 'string') {
+      return '';
+    }
+
+    // The majority of uses of this function are to translate disaggregation
+    // data. To spare data providers of needing to enter "data." in front of
+    // their disaggregation data, we specifically look for that here.
+    if (typeof this.data === 'object' && this.data !== null && this.data[key]) {
+      return this.data[key];
+    }
+
+    var originalKey = key;
+    var drilled = this;
+    var levelsDrilled = 0;
+    var levels = key.split('.');
+
+    for (var level in levels) {
+      // If we have drilled down to soon, abort.
+      if (typeof drilled !== 'object') {
+        break;
+      }
+
+      if (levels[level] in drilled) {
+        drilled = drilled[levels[level]];
+        levelsDrilled += 1;
+      }
+    }
+
+    // If we didn't drill the right number of levels, return the original string.
+    if (levels.length != levelsDrilled) {
+      return originalKey;
+    }
+
+    // Otherwise we must have drilled all the way.
+    return drilled;
+  },
+};
+</script>
+
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title and meta description
+        ================================================== -->
+
+        <title>
+          
+            目标 2 - 零饥饿
+          
+        </title>
+
+        <meta name="description" content="">
+        <meta property="og:description" content="">
+        
+        <meta name="robots" content="noindex, nofollow">
+        
+        <link rel="canonical" href="/">
+
+        
+
+        <!--[if IE 9]>
+        <script src="/sdg-site-quick-start/assets/js/lib/classList.js"></script>
+        <![endif]-->
+
+        <!-- Favicons ================================================== -->
+        <!-- 128x128 -->
+        <link rel="shortcut icon" type="image/ico" href="/sdg-site-quick-start/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/sdg-site-quick-start/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+        -->
+
+        
+
+        
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
+        <link rel="stylesheet" href="/sdg-site-quick-start/assets/css/style.css?v=20200706131551">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+          integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+          crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
+        <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
+        <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/sdg-site-quick-start/assets/css/custom.css?v=20200706131551"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+
+    </head>
+<body class="language-zh-Hans layout-goal-by-target">
+<!-- <div class="container"> -->
+
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"默认对比","disable_high_contrast":"禁用高对比度","disclaimer":"这是一个发展中的网站。欢迎您向我们发送反馈意见。","enable_high_contrast":"启用高对比度","high_contrast":"高对比度","skip_link":"跳到主要内容","tag_line":"变革世界的17个目标"};</script>
+
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">跳到主要内容</a>
+<div id="disclaimer">
+  <div class="container">
+  <div class="disclaimer-alert" role="alert">
+    <strong class="phase-tag">Alpha</strong>
+    
+    这是一个发展中的网站。欢迎您向我们发送反馈意见。
+  </div>
+</div>
+
+</div>
+
+<header role="banner">
+  <div class="container">
+
+    <a class="navbar-brand" href="/sdg-site-quick-start/zh-Hans/" id="home">
+      <img src="/sdg-site-quick-start/assets/img/SDG_logo.png" alt="可持续发展目标 - 变革世界的17个目标" />
+    </a>
+
+  <div class='hidden visible-xs float-right'>
+    <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
+      <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
+  <i class="fa fa-globe"></i>
+  <span class="language-toggle-text">中文</span>
+  <i class="language-toggle fa fa-chevron-down"></i>
+  <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
+</a>
+
+<ul class="language-options language-toggle"><li><a href="/sdg-site-quick-start/2/">Pусский</a></li><li><a href="/sdg-site-quick-start/en/2/">English</a></li></ul>
+
+    </div></div>
+
+    <nav class="navbar navbar-default" id="main-nav">
+
+      <ul class="top-level">
+        <li id="menuToggle"
+            aria-label="Menu toggle. Click to expand or collapse the menu."
+            aria-haspopup="true"
+            aria-expanded="false">
+          <span data-target="menu" tabindex="0"
+          role="navigation">目录</span>
+        </li>
+        <li><span data-target="search">搜索</span></li>
+      </ul>
+
+      <div id="search" class="menu-target">
+  <form action="/sdg-site-quick-start/zh-Hans/search">
+    <input name="q" id="indicator_search" title="搜索" />
+    <label for="indicator_search">
+      <button aria-label="搜索" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>搜索:</span>
+    </label>
+  </form>
+</div>
+
+      
+      <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
+            <a href="/sdg-site-quick-start/zh-Hans/reporting-status">上报状况</a>
+          </li><li class="nav-link ">
+            <a href="/sdg-site-quick-start/zh-Hans/news">menu.news</a>
+          </li><li class="nav-link ">
+            <a href="/sdg-site-quick-start/zh-Hans/about">关于</a>
+          </li><li class="nav-link ">
+            <a href="/sdg-site-quick-start/zh-Hans/guidance">指引</a>
+          </li><li class="nav-link ">
+            <a href="/sdg-site-quick-start/zh-Hans/faq">常见问题解答</a>
+          </li><li>
+          <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
+  <i class="fa fa-globe"></i>
+  <span class="language-toggle-text">中文</span>
+  <i class="language-toggle fa fa-chevron-down"></i>
+  <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
+</a>
+
+<ul class="language-options language-toggle"><li><a href="/sdg-site-quick-start/2/">Pусский</a></li><li><a href="/sdg-site-quick-start/en/2/">English</a></li></ul>
+
+        </li></ul>
+
+      
+
+    </nav>
+  </div>
+
+</header>
+
+
+<div class="heading goal-banner goal-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4 col-md-3 col-lg-2">
+        <img src="https://open-sdg.github.io/sdg-translations/assets/img/goals/zh-Hans/2.png" alt="零饥饿 - 目标 2" />
+      </div>
+      <div class="col-xs-8 col-md-9 col-lg-10">
+        <h1>
+          <span class="hidden-sm hidden-md hidden-lg">目标 2: </span>消除饥饿,实现粮食安全,改善营养状况和促进可持续农业
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="main-content" class="container goal-indicators goal-2 goal-by-target">
+
+  
+
+  <ol class="breadcrumb">
+    <li><a href="/sdg-site-quick-start/zh-Hans/">首页</a></li>
+    <li class="active">目标 2</li>
+  </ol>
+
+  <div class="visible-md-block visible-lg-block">
+    <div class="col-md-6">
+      <h2>目标</h2>
+    </div>
+    <div class="col-md-6">
+      <h2>指标</h2>
+    </div>
+  </div>
+
+  
+  
+    
+    <div class="indicator-cards target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">目标</label>
+        2.1
+      </span>
+      到2030年,消除饥饿,确保所有人,特别是穷人和弱势群体,包括婴儿,全年都有安全、营养和充足的食物
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/2-1-1">
+          <span>
+            2.1.1
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          营养不足发生率
+          
+        </a>
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 indicator-custom-national">
+        <a href="/sdg-site-quick-start/zh-Hans/2-1-1-1e">
+          <span>
+            2.1.1.1e
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          Среднедушевое потребление основных продуктов питания по отношению к среднефизиологическим нормам
+          
+            <ul class="tags">
+            
+              
+              <li class="tag-custom-national warning">custom.national</li>
+            
+            </ul>
+          
+        </a>
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/2-1-2">
+          <span>
+            2.1.2
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          根据粮食无保障情况表,中度或严重的粮食无保障人口发生率
+          
+        </a>
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">目标</label>
+        2.2
+      </span>
+      到2030年,消除一切形式的营养不良,包括到2025年实现5岁以下儿童发育迟缓和消瘦问题相关国际目标,解决青春期少女、孕妇、哺乳期妇女和老年人的营养需求
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/2-2-1">
+          <span>
+            2.2.1
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          五岁以下儿童发育迟缓发病率(年龄标准身高小于世卫组织儿童生长发育标准中位数-2的标准偏差)
+          
+        </a>
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/2-2-2">
+          <span>
+            2.2.2
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          按类型(消瘦和超重)分列的五岁以下儿童营养不良发生率(身高标准体重大于或小于世卫组织儿童生长发育标准中位数+2或-2的标准偏差)
+          
+        </a>
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">目标</label>
+        2.3
+      </span>
+      到2030年,实现农业生产力翻倍和小规模粮食生产者,特别是妇女、土著居民、农户、牧民和渔民的收入翻番,具体做法包括确保平等获得土地、其他生产资源和要素、知识、金融服务、市场以及增值和非农就业机会
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/2-3-1">
+          <span>
+            2.3.1
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          按农业/畜牧/林业企业规模分类的每个劳动单位的生产量
+          
+        </a>
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/2-3-2">
+          <span>
+            2.3.2
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          按性别和土著地位分类的小型粮食生产者的平均收入
+          
+        </a>
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">目标</label>
+        2.4
+      </span>
+      到2030年,确保建立可持续粮食生产体系并执行具有抗灾能力的农作方法,以提高生产力和产量,帮助维护生态系统,加强适应气候变化、极端天气、干旱、洪涝和其他灾害的能力,逐步改善土地和土壤质量
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/2-4-1">
+          <span>
+            2.4.1
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          从事生产性和可持续农业的农业地区比例
+          
+        </a>
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">目标</label>
+        2.5
+      </span>
+      到2020年,通过在国家、区域和国际层面建立管理得当、多样化的种子和植物库,保持种子、种植作物、养殖和驯养的动物及与之相关的野生物种的遗传多样性;根据国际商定原则获取及公正、公平地分享利用遗传资源和相关传统知识产生的惠益
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/2-5-1">
+          <span>
+            2.5.1
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          中期或长期养护设施维持的粮食和农业动植物遗传资源的数量
+          
+        </a>
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/2-5-2">
+          <span>
+            2.5.2
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          被归类为面临灭绝危险、没有危险或危险不为人所知的当地品种的比例
+          
+        </a>
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">目标</label>
+        2.a
+      </span>
+      通过加强国际合作等方式,增加对农村基础设施、农业研究和推广服务、技术开发、植物和牲畜基因库的投资,以增强发展中国家,特别是最不发达国家的农业生产能力
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/2-a-1">
+          <span>
+            2.a.1
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          政府支出的农业取向指数
+          
+        </a>
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/2-a-2">
+          <span>
+            2.a.2
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          用于农业部门的官方资金(官方发展援助和其他官方资金流)总额
+          
+        </a>
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">目标</label>
+        2.b
+      </span>
+      根据多哈发展回合授权,纠正和防止世界农业市场上的贸易限制和扭曲,包括同时取消一切形式的农业出口补贴和具有相同作用的所有出口措施
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/2-b-1">
+          <span>
+            2.b.1
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          农产品出口补贴
+          
+        </a>
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">目标</label>
+        2.c
+      </span>
+      采取措施,确保粮食商品市场及其衍生工具正常发挥作用,确保及时获取包括粮食储备量在内的市场信息,限制粮价剧烈波动
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 ">
+        <a href="/sdg-site-quick-start/zh-Hans/2-c-1">
+          <span>
+            2.c.1
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          食品价格异常指标
+          
+        </a>
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12 indicator-custom-national">
+        <a href="/sdg-site-quick-start/zh-Hans/2-c-1-1b">
+          <span>
+            2.c.1.1b
+            <span class="status complete">
+              已在线上上报
+            </span>
+          </span>
+          Индекс потребительских цен на продовольственные товары
+          
+            <ul class="tags">
+            
+              
+              <li class="tag-custom-national warning">custom.national</li>
+            
+            </ul>
+          
+        </a>
+      </div>
+    
+    </div>
+  
+</div>
+
+<footer role="contentinfo">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div id="footerLinks">
+          <ul>
+            <li><a href="https://open-sdg.org">使用 Open SDG构建</a></li>
+            
+              
+                <li>
+                
+                  <a href="mailto:sdg_nsc@stat.kg" target="_blank">联系我们</a>
+                
+                </li>
+              
+                <li>
+                <a href="/sdg-site-quick-start/zh-Hans/about/cookies-and-privacy">Cookies</a>
+                
+                </li>
+              
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+<!-- <script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script> -->
+<!-- Google Analytics -->
+
+<!-- /.container </div> -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+<script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
+<script>translations['general'] = translations['general'] || {};
+    translations['general']['hide'] = '隐藏';</script>
+
+<script>translations['search'] = translations['search'] || {};
+    translations['search']['search'] = '搜索';</script>
+
+<script src='/sdg-site-quick-start/assets/js/sdg.js?v=20200706131551'></script><script src="/sdg-site-quick-start/assets/js/custom.js?v=20200706131551"></script><script>
+$(function() {
+    if($('#indicatorData').length) {
+      var domData = $('#indicatorData').data();
+
+      if (domData.showdata) {
+
+        $('.async-loading').each(function(i, obj) {
+            $(obj).append($('<img />').attr('src', $(obj).data('img')));
+        });
+
+        var remoteUrl = '/comb/' + domData.id + '.json';
+        if (opensdg.remoteDataBaseUrl !== '/') {
+          remoteUrl = opensdg.remoteDataBaseUrl + remoteUrl;
+        }
+
+        $.ajax({
+          url: remoteUrl,
+          success: function(res) {
+
+            $('.async-loading').remove();
+            $('.async-loaded').show();
+
+            var model = new indicatorModel({
+              data: res.data,
+              edgesData: res.edges,
+              showMap: domData.showmap,
+              country: domData.country,
+              indicatorId: domData.indicatorid,
+              shortIndicatorId: domData.id,
+              chartTitle: domData.charttitle,
+              chartTitles: domData.charttitles,
+              measurementUnit: domData.measurementunit,
+              copyright: domData.copyright,
+              dataSource: domData.datasource,
+              geographicalArea: domData.geographicalarea,
+              showData: domData.showdata,
+              footnote: domData.footnote,
+              graphType: domData.graphtype,
+              startValues: domData.startvalues,
+              graphLimits: domData.graphlimits,
+              stackedDisaggregation: domData.stackeddisaggregation,
+            }),
+            view  = new indicatorView(model, {
+              rootElement: '#indicatorData',
+              legendElement: '#plotLegend',
+              maxChartHeight: 420,
+              tableColumnDefs: [
+                { maxCharCount: 25 }, // nowrap
+                { maxCharCount: 35, width: 200 },
+                { maxCharCount: Infinity, width: 250 }
+              ]
+            }),
+            controller = new indicatorController(model, view);
+            controller.initialise();
+          }
+        });
+      }
+    }
+
+    var switcher = new accessibilitySwitcher();
+
+
+});
+</script>
+
+
+
+
+</body>
+</html>
+
