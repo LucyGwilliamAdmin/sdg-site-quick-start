@@ -106,7 +106,6 @@ non_global_metadata: indicator.national_metadata
 languages:
   - ru
   - en
-  - zh-Hans
   
 metadata_tabs:
   indicator_information:
