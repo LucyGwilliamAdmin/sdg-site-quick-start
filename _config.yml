@@ -139,7 +139,7 @@ plugins:
   - jekyll-open-sdg-plugins
 
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
-remote_theme: brockfanning/open-sdg@mobile-search-toggle-translation
+remote_theme: brockfanning/open-sdg@translate-reporting-status-extra-fields
 
 # Apply any custom Javascript.
 custom_js:
